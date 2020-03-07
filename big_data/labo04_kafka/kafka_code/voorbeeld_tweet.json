@@ -1,0 +1,339 @@
+{
+    "created_at": "Wed Mar 21 07:15:10 +0000 2018",
+    "id": 976356529006882817,
+    "id_str": "976356529006882817",
+    "text": "RT @natureslover_s: Twin Panda Baby. Precious or what? \ud83d\ude0d https://t.co/bRcOYG6NSg",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "natureslover_s",
+                "name": "Nature's Lovers",
+                "id": 916395979678433280,
+                "id_str": "916395979678433280",
+                "indices": [
+                    3,
+                    18
+                ]
+            }
+        ],
+        "urls": [],
+        "media": [
+            {
+                "id": 975678669023776773,
+                "id_str": "975678669023776773",
+                "indices": [
+                    57,
+                    80
+                ],
+                "media_url": "http://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                "url": "https://t.co/bRcOYG6NSg",
+                "display_url": "pic.twitter.com/bRcOYG6NSg",
+                "expanded_url": "https://twitter.com/natureslover_s/status/976352711816904704/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 544,
+                        "h": 680,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 564,
+                        "h": 705,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 564,
+                        "h": 705,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 976352711816904704,
+                "source_status_id_str": "976352711816904704",
+                "source_user_id": 916395979678433280,
+                "source_user_id_str": "916395979678433280"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "id": 975678669023776773,
+                "id_str": "975678669023776773",
+                "indices": [
+                    57,
+                    80
+                ],
+                "media_url": "http://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                "url": "https://t.co/bRcOYG6NSg",
+                "display_url": "pic.twitter.com/bRcOYG6NSg",
+                "expanded_url": "https://twitter.com/natureslover_s/status/976352711816904704/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 544,
+                        "h": 680,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 564,
+                        "h": 705,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 564,
+                        "h": 705,
+                        "resize": "fit"
+                    }
+                },
+                "source_status_id": 976352711816904704,
+                "source_status_id_str": "976352711816904704",
+                "source_user_id": 916395979678433280,
+                "source_user_id_str": "916395979678433280"
+            }
+        ]
+    },
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 13894852,
+        "id_str": "13894852",
+        "name": "Dalia",
+        "screen_name": "daliagirl33",
+        "location": "USA",
+        "description": "So sad to see our once great country reduced to such a mockery in the eyes of the world. Incompetence and greed now rule.",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 775,
+        "friends_count": 876,
+        "listed_count": 1,
+        "created_at": "Sun Feb 24 08:22:59 +0000 2008",
+        "favourites_count": 12833,
+        "utc_offset": -18000,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9637,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/922854525685317632/xc7V_mFE.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/922854525685317632/xc7V_mFE.jpg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/922859819291340801/gjrqwM_Q_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/922859819291340801/gjrqwM_Q_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/13894852/1508860641",
+        "profile_link_color": "000000",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Mar 21 07:00:00 +0000 2018",
+        "id": 976352711816904704,
+        "id_str": "976352711816904704",
+        "text": "Twin Panda Baby. Precious or what? \ud83d\ude0d https://t.co/bRcOYG6NSg",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 975678669023776773,
+                    "id_str": "975678669023776773",
+                    "indices": [
+                        37,
+                        60
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                    "url": "https://t.co/bRcOYG6NSg",
+                    "display_url": "pic.twitter.com/bRcOYG6NSg",
+                    "expanded_url": "https://twitter.com/natureslover_s/status/976352711816904704/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 544,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 564,
+                            "h": 705,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 564,
+                            "h": 705,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 975678669023776773,
+                    "id_str": "975678669023776773",
+                    "indices": [
+                        37,
+                        60
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DYpOlIIWkAU4Xhk.jpg",
+                    "url": "https://t.co/bRcOYG6NSg",
+                    "display_url": "pic.twitter.com/bRcOYG6NSg",
+                    "expanded_url": "https://twitter.com/natureslover_s/status/976352711816904704/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 544,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 564,
+                            "h": 705,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 564,
+                            "h": 705,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 916395979678433280,
+            "id_str": "916395979678433280",
+            "name": "Nature's Lovers",
+            "screen_name": "natureslover_s",
+            "location": "United States",
+            "description": "Look deep into nature, and then you will understand everything better.\ud83d\ude0d\ud83d\ude0dFor daily Nature updates just turn our \"Notifications ON\"",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 72824,
+            "friends_count": 63926,
+            "listed_count": 203,
+            "created_at": "Fri Oct 06 20:13:22 +0000 2017",
+            "favourites_count": 12,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 2889,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/937074002799013888/y16jQtRt_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/937074002799013888/y16jQtRt_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/916395979678433280/1512250892",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 23,
+        "favorite_count": 71,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 23,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}

@@ -1,0 +1,8 @@
+/home/florian/school/backend/labo04/DataAccessPatterns.models/bin/Debug/netstandard2.0/DataAccessPatterns.models.deps.json
+/home/florian/school/backend/labo04/DataAccessPatterns.models/bin/Debug/netstandard2.0/DataAccessPatterns.models.dll
+/home/florian/school/backend/labo04/DataAccessPatterns.models/bin/Debug/netstandard2.0/DataAccessPatterns.models.pdb
+/home/florian/school/backend/labo04/DataAccessPatterns.models/obj/Debug/netstandard2.0/DataAccessPatterns.models.csprojAssemblyReference.cache
+/home/florian/school/backend/labo04/DataAccessPatterns.models/obj/Debug/netstandard2.0/DataAccessPatterns.models.AssemblyInfoInputs.cache
+/home/florian/school/backend/labo04/DataAccessPatterns.models/obj/Debug/netstandard2.0/DataAccessPatterns.models.AssemblyInfo.cs
+/home/florian/school/backend/labo04/DataAccessPatterns.models/obj/Debug/netstandard2.0/DataAccessPatterns.models.dll
+/home/florian/school/backend/labo04/DataAccessPatterns.models/obj/Debug/netstandard2.0/DataAccessPatterns.models.pdb

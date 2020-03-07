@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/florian/school/backend/labo04/webapp/backend.csproj": {}
+  },
+  "projects": {
+    "/home/florian/school/backend/labo04/DataAccessPatterns.models/DataAccessPatterns.models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/florian/school/backend/labo04/DataAccessPatterns.models/DataAccessPatterns.models.csproj",
+        "projectName": "DataAccessPatterns.models",
+        "projectPath": "/home/florian/school/backend/labo04/DataAccessPatterns.models/DataAccessPatterns.models.csproj",
+        "packagesPath": "/home/florian/.nuget/packages/",
+        "outputPath": "/home/florian/school/backend/labo04/DataAccessPatterns.models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/florian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/florian/school/backend/labo04/webapp/backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/florian/school/backend/labo04/webapp/backend.csproj",
+        "projectName": "backend",
+        "projectPath": "/home/florian/school/backend/labo04/webapp/backend.csproj",
+        "packagesPath": "/home/florian/.nuget/packages/",
+        "outputPath": "/home/florian/school/backend/labo04/webapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/florian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/florian/school/backend/labo04/DataAccessPatterns.models/DataAccessPatterns.models.csproj": {
+                "projectPath": "/home/florian/school/backend/labo04/DataAccessPatterns.models/DataAccessPatterns.models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
