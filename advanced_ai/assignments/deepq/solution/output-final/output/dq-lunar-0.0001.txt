@@ -1,0 +1,4532 @@
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 150)               1350      
+_________________________________________________________________
+dense_1 (Dense)              (None, 120)               18120     
+_________________________________________________________________
+dense_2 (Dense)              (None, 4)                 484       
+=================================================================
+Total params: 19,954
+Trainable params: 19,954
+Non-trainable params: 0
+_________________________________________________________________
+None
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_3 (Dense)              (None, 150)               1350      
+_________________________________________________________________
+dense_4 (Dense)              (None, 120)               18120     
+_________________________________________________________________
+dense_5 (Dense)              (None, 4)                 484       
+=================================================================
+Total params: 19,954
+Trainable params: 19,954
+Non-trainable params: 0
+_________________________________________________________________
+None
+Starting training session. Doing 1500 episodes with max. 200 steps.
+Starting episode 0, current epsilon = 1
+Episode ended, reward: -150.9796363534888
+Episode took: 0.3039824962615967
+Starting episode 1, current epsilon = 0.98
+Episode ended, reward: -91.98614365848417
+Episode took: 1.076789140701294
+Starting episode 2, current epsilon = 0.9603999999999999
+Episode ended, reward: -79.09628846385152
+Episode took: 1.5677516460418701
+Starting episode 3, current epsilon = 0.9411919999999999
+Episode ended, reward: -91.2638945917036
+Episode took: 0.7702620029449463
+Starting episode 4, current epsilon = 0.9223681599999999
+Episode ended, reward: -462.10808100775637
+Episode took: 1.1610569953918457
+Starting episode 5, current epsilon = 0.9039207967999998
+Episode ended, reward: -120.33795496862409
+Episode took: 0.9396641254425049
+Starting episode 6, current epsilon = 0.8858423808639998
+Episode ended, reward: -76.90073435246924
+Episode took: 1.134981632232666
+Starting episode 7, current epsilon = 0.8681255332467198
+Episode ended, reward: -185.95145032450068
+Episode took: 1.0941855907440186
+Starting episode 8, current epsilon = 0.8507630225817854
+Episode ended, reward: -142.6071217553312
+Episode took: 1.5128145217895508
+Starting episode 9, current epsilon = 0.8337477621301497
+Episode ended, reward: -63.21990435299557
+Episode took: 0.7886097431182861
+Starting episode 10, current epsilon = 0.8170728068875467
+Episode ended, reward: -163.4473730733362
+Episode took: 1.1327850818634033
+Starting episode 11, current epsilon = 0.8007313507497957
+Episode ended, reward: -225.61215815009598
+Episode took: 1.8439533710479736
+Starting episode 12, current epsilon = 0.7847167237347998
+Episode ended, reward: -159.1112937602464
+Episode took: 1.6861872673034668
+Starting episode 13, current epsilon = 0.7690223892601038
+Episode ended, reward: -471.82658601172835
+Episode took: 1.4652855396270752
+Starting episode 14, current epsilon = 0.7536419414749017
+Episode ended, reward: -276.7834160398714
+Episode took: 1.114140272140503
+Starting episode 15, current epsilon = 0.7385691026454037
+Episode ended, reward: -152.73639673646113
+Episode took: 1.4124174118041992
+Starting episode 16, current epsilon = 0.7237977205924956
+Episode ended, reward: -64.97212728656544
+Episode took: 1.1410422325134277
+Starting episode 17, current epsilon = 0.7093217661806457
+Episode ended, reward: -260.28961780758254
+Episode took: 1.0494465827941895
+Starting episode 18, current epsilon = 0.6951353308570327
+Episode ended, reward: -114.58354661052279
+Episode took: 1.1959445476531982
+Starting episode 19, current epsilon = 0.6812326242398921
+Episode ended, reward: -262.9709809117634
+Episode took: 0.9344918727874756
+Starting episode 20, current epsilon = 0.6676079717550942
+Episode ended, reward: -271.80023678014027
+Episode took: 1.1874949932098389
+Starting episode 21, current epsilon = 0.6542558123199923
+Episode ended, reward: -97.93663387932997
+Episode took: 1.1273114681243896
+Starting episode 22, current epsilon = 0.6411706960735924
+Episode ended, reward: -260.19323511619456
+Episode took: 1.6208140850067139
+Starting episode 23, current epsilon = 0.6283472821521205
+Episode ended, reward: -40.6722633630105
+Episode took: 0.9194507598876953
+Starting episode 24, current epsilon = 0.6157803365090782
+Episode ended, reward: -146.71075759781405
+Episode took: 1.8706648349761963
+Starting episode 25, current epsilon = 0.6034647297788965
+Episode ended, reward: -85.78769985667026
+Episode took: 1.1253929138183594
+Starting episode 26, current epsilon = 0.5913954351833186
+Episode ended, reward: -109.73004293570784
+Episode took: 1.3480334281921387
+Starting episode 27, current epsilon = 0.5795675264796523
+Episode ended, reward: -29.57874261388133
+Episode took: 1.5995681285858154
+Starting episode 28, current epsilon = 0.5679761759500592
+Episode ended, reward: -91.39438899048291
+Episode took: 1.84403657913208
+Starting episode 29, current epsilon = 0.5566166524310581
+Episode ended, reward: -89.05513734738348
+Episode took: 1.333141565322876
+Starting episode 30, current epsilon = 0.5454843193824369
+Episode ended, reward: -95.67729674963425
+Episode took: 0.9161567687988281
+Starting episode 31, current epsilon = 0.5345746329947881
+Episode ended, reward: -59.5655454384743
+Episode took: 1.6886975765228271
+Starting episode 32, current epsilon = 0.5238831403348924
+Episode ended, reward: -95.90242025153624
+Episode took: 1.526723861694336
+Starting episode 33, current epsilon = 0.5134054775281945
+Episode ended, reward: -33.58225861637912
+Episode took: 1.5478670597076416
+Starting episode 34, current epsilon = 0.5031373679776306
+Episode ended, reward: -97.25398714591971
+Episode took: 1.508056879043579
+Starting episode 35, current epsilon = 0.493074620618078
+Episode ended, reward: -79.42578148503813
+Episode took: 1.803645372390747
+Starting episode 36, current epsilon = 0.48321312820571644
+Episode ended, reward: -44.727792350529484
+Episode took: 1.9719569683074951
+Starting episode 37, current epsilon = 0.4735488656416021
+Episode ended, reward: 3.8496475241942107
+Episode took: 2.1157994270324707
+Starting episode 38, current epsilon = 0.46407788832877006
+Episode ended, reward: -258.5294085139411
+Episode took: 1.1043052673339844
+Starting episode 39, current epsilon = 0.45479633056219465
+Episode ended, reward: -7.769175261700511
+Episode took: 1.7659497261047363
+Starting episode 40, current epsilon = 0.44570040395095073
+Episode ended, reward: -158.00746523213706
+Episode took: 0.8396039009094238
+Starting episode 41, current epsilon = 0.4367863958719317
+Episode ended, reward: -46.859901085404694
+Episode took: 1.5723838806152344
+Starting episode 42, current epsilon = 0.42805066795449304
+Episode ended, reward: 17.439454170531548
+Episode took: 2.1941685676574707
+Starting episode 43, current epsilon = 0.41948965459540316
+Episode ended, reward: -482.9851549844937
+Episode took: 13.738368511199951
+Starting episode 44, current epsilon = 0.4110998615034951
+Episode ended, reward: -94.82741958877082
+Episode took: 6.556441307067871
+Starting episode 45, current epsilon = 0.4028778642734252
+Episode ended, reward: -59.05867041661733
+Episode took: 2.7493650913238525
+Starting episode 46, current epsilon = 0.39482030698795667
+Episode ended, reward: -7.714435962408359
+Episode took: 2.3758347034454346
+Starting episode 47, current epsilon = 0.38692390084819756
+Episode ended, reward: -264.1778609593879
+Episode took: 3.8041396141052246
+Starting episode 48, current epsilon = 0.3791854228312336
+Episode ended, reward: -2.2071116397723642
+Episode took: 1.7882258892059326
+Starting episode 49, current epsilon = 0.37160171437460887
+Episode ended, reward: 4.745182430448466
+Episode took: 3.1967592239379883
+Starting episode 50, current epsilon = 0.3641696800871167
+Episode ended, reward: -165.85651747559695
+Episode took: 1.8311362266540527
+Starting episode 51, current epsilon = 0.35688628648537435
+Episode ended, reward: -26.965327992230286
+Episode took: 1.4891126155853271
+Starting episode 52, current epsilon = 0.34974856075566685
+Episode ended, reward: -25.23053828406512
+Episode took: 1.893834114074707
+Starting episode 53, current epsilon = 0.3427535895405535
+Episode ended, reward: -151.21551445196127
+Episode took: 7.3379645347595215
+Starting episode 54, current epsilon = 0.33589851774974244
+Episode ended, reward: -12.518719006713653
+Episode took: 2.225829601287842
+Starting episode 55, current epsilon = 0.3291805473947476
+Episode ended, reward: -386.35496858044485
+Episode took: 11.458593368530273
+Starting episode 56, current epsilon = 0.32259693644685267
+Episode ended, reward: -178.39813183784491
+Episode took: 2.640756845474243
+Starting episode 57, current epsilon = 0.3161449977179156
+Episode ended, reward: -178.70613514429104
+Episode took: 8.03864073753357
+Starting episode 58, current epsilon = 0.3098220977635573
+Episode ended, reward: -113.12057743922539
+Episode took: 16.333934783935547
+Starting episode 59, current epsilon = 0.30362565580828615
+Episode ended, reward: -164.3138101513857
+Episode took: 4.978894472122192
+Starting episode 60, current epsilon = 0.2975531426921204
+Episode ended, reward: -168.53605545291066
+Episode took: 3.2767210006713867
+Starting episode 61, current epsilon = 0.291602079838278
+Episode ended, reward: -167.1114973736718
+Episode took: 6.764497995376587
+Starting episode 62, current epsilon = 0.2857700382415124
+Episode ended, reward: -170.61836202524603
+Episode took: 4.063960075378418
+Starting episode 63, current epsilon = 0.2800546374766822
+Episode ended, reward: -122.53072653442044
+Episode took: 1.665508508682251
+Starting episode 64, current epsilon = 0.27445354472714856
+Episode ended, reward: -192.97317628948878
+Episode took: 2.734502077102661
+Starting episode 65, current epsilon = 0.2689644738326056
+Episode ended, reward: -161.32747387940535
+Episode took: 5.608330965042114
+Starting episode 66, current epsilon = 0.26358518435595346
+Episode ended, reward: -26.53131939503605
+Episode took: 1.7085449695587158
+Starting episode 67, current epsilon = 0.25831348066883436
+Episode ended, reward: -225.73472130498712
+Episode took: 10.32512879371643
+Starting episode 68, current epsilon = 0.2531472110554577
+Episode ended, reward: -271.627603386961
+Episode took: 7.6963019371032715
+Starting episode 69, current epsilon = 0.24808426683434853
+Episode ended, reward: -29.23621647565045
+Episode took: 9.543532133102417
+Starting episode 70, current epsilon = 0.24312258149766156
+Episode ended, reward: -133.4280171691002
+Episode took: 9.895256996154785
+Starting episode 71, current epsilon = 0.2382601298677083
+Episode ended, reward: -100.23309890309412
+Episode took: 2.3376588821411133
+Starting episode 72, current epsilon = 0.23349492727035415
+Episode ended, reward: -188.3329817628869
+Episode took: 6.363065242767334
+Starting episode 73, current epsilon = 0.22882502872494706
+Episode ended, reward: -97.06809416272681
+Episode took: 16.88032054901123
+Starting episode 74, current epsilon = 0.22424852815044813
+Episode ended, reward: -146.3246258141379
+Episode took: 5.03178334236145
+Starting episode 75, current epsilon = 0.21976355758743915
+Episode ended, reward: -235.98594166360965
+Episode took: 4.239783525466919
+Starting episode 76, current epsilon = 0.21536828643569036
+Episode ended, reward: -59.62099217484481
+Episode took: 17.540855646133423
+Starting episode 77, current epsilon = 0.21106092070697655
+Episode ended, reward: -106.99128691385313
+Episode took: 8.607892513275146
+Starting episode 78, current epsilon = 0.20683970229283702
+Episode ended, reward: -45.941738053084606
+Episode took: 2.694579839706421
+Starting episode 79, current epsilon = 0.20270290824698028
+Episode ended, reward: -30.10100104349872
+Episode took: 17.234387159347534
+Starting episode 80, current epsilon = 0.19864885008204067
+Episode ended, reward: -95.76954549673208
+Episode took: 3.1174285411834717
+Starting episode 81, current epsilon = 0.19467587308039985
+Episode ended, reward: -83.20435687779798
+Episode took: 4.111439228057861
+Starting episode 82, current epsilon = 0.19078235561879187
+Episode ended, reward: -142.9299533999478
+Episode took: 9.478228092193604
+Starting episode 83, current epsilon = 0.18696670850641603
+Episode ended, reward: 11.908253735151828
+Episode took: 16.666993379592896
+Starting episode 84, current epsilon = 0.18322737433628772
+Episode ended, reward: 65.63819930253815
+Episode took: 17.199257612228394
+Starting episode 85, current epsilon = 0.17956282684956196
+Episode ended, reward: -128.0526208306133
+Episode took: 5.4755518436431885
+Starting episode 86, current epsilon = 0.1759715703125707
+Episode ended, reward: -54.74250260075114
+Episode took: 18.71652364730835
+Starting episode 87, current epsilon = 0.1724521389063193
+Episode ended, reward: 44.92075738467995
+Episode took: 17.304697513580322
+Starting episode 88, current epsilon = 0.16900309612819292
+Episode ended, reward: -31.75231069974969
+Episode took: 16.52118158340454
+Starting episode 89, current epsilon = 0.16562303420562907
+Episode ended, reward: 35.9703836309718
+Episode took: 15.924139261245728
+Starting episode 90, current epsilon = 0.16231057352151648
+Episode ended, reward: -102.90765873378824
+Episode took: 18.219789505004883
+Starting episode 91, current epsilon = 0.15906436205108615
+Episode ended, reward: 232.26715583846868
+Episode took: 9.64920163154602
+Starting episode 92, current epsilon = 0.15588307481006441
+Episode ended, reward: -40.43997762556039
+Episode took: 16.774362087249756
+Starting episode 93, current epsilon = 0.15276541331386312
+Episode ended, reward: 133.93659673122184
+Episode took: 12.819855451583862
+Starting episode 94, current epsilon = 0.14971010504758586
+Episode ended, reward: 37.98807079324918
+Episode took: 16.957194089889526
+Starting episode 95, current epsilon = 0.14671590294663414
+Episode ended, reward: 60.15503164569623
+Episode took: 18.528223991394043
+Starting episode 96, current epsilon = 0.14378158488770146
+Episode ended, reward: -36.877799559184865
+Episode took: 17.549115896224976
+Starting episode 97, current epsilon = 0.14090595318994742
+Episode ended, reward: -14.820908927906162
+Episode took: 16.214080810546875
+Starting episode 98, current epsilon = 0.13808783412614847
+Episode ended, reward: 77.00492473159238
+Episode took: 2.3186254501342773
+Starting episode 99, current epsilon = 0.13532607744362551
+Episode ended, reward: 186.8511942251699
+Episode took: 13.711548328399658
+Starting episode 100, current epsilon = 0.132619555894753
+Episode ended, reward: -173.60754365263375
+Episode took: 14.218599319458008
+Starting episode 101, current epsilon = 0.12996716477685794
+Episode ended, reward: 73.91071314457821
+Episode took: 16.62077760696411
+Starting episode 102, current epsilon = 0.12736782148132078
+Episode ended, reward: -44.337327581299135
+Episode took: 3.4119784832000732
+Starting episode 103, current epsilon = 0.12482046505169436
+Episode ended, reward: -59.29970537602074
+Episode took: 7.011890172958374
+Starting episode 104, current epsilon = 0.12232405575066048
+Episode ended, reward: 51.83112667868357
+Episode took: 16.133421897888184
+Starting episode 105, current epsilon = 0.11987757463564727
+Episode ended, reward: 95.86498750607245
+Episode took: 16.935901641845703
+Starting episode 106, current epsilon = 0.11748002314293432
+Episode ended, reward: -143.1606339964546
+Episode took: 11.680969476699829
+Starting episode 107, current epsilon = 0.11513042268007563
+Episode ended, reward: 184.87848552293997
+Episode took: 13.728965044021606
+Starting episode 108, current epsilon = 0.11282781422647412
+Episode ended, reward: -44.53125184787952
+Episode took: 3.125244379043579
+Starting episode 109, current epsilon = 0.11057125794194463
+Episode ended, reward: -6.292719023235605
+Episode took: 2.1987574100494385
+Starting episode 110, current epsilon = 0.10835983278310574
+Episode ended, reward: -93.3159423076908
+Episode took: 5.353058099746704
+Starting episode 111, current epsilon = 0.10619263612744362
+Episode ended, reward: -76.57547380276398
+Episode took: 1.7988765239715576
+Starting episode 112, current epsilon = 0.10406878340489474
+Episode ended, reward: -83.13306891920779
+Episode took: 5.916194915771484
+Starting episode 113, current epsilon = 0.10198740773679685
+Episode ended, reward: 4.732660628414777
+Episode took: 2.055392026901245
+Starting episode 114, current epsilon = 0.09994765958206091
+Episode ended, reward: -58.291866027011594
+Episode took: 3.6032233238220215
+Starting episode 115, current epsilon = 0.0979487063904197
+Episode ended, reward: -157.197398988357
+Episode took: 0.9502902030944824
+Starting episode 116, current epsilon = 0.0959897322626113
+Episode ended, reward: -277.93729879984323
+Episode took: 2.6925902366638184
+Starting episode 117, current epsilon = 0.09406993761735907
+Episode ended, reward: 186.42710494333033
+Episode took: 15.263552188873291
+Starting episode 118, current epsilon = 0.0921885388650119
+Episode ended, reward: 194.0119749230774
+Episode took: 11.859987497329712
+Starting episode 119, current epsilon = 0.09034476808771166
+Episode ended, reward: -197.20026856334675
+Episode took: 1.9548265933990479
+Starting episode 120, current epsilon = 0.08853787272595742
+Episode ended, reward: -16.190047964551948
+Episode took: 16.45032525062561
+Starting episode 121, current epsilon = 0.08676711527143827
+Episode ended, reward: -79.77506066459772
+Episode took: 17.81402015686035
+Starting episode 122, current epsilon = 0.0850317729660095
+Episode ended, reward: -41.78661974433844
+Episode took: 17.056174278259277
+Starting episode 123, current epsilon = 0.08333113750668932
+Episode ended, reward: 254.1256369670435
+Episode took: 4.606117486953735
+Starting episode 124, current epsilon = 0.08166451475655553
+Episode ended, reward: -56.381386846264334
+Episode took: 17.99022340774536
+Starting episode 125, current epsilon = 0.08003122446142442
+Episode ended, reward: -67.72230337741577
+Episode took: 16.76449155807495
+Starting episode 126, current epsilon = 0.07843059997219594
+Episode ended, reward: -94.93913419292056
+Episode took: 17.716206789016724
+Starting episode 127, current epsilon = 0.07686198797275202
+Episode ended, reward: -14.765072289585849
+Episode took: 17.422118425369263
+Starting episode 128, current epsilon = 0.07532474821329699
+Episode ended, reward: -100.88601972077875
+Episode took: 16.315584182739258
+Starting episode 129, current epsilon = 0.07381825324903105
+Episode ended, reward: -82.92536581074494
+Episode took: 16.944336652755737
+Starting episode 130, current epsilon = 0.07234188818405042
+Episode ended, reward: 23.347403143170368
+Episode took: 2.105910062789917
+Starting episode 131, current epsilon = 0.07089505042036941
+Episode ended, reward: -89.96217336990746
+Episode took: 17.43025040626526
+Starting episode 132, current epsilon = 0.06947714941196202
+Episode ended, reward: -110.64286068808315
+Episode took: 0.8009810447692871
+Starting episode 133, current epsilon = 0.06808760642372277
+Episode ended, reward: -84.45528951367812
+Episode took: 16.874969482421875
+Starting episode 134, current epsilon = 0.06672585429524831
+Episode ended, reward: -84.09361302266107
+Episode took: 17.6673367023468
+Starting episode 135, current epsilon = 0.06539133720934334
+Episode ended, reward: -51.38466666864452
+Episode took: 18.352301836013794
+Starting episode 136, current epsilon = 0.06408351046515648
+Episode ended, reward: -361.17229850394887
+Episode took: 3.6122195720672607
+Starting episode 137, current epsilon = 0.06280184025585335
+Episode ended, reward: -36.937332023193505
+Episode took: 0.8350400924682617
+Starting episode 138, current epsilon = 0.061545803450736285
+Episode ended, reward: -58.40032145552347
+Episode took: 17.54725480079651
+Starting episode 139, current epsilon = 0.060314887381721555
+Episode ended, reward: -54.59666036471317
+Episode took: 16.72160243988037
+Starting episode 140, current epsilon = 0.05910858963408712
+Episode ended, reward: 294.45155915789184
+Episode took: 2.348235607147217
+Starting episode 141, current epsilon = 0.05792641784140538
+Episode ended, reward: -110.09809208166287
+Episode took: 17.057405471801758
+Starting episode 142, current epsilon = 0.05676788948457727
+Episode ended, reward: -82.88624143958687
+Episode took: 16.90228581428528
+Starting episode 143, current epsilon = 0.055632531694885724
+Episode ended, reward: -91.34287764059289
+Episode took: 15.859065055847168
+Starting episode 144, current epsilon = 0.054519881060988006
+Episode ended, reward: 50.77561988491878
+Episode took: 17.331339120864868
+Starting episode 145, current epsilon = 0.05342948343976824
+Episode ended, reward: -146.9272833259976
+Episode took: 16.337923526763916
+Starting episode 146, current epsilon = 0.052360893770972874
+Episode ended, reward: -86.05145539422983
+Episode took: 16.628406047821045
+Starting episode 147, current epsilon = 0.05131367589555342
+Episode ended, reward: -94.80979639948852
+Episode took: 17.779662132263184
+Starting episode 148, current epsilon = 0.05028740237764235
+Episode ended, reward: 34.281530321957234
+Episode took: 1.0610060691833496
+Starting episode 149, current epsilon = 0.0492816543300895
+Episode ended, reward: -79.5279391159388
+Episode took: 17.022898197174072
+Starting episode 150, current epsilon = 0.04829602124348771
+Episode ended, reward: -63.301466120048374
+Episode took: 18.09615206718445
+Starting episode 151, current epsilon = 0.04733010081861796
+Episode ended, reward: -98.43483795825732
+Episode took: 15.970425367355347
+Starting episode 152, current epsilon = 0.0463834988022456
+Episode ended, reward: -167.03851675149838
+Episode took: 12.79125452041626
+Starting episode 153, current epsilon = 0.04545582882620069
+Episode ended, reward: -74.4193656268494
+Episode took: 17.74832773208618
+Starting episode 154, current epsilon = 0.04454671224967667
+Episode ended, reward: -4.111166466012392
+Episode took: 5.767423152923584
+Starting episode 155, current epsilon = 0.043655778004683135
+Episode ended, reward: -53.270696200003975
+Episode took: 1.197324514389038
+Starting episode 156, current epsilon = 0.04278266244458947
+Episode ended, reward: 51.09945472087807
+Episode took: 1.4067473411560059
+Starting episode 157, current epsilon = 0.04192700919569768
+Episode ended, reward: -49.74316006135237
+Episode took: 4.862774848937988
+Starting episode 158, current epsilon = 0.04108846901178373
+Episode ended, reward: 44.137897172996816
+Episode took: 2.892287492752075
+Starting episode 159, current epsilon = 0.04026669963154805
+Episode ended, reward: -254.88574051601563
+Episode took: 1.743354082107544
+Starting episode 160, current epsilon = 0.03946136563891709
+Episode ended, reward: -24.89787012479242
+Episode took: 2.4510245323181152
+Starting episode 161, current epsilon = 0.03867213832613875
+Episode ended, reward: -186.39814279394056
+Episode took: 1.339775562286377
+Starting episode 162, current epsilon = 0.037898695559615975
+Episode ended, reward: -1.8498579439052838
+Episode took: 17.457833766937256
+Starting episode 163, current epsilon = 0.03714072164842366
+Episode ended, reward: -158.2296683761922
+Episode took: 2.647904396057129
+Starting episode 164, current epsilon = 0.03639790721545518
+Episode ended, reward: -27.43054889127255
+Episode took: 1.458737850189209
+Starting episode 165, current epsilon = 0.035669949071146075
+Episode ended, reward: 161.56765448039408
+Episode took: 11.580007076263428
+Starting episode 166, current epsilon = 0.034956550089723155
+Episode ended, reward: -12.237368923315676
+Episode took: 16.117779970169067
+Starting episode 167, current epsilon = 0.03425741908792869
+Episode ended, reward: -24.189530548866756
+Episode took: 16.960179090499878
+Starting episode 168, current epsilon = 0.03357227070617012
+Episode ended, reward: 164.5413821470907
+Episode took: 13.339452266693115
+Starting episode 169, current epsilon = 0.032900825292046715
+Episode ended, reward: 189.90821822315397
+Episode took: 11.021879434585571
+Starting episode 170, current epsilon = 0.03224280878620578
+Episode ended, reward: 217.50536738500915
+Episode took: 11.677137851715088
+Starting episode 171, current epsilon = 0.031597952610481664
+Episode ended, reward: -24.014792661062675
+Episode took: 17.411895990371704
+Starting episode 172, current epsilon = 0.03096599355827203
+Episode ended, reward: 242.3208402033481
+Episode took: 8.379918575286865
+Starting episode 173, current epsilon = 0.030346673687106588
+Episode ended, reward: 157.58298099164205
+Episode took: 11.721491575241089
+Starting episode 174, current epsilon = 0.029739740213364455
+Episode ended, reward: 113.20508690090699
+Episode took: 10.963643789291382
+Starting episode 175, current epsilon = 0.029144945409097164
+Episode ended, reward: 129.61898708044058
+Episode took: 14.132858276367188
+Starting episode 176, current epsilon = 0.02856204650091522
+Episode ended, reward: 192.41768035636107
+Episode took: 10.91057825088501
+Starting episode 177, current epsilon = 0.027990805570896914
+Episode ended, reward: 121.75085102825217
+Episode took: 13.55726170539856
+Starting episode 178, current epsilon = 0.027430989459478975
+Episode ended, reward: 187.9510904620981
+Episode took: 8.398737907409668
+Starting episode 179, current epsilon = 0.026882369670289397
+Episode ended, reward: 31.02781065365309
+Episode took: 1.2043070793151855
+Starting episode 180, current epsilon = 0.026344722276883607
+Episode ended, reward: -3.0281120180764702
+Episode took: 1.0618832111358643
+Starting episode 181, current epsilon = 0.025817827831345935
+Episode ended, reward: -15.161608993849345
+Episode took: 16.7416832447052
+Starting episode 182, current epsilon = 0.025301471274719014
+Episode ended, reward: 198.0451596096569
+Episode took: 8.480768918991089
+Starting episode 183, current epsilon = 0.024795441849224633
+Episode ended, reward: 204.01228608758984
+Episode took: 7.833537340164185
+Starting episode 184, current epsilon = 0.02429953301224014
+Episode ended, reward: -16.809561626022173
+Episode took: 1.6561806201934814
+Starting episode 185, current epsilon = 0.02381354235199534
+Episode ended, reward: 219.00834391097544
+Episode took: 9.122389554977417
+Starting episode 186, current epsilon = 0.02333727150495543
+Episode ended, reward: 106.36164391001954
+Episode took: 10.525511980056763
+Starting episode 187, current epsilon = 0.02287052607485632
+Episode ended, reward: 202.4342059281193
+Episode took: 8.28403925895691
+Starting episode 188, current epsilon = 0.022413115553359196
+Episode ended, reward: 22.833361560542258
+Episode took: 3.466735601425171
+Starting episode 189, current epsilon = 0.021964853242292012
+Episode ended, reward: 205.3795598660568
+Episode took: 9.98554015159607
+Starting episode 190, current epsilon = 0.02152555617744617
+Episode ended, reward: 256.80177008464193
+Episode took: 5.61733603477478
+Starting episode 191, current epsilon = 0.021095045053897248
+Episode ended, reward: 222.74694511356395
+Episode took: 6.164179563522339
+Starting episode 192, current epsilon = 0.020673144152819303
+Episode ended, reward: 244.90707510148195
+Episode took: 4.853365898132324
+Starting episode 193, current epsilon = 0.02025968126976292
+Episode ended, reward: 209.1159703682839
+Episode took: 5.994401216506958
+Starting episode 194, current epsilon = 0.01985448764436766
+Episode ended, reward: 240.38983128678967
+Episode took: 5.765657663345337
+Starting episode 195, current epsilon = 0.019457397891480308
+Episode ended, reward: 241.57454184103565
+Episode took: 5.936932325363159
+Starting episode 196, current epsilon = 0.0190682499336507
+Episode ended, reward: 232.99822875028036
+Episode took: 5.944601058959961
+Starting episode 197, current epsilon = 0.018686884934977686
+Episode ended, reward: 176.3888471459668
+Episode took: 9.070122241973877
+Starting episode 198, current epsilon = 0.01831314723627813
+Episode ended, reward: 188.91901093207352
+Episode took: 6.031615257263184
+Starting episode 199, current epsilon = 0.017946884291552567
+Episode ended, reward: 288.73175201197375
+Episode took: 5.044241189956665
+Starting episode 200, current epsilon = 0.017587946605721515
+Episode ended, reward: 234.52450302054697
+Episode took: 5.955142498016357
+Starting episode 201, current epsilon = 0.017236187673607083
+Episode ended, reward: 230.19841652321526
+Episode took: 7.624969720840454
+Starting episode 202, current epsilon = 0.016891463920134943
+Episode ended, reward: -256.44079192367906
+Episode took: 3.7113113403320312
+Starting episode 203, current epsilon = 0.016553634641732245
+Episode ended, reward: 193.8937681760533
+Episode took: 6.282906532287598
+Starting episode 204, current epsilon = 0.0162225619488976
+Episode ended, reward: 213.0656493557572
+Episode took: 7.342630863189697
+Starting episode 205, current epsilon = 0.015898110709919647
+Episode ended, reward: 283.6706191039522
+Episode took: 5.195432186126709
+Starting episode 206, current epsilon = 0.015580148495721254
+Episode ended, reward: 269.5421820806197
+Episode took: 4.547421216964722
+Starting episode 207, current epsilon = 0.015268545525806828
+Episode ended, reward: 197.77929569396576
+Episode took: 5.579388380050659
+Starting episode 208, current epsilon = 0.014963174615290691
+Episode ended, reward: 241.3744531134424
+Episode took: 4.176981687545776
+Starting episode 209, current epsilon = 0.014663911122984877
+Episode ended, reward: 226.80519281986352
+Episode took: 3.8557889461517334
+Starting episode 210, current epsilon = 0.01437063290052518
+Episode ended, reward: 269.13664363489175
+Episode took: 5.176371097564697
+Starting episode 211, current epsilon = 0.014083220242514675
+Episode ended, reward: 197.61215246060573
+Episode took: 6.0532801151275635
+Starting episode 212, current epsilon = 0.013801555837664382
+Episode ended, reward: 255.32527669763877
+Episode took: 4.7953200340271
+Starting episode 213, current epsilon = 0.013525524720911095
+Episode ended, reward: 189.46503199927798
+Episode took: 7.399900913238525
+Starting episode 214, current epsilon = 0.013255014226492874
+Episode ended, reward: 312.18923140567586
+Episode took: 2.7826168537139893
+Starting episode 215, current epsilon = 0.012989913941963017
+Episode ended, reward: 275.6216721530347
+Episode took: 4.801772832870483
+Starting episode 216, current epsilon = 0.012730115663123756
+Episode ended, reward: 151.37098639488661
+Episode took: 9.2745201587677
+Starting episode 217, current epsilon = 0.012475513349861281
+Episode ended, reward: 285.27642503426455
+Episode took: 4.342734336853027
+Starting episode 218, current epsilon = 0.012226003082864055
+Episode ended, reward: 254.8356968860894
+Episode took: 4.230815887451172
+Starting episode 219, current epsilon = 0.011981483021206774
+Episode ended, reward: 194.5755220383578
+Episode took: 5.338686466217041
+Starting episode 220, current epsilon = 0.011741853360782638
+Episode ended, reward: 275.33352923856864
+Episode took: 3.7122530937194824
+Starting episode 221, current epsilon = 0.011507016293566985
+Episode ended, reward: -77.33764726163375
+Episode took: 2.121194839477539
+Starting episode 222, current epsilon = 0.011276875967695645
+Episode ended, reward: 247.80894980866813
+Episode took: 12.323927640914917
+Starting episode 223, current epsilon = 0.011051338448341731
+Episode ended, reward: 232.3394963984333
+Episode took: 6.459377765655518
+Starting episode 224, current epsilon = 0.010830311679374895
+Episode ended, reward: 285.0987680962643
+Episode took: 6.670730113983154
+Starting episode 225, current epsilon = 0.010613705445787398
+Episode ended, reward: 274.47585869535317
+Episode took: 3.468951463699341
+Starting episode 226, current epsilon = 0.01040143133687165
+Episode ended, reward: 202.9008014025407
+Episode took: 8.67446231842041
+Starting episode 227, current epsilon = 0.010193402710134216
+Episode ended, reward: 233.1298971878919
+Episode took: 7.189610004425049
+Starting episode 228, current epsilon = 0.01
+Episode ended, reward: 231.11823236695628
+Episode took: 4.077467679977417
+Starting episode 229, current epsilon = 0.01
+Episode ended, reward: -207.99654881251627
+Episode took: 8.973618030548096
+Starting episode 230, current epsilon = 0.01
+Episode ended, reward: 176.30179648835622
+Episode took: 10.393189430236816
+Starting episode 231, current epsilon = 0.01
+Episode ended, reward: 233.22987473802434
+Episode took: 4.92962646484375
+Starting episode 232, current epsilon = 0.01
+Episode ended, reward: 206.13969540201754
+Episode took: 3.5888607501983643
+Starting episode 233, current epsilon = 0.01
+Episode ended, reward: -56.44617153999554
+Episode took: 1.633042335510254
+Starting episode 234, current epsilon = 0.01
+Episode ended, reward: 218.73665019177918
+Episode took: 6.758156061172485
+Starting episode 235, current epsilon = 0.01
+Episode ended, reward: 194.99372371230572
+Episode took: 6.184740304946899
+Starting episode 236, current epsilon = 0.01
+Episode ended, reward: 278.57974368351876
+Episode took: 4.093639612197876
+Starting episode 237, current epsilon = 0.01
+Episode ended, reward: 252.01500311598912
+Episode took: 5.042942762374878
+Starting episode 238, current epsilon = 0.01
+Episode ended, reward: 249.62276061814478
+Episode took: 3.366255044937134
+Starting episode 239, current epsilon = 0.01
+Episode ended, reward: 226.150803306076
+Episode took: 7.875267505645752
+Starting episode 240, current epsilon = 0.01
+Episode ended, reward: 241.74853793743114
+Episode took: 4.188973665237427
+Starting episode 241, current epsilon = 0.01
+Episode ended, reward: 234.83408730257702
+Episode took: 3.61267352104187
+Starting episode 242, current epsilon = 0.01
+Episode ended, reward: -186.67939294674653
+Episode took: 6.9365434646606445
+Starting episode 243, current epsilon = 0.01
+Episode ended, reward: 283.42646609075155
+Episode took: 3.8862648010253906
+Starting episode 244, current epsilon = 0.01
+Episode ended, reward: 217.1642543533539
+Episode took: 8.931044816970825
+Starting episode 245, current epsilon = 0.01
+Episode ended, reward: 68.69811751360449
+Episode took: 12.089565992355347
+Starting episode 246, current epsilon = 0.01
+Episode ended, reward: 281.1003168725323
+Episode took: 2.8587982654571533
+Starting episode 247, current epsilon = 0.01
+Episode ended, reward: 124.04314879595833
+Episode took: 8.735805749893188
+Starting episode 248, current epsilon = 0.01
+Episode ended, reward: 181.6349942053851
+Episode took: 6.389889717102051
+Starting episode 249, current epsilon = 0.01
+Episode ended, reward: 235.6363420800855
+Episode took: 5.760579347610474
+Starting episode 250, current epsilon = 0.01
+Episode ended, reward: 276.96925236451784
+Episode took: 6.5931315422058105
+Starting episode 251, current epsilon = 0.01
+Episode ended, reward: -26.102707863064495
+Episode took: 1.8984260559082031
+Starting episode 252, current epsilon = 0.01
+Episode ended, reward: 247.6916103392997
+Episode took: 5.015559911727905
+Starting episode 253, current epsilon = 0.01
+Episode ended, reward: -121.90903251635767
+Episode took: 7.760816335678101
+Starting episode 254, current epsilon = 0.01
+Episode ended, reward: -44.4316161508507
+Episode took: 1.8962523937225342
+Starting episode 255, current epsilon = 0.01
+Episode ended, reward: -71.75274195471866
+Episode took: 4.819878816604614
+Starting episode 256, current epsilon = 0.01
+Episode ended, reward: 241.12759770038926
+Episode took: 2.3353376388549805
+Starting episode 257, current epsilon = 0.01
+Episode ended, reward: 237.33121559241408
+Episode took: 3.3449347019195557
+Starting episode 258, current epsilon = 0.01
+Episode ended, reward: -45.544822711272715
+Episode took: 1.3067021369934082
+Starting episode 259, current epsilon = 0.01
+Episode ended, reward: 217.02574529209846
+Episode took: 4.263721466064453
+Starting episode 260, current epsilon = 0.01
+Episode ended, reward: 298.6702793546407
+Episode took: 6.81080961227417
+Starting episode 261, current epsilon = 0.01
+Episode ended, reward: 228.18693868679685
+Episode took: 6.183829307556152
+Starting episode 262, current epsilon = 0.01
+Episode ended, reward: 236.95029363853826
+Episode took: 4.15574049949646
+Starting episode 263, current epsilon = 0.01
+Episode ended, reward: -23.664805799896868
+Episode took: 1.9027316570281982
+Starting episode 264, current epsilon = 0.01
+Episode ended, reward: -235.54400455262225
+Episode took: 13.270900249481201
+Starting episode 265, current epsilon = 0.01
+Episode ended, reward: 193.6083903500217
+Episode took: 5.982208013534546
+Starting episode 266, current epsilon = 0.01
+Episode ended, reward: 218.88859294138928
+Episode took: 4.286210536956787
+Starting episode 267, current epsilon = 0.01
+Episode ended, reward: -16.755608120855783
+Episode took: 2.3446598052978516
+Starting episode 268, current epsilon = 0.01
+Episode ended, reward: -210.45846516177994
+Episode took: 7.4683637619018555
+Starting episode 269, current epsilon = 0.01
+Episode ended, reward: 188.25742852475958
+Episode took: 4.76108193397522
+Starting episode 270, current epsilon = 0.01
+Episode ended, reward: 243.47153650528784
+Episode took: 2.264202833175659
+Starting episode 271, current epsilon = 0.01
+Episode ended, reward: -160.8987806772548
+Episode took: 4.8095927238464355
+Starting episode 272, current epsilon = 0.01
+Episode ended, reward: 214.976713751952
+Episode took: 4.724609375
+Starting episode 273, current epsilon = 0.01
+Episode ended, reward: -391.8144181268994
+Episode took: 2.3959221839904785
+Starting episode 274, current epsilon = 0.01
+Episode ended, reward: 275.0683970613684
+Episode took: 3.5501232147216797
+Starting episode 275, current epsilon = 0.01
+Episode ended, reward: -189.82892235456575
+Episode took: 5.074254751205444
+Starting episode 276, current epsilon = 0.01
+Episode ended, reward: 4.203000612505225
+Episode took: 17.664132356643677
+Starting episode 277, current epsilon = 0.01
+Episode ended, reward: 244.0736422196861
+Episode took: 7.192928314208984
+Starting episode 278, current epsilon = 0.01
+Episode ended, reward: 289.3172364331079
+Episode took: 3.5887279510498047
+Starting episode 279, current epsilon = 0.01
+Episode ended, reward: 173.76724594942374
+Episode took: 6.406018257141113
+Starting episode 280, current epsilon = 0.01
+Episode ended, reward: -190.06407553154168
+Episode took: 4.501137018203735
+Starting episode 281, current epsilon = 0.01
+Episode ended, reward: -301.75728751714865
+Episode took: 6.537115097045898
+Starting episode 282, current epsilon = 0.01
+Episode ended, reward: 185.8088975352071
+Episode took: 4.9623472690582275
+Starting episode 283, current epsilon = 0.01
+Episode ended, reward: -37.29184294370119
+Episode took: 17.595088481903076
+Starting episode 284, current epsilon = 0.01
+Episode ended, reward: 224.4719137811145
+Episode took: 4.786988973617554
+Starting episode 285, current epsilon = 0.01
+Episode ended, reward: -59.55426333645494
+Episode took: 16.765239477157593
+Starting episode 286, current epsilon = 0.01
+Episode ended, reward: 285.49512269705224
+Episode took: 2.6884384155273438
+Starting episode 287, current epsilon = 0.01
+Episode ended, reward: 267.5644953940417
+Episode took: 3.071134328842163
+Starting episode 288, current epsilon = 0.01
+Episode ended, reward: -109.08546379009151
+Episode took: 3.8000543117523193
+Starting episode 289, current epsilon = 0.01
+Episode ended, reward: -218.31931847343637
+Episode took: 4.274257659912109
+Starting episode 290, current epsilon = 0.01
+Episode ended, reward: 270.5529220003049
+Episode took: 2.791193723678589
+Starting episode 291, current epsilon = 0.01
+Episode ended, reward: 266.3378138701332
+Episode took: 2.5371289253234863
+Starting episode 292, current epsilon = 0.01
+Episode ended, reward: 256.1703682862654
+Episode took: 3.842634439468384
+Starting episode 293, current epsilon = 0.01
+Episode ended, reward: -120.30048354596862
+Episode took: 4.446300268173218
+Starting episode 294, current epsilon = 0.01
+Episode ended, reward: -78.08645001479172
+Episode took: 16.69217586517334
+Starting episode 295, current epsilon = 0.01
+Episode ended, reward: 295.31349533492323
+Episode took: 3.169067859649658
+Starting episode 296, current epsilon = 0.01
+Episode ended, reward: 187.801812934081
+Episode took: 6.069720506668091
+Starting episode 297, current epsilon = 0.01
+Episode ended, reward: 235.39983435037834
+Episode took: 3.089726686477661
+Starting episode 298, current epsilon = 0.01
+Episode ended, reward: -206.36749421015048
+Episode took: 12.186713933944702
+Starting episode 299, current epsilon = 0.01
+Episode ended, reward: 220.16563116418394
+Episode took: 3.817721128463745
+Starting episode 300, current epsilon = 0.01
+Episode ended, reward: 211.18940076466765
+Episode took: 3.5874340534210205
+Starting episode 301, current epsilon = 0.01
+Episode ended, reward: -38.228986515906
+Episode took: 2.132476568222046
+Starting episode 302, current epsilon = 0.01
+Episode ended, reward: 279.20098663529865
+Episode took: 3.886723279953003
+Starting episode 303, current epsilon = 0.01
+Episode ended, reward: 280.0026590406626
+Episode took: 3.531339406967163
+Starting episode 304, current epsilon = 0.01
+Episode ended, reward: 304.0681044586498
+Episode took: 3.1315345764160156
+Starting episode 305, current epsilon = 0.01
+Episode ended, reward: 39.11260870919941
+Episode took: 16.25457000732422
+Starting episode 306, current epsilon = 0.01
+Episode ended, reward: 258.88118666754167
+Episode took: 3.8782567977905273
+Starting episode 307, current epsilon = 0.01
+Episode ended, reward: 294.12478364062935
+Episode took: 3.725470781326294
+Starting episode 308, current epsilon = 0.01
+Episode ended, reward: 234.1239641262331
+Episode took: 6.051632642745972
+Starting episode 309, current epsilon = 0.01
+Episode ended, reward: 260.4801618662964
+Episode took: 2.6636106967926025
+Starting episode 310, current epsilon = 0.01
+Episode ended, reward: -55.68175815841532
+Episode took: 3.574875593185425
+Starting episode 311, current epsilon = 0.01
+Episode ended, reward: -61.22929131745879
+Episode took: 0.8587429523468018
+Starting episode 312, current epsilon = 0.01
+Episode ended, reward: 225.3239361013111
+Episode took: 8.06014895439148
+Starting episode 313, current epsilon = 0.01
+Episode ended, reward: 279.1679189833966
+Episode took: 3.571153402328491
+Starting episode 314, current epsilon = 0.01
+Episode ended, reward: 197.6347429643692
+Episode took: 8.753307342529297
+Starting episode 315, current epsilon = 0.01
+Episode ended, reward: -141.91738236523986
+Episode took: 5.798935413360596
+Starting episode 316, current epsilon = 0.01
+Episode ended, reward: 252.52662320964373
+Episode took: 6.242902994155884
+Starting episode 317, current epsilon = 0.01
+Episode ended, reward: 233.57867551618142
+Episode took: 3.4759416580200195
+Starting episode 318, current epsilon = 0.01
+Episode ended, reward: 269.5562044148918
+Episode took: 3.0541951656341553
+Starting episode 319, current epsilon = 0.01
+Episode ended, reward: 283.074506923633
+Episode took: 2.7897257804870605
+Starting episode 320, current epsilon = 0.01
+Episode ended, reward: 265.37494262559994
+Episode took: 2.6915535926818848
+Starting episode 321, current epsilon = 0.01
+Episode ended, reward: 207.66411727812283
+Episode took: 4.180150032043457
+Starting episode 322, current epsilon = 0.01
+Episode ended, reward: 197.8291952297346
+Episode took: 7.778169631958008
+Starting episode 323, current epsilon = 0.01
+Episode ended, reward: 253.97883735572526
+Episode took: 4.75346040725708
+Starting episode 324, current epsilon = 0.01
+Episode ended, reward: -279.0203383507948
+Episode took: 7.416999816894531
+Starting episode 325, current epsilon = 0.01
+Episode ended, reward: 270.5006437675603
+Episode took: 4.334704637527466
+Starting episode 326, current epsilon = 0.01
+Episode ended, reward: 239.21205155201727
+Episode took: 2.641510486602783
+Starting episode 327, current epsilon = 0.01
+Episode ended, reward: 225.3035623733491
+Episode took: 4.062402009963989
+Starting episode 328, current epsilon = 0.01
+Episode ended, reward: 46.97580400547764
+Episode took: 1.503385305404663
+Starting episode 329, current epsilon = 0.01
+Episode ended, reward: 281.2611863292519
+Episode took: 3.5695888996124268
+Starting episode 330, current epsilon = 0.01
+Episode ended, reward: 210.96167574318537
+Episode took: 2.749781370162964
+Starting episode 331, current epsilon = 0.01
+Episode ended, reward: 270.4232156942727
+Episode took: 3.3495254516601562
+Starting episode 332, current epsilon = 0.01
+Episode ended, reward: 303.7405302111034
+Episode took: 2.9501566886901855
+Starting episode 333, current epsilon = 0.01
+Episode ended, reward: 230.91461826447465
+Episode took: 3.3503777980804443
+Starting episode 334, current epsilon = 0.01
+Episode ended, reward: 172.95886307884626
+Episode took: 5.9170918464660645
+Starting episode 335, current epsilon = 0.01
+Episode ended, reward: 262.6167187495046
+Episode took: 3.559999704360962
+Starting episode 336, current epsilon = 0.01
+Episode ended, reward: 265.65743534591235
+Episode took: 3.578092575073242
+Starting episode 337, current epsilon = 0.01
+Episode ended, reward: -43.494832223323144
+Episode took: 1.6160476207733154
+Starting episode 338, current epsilon = 0.01
+Episode ended, reward: 216.29388535699204
+Episode took: 3.0681614875793457
+Starting episode 339, current epsilon = 0.01
+Episode ended, reward: 268.20356407728457
+Episode took: 4.898989677429199
+Starting episode 340, current epsilon = 0.01
+Episode ended, reward: 255.80246629668585
+Episode took: 3.154207229614258
+Starting episode 341, current epsilon = 0.01
+Episode ended, reward: -200.31230708673974
+Episode took: 4.237619876861572
+Starting episode 342, current epsilon = 0.01
+Episode ended, reward: 292.43197798725106
+Episode took: 3.6750969886779785
+Starting episode 343, current epsilon = 0.01
+Episode ended, reward: 260.57413325122104
+Episode took: 3.24819278717041
+Starting episode 344, current epsilon = 0.01
+Episode ended, reward: 235.1007223908241
+Episode took: 3.6462936401367188
+Starting episode 345, current epsilon = 0.01
+Episode ended, reward: 237.96611151825348
+Episode took: 4.431681871414185
+Starting episode 346, current epsilon = 0.01
+Episode ended, reward: -276.1574393005926
+Episode took: 9.597658157348633
+Starting episode 347, current epsilon = 0.01
+Episode ended, reward: 243.98330372577558
+Episode took: 3.505523443222046
+Starting episode 348, current epsilon = 0.01
+Episode ended, reward: -78.27158653383883
+Episode took: 17.831297159194946
+Starting episode 349, current epsilon = 0.01
+Episode ended, reward: 270.21967080107345
+Episode took: 2.9915528297424316
+Starting episode 350, current epsilon = 0.01
+Episode ended, reward: 268.0474987412834
+Episode took: 3.6337482929229736
+Starting episode 351, current epsilon = 0.01
+Episode ended, reward: 317.04786146353445
+Episode took: 2.8363003730773926
+Starting episode 352, current epsilon = 0.01
+Episode ended, reward: 300.0549411260073
+Episode took: 3.4581799507141113
+Starting episode 353, current epsilon = 0.01
+Episode ended, reward: 245.3068592546969
+Episode took: 2.5678017139434814
+Starting episode 354, current epsilon = 0.01
+Episode ended, reward: 230.3139781237272
+Episode took: 3.485269546508789
+Starting episode 355, current epsilon = 0.01
+Episode ended, reward: -53.759381182615236
+Episode took: 1.5157051086425781
+Starting episode 356, current epsilon = 0.01
+Episode ended, reward: 287.7520510328424
+Episode took: 3.009676218032837
+Starting episode 357, current epsilon = 0.01
+Episode ended, reward: 46.71116785673621
+Episode took: 1.2015366554260254
+Starting episode 358, current epsilon = 0.01
+Episode ended, reward: 282.910773540647
+Episode took: 4.771805286407471
+Starting episode 359, current epsilon = 0.01
+Episode ended, reward: -46.8961741727572
+Episode took: 1.440133810043335
+Starting episode 360, current epsilon = 0.01
+Episode ended, reward: 65.1561482410369
+Episode took: 1.5542936325073242
+Starting episode 361, current epsilon = 0.01
+Episode ended, reward: 282.9597734926199
+Episode took: 2.8530712127685547
+Starting episode 362, current epsilon = 0.01
+Episode ended, reward: 276.5852087556001
+Episode took: 2.698439836502075
+Starting episode 363, current epsilon = 0.01
+Episode ended, reward: 288.90785980827553
+Episode took: 2.9246623516082764
+Starting episode 364, current epsilon = 0.01
+Episode ended, reward: 46.78002555814248
+Episode took: 1.7991108894348145
+Starting episode 365, current epsilon = 0.01
+Episode ended, reward: 272.6224902817912
+Episode took: 2.8472793102264404
+Starting episode 366, current epsilon = 0.01
+Episode ended, reward: 47.05596820701783
+Episode took: 1.4981276988983154
+Starting episode 367, current epsilon = 0.01
+Episode ended, reward: 27.18090268288826
+Episode took: 1.7479629516601562
+Starting episode 368, current epsilon = 0.01
+Episode ended, reward: 264.9659883609096
+Episode took: 3.906054735183716
+Starting episode 369, current epsilon = 0.01
+Episode ended, reward: 230.43748815911727
+Episode took: 4.558789014816284
+Starting episode 370, current epsilon = 0.01
+Episode ended, reward: 276.01846004688844
+Episode took: 3.6256346702575684
+Starting episode 371, current epsilon = 0.01
+Episode ended, reward: -14.352541913962611
+Episode took: 2.1637821197509766
+Starting episode 372, current epsilon = 0.01
+Episode ended, reward: 244.2340569675185
+Episode took: 2.984926700592041
+Starting episode 373, current epsilon = 0.01
+Episode ended, reward: 232.53682360551213
+Episode took: 3.876741409301758
+Starting episode 374, current epsilon = 0.01
+Episode ended, reward: 49.10478686093009
+Episode took: 1.5244927406311035
+Starting episode 375, current epsilon = 0.01
+Episode ended, reward: 63.79407194385155
+Episode took: 1.4569213390350342
+Starting episode 376, current epsilon = 0.01
+Episode ended, reward: 16.320701730429377
+Episode took: 1.9690091609954834
+Starting episode 377, current epsilon = 0.01
+Episode ended, reward: -108.05755748969887
+Episode took: 5.557888031005859
+Starting episode 378, current epsilon = 0.01
+Episode ended, reward: 17.30009934554282
+Episode took: 2.087473154067993
+Starting episode 379, current epsilon = 0.01
+Episode ended, reward: 299.91091411011274
+Episode took: 7.505619287490845
+Starting episode 380, current epsilon = 0.01
+Episode ended, reward: 138.934272641844
+Episode took: 5.176998853683472
+Starting episode 381, current epsilon = 0.01
+Episode ended, reward: 140.89652288012303
+Episode took: 13.070232152938843
+Starting episode 382, current epsilon = 0.01
+Episode ended, reward: 244.84246093820076
+Episode took: 3.8191347122192383
+Starting episode 383, current epsilon = 0.01
+Episode ended, reward: 13.183425279305922
+Episode took: 1.716500997543335
+Starting episode 384, current epsilon = 0.01
+Episode ended, reward: 271.5681809705879
+Episode took: 4.389388084411621
+Starting episode 385, current epsilon = 0.01
+Episode ended, reward: 178.29392019067842
+Episode took: 7.416667938232422
+Starting episode 386, current epsilon = 0.01
+Episode ended, reward: 228.2946780765542
+Episode took: 3.622236728668213
+Starting episode 387, current epsilon = 0.01
+Episode ended, reward: 158.2666670059215
+Episode took: 7.403754234313965
+Starting episode 388, current epsilon = 0.01
+Episode ended, reward: -62.08423494876891
+Episode took: 17.098714590072632
+Starting episode 389, current epsilon = 0.01
+Episode ended, reward: 42.25432078466784
+Episode took: 1.811903476715088
+Starting episode 390, current epsilon = 0.01
+Episode ended, reward: 273.61783992919356
+Episode took: 3.2179555892944336
+Starting episode 391, current epsilon = 0.01
+Episode ended, reward: 288.83841448266617
+Episode took: 6.9171130657196045
+Starting episode 392, current epsilon = 0.01
+Episode ended, reward: -179.18234127242954
+Episode took: 5.638121128082275
+Starting episode 393, current epsilon = 0.01
+Episode ended, reward: -5.57808291651024
+Episode took: 3.1740617752075195
+Starting episode 394, current epsilon = 0.01
+Episode ended, reward: 241.43846391851443
+Episode took: 2.566441297531128
+Starting episode 395, current epsilon = 0.01
+Episode ended, reward: 275.04466073611763
+Episode took: 2.877856492996216
+Starting episode 396, current epsilon = 0.01
+Episode ended, reward: 96.39872957757284
+Episode took: 14.767583131790161
+Starting episode 397, current epsilon = 0.01
+Episode ended, reward: 285.572305910164
+Episode took: 4.411863803863525
+Starting episode 398, current epsilon = 0.01
+Episode ended, reward: -54.97391082199542
+Episode took: 17.4130117893219
+Starting episode 399, current epsilon = 0.01
+Episode ended, reward: 214.6481159777236
+Episode took: 15.028327941894531
+Starting episode 400, current epsilon = 0.01
+Episode ended, reward: 296.37488036749346
+Episode took: 2.561258316040039
+Starting episode 401, current epsilon = 0.01
+Episode ended, reward: 192.8139088936279
+Episode took: 4.652668714523315
+Starting episode 402, current epsilon = 0.01
+Episode ended, reward: 242.3952531517915
+Episode took: 13.286807775497437
+Starting episode 403, current epsilon = 0.01
+Episode ended, reward: -79.88825220978683
+Episode took: 1.7041492462158203
+Starting episode 404, current epsilon = 0.01
+Episode ended, reward: 274.79412409769895
+Episode took: 2.8767879009246826
+Starting episode 405, current epsilon = 0.01
+Episode ended, reward: 225.75525700781176
+Episode took: 6.481224775314331
+Starting episode 406, current epsilon = 0.01
+Episode ended, reward: 110.78049270278069
+Episode took: 15.084126234054565
+Starting episode 407, current epsilon = 0.01
+Episode ended, reward: 172.88282799641996
+Episode took: 9.397398233413696
+Starting episode 408, current epsilon = 0.01
+Episode ended, reward: 274.22702975276
+Episode took: 2.444912910461426
+Starting episode 409, current epsilon = 0.01
+Episode ended, reward: -279.06468052434053
+Episode took: 10.164220094680786
+Starting episode 410, current epsilon = 0.01
+Episode ended, reward: 258.3606442078206
+Episode took: 4.188248157501221
+Starting episode 411, current epsilon = 0.01
+Episode ended, reward: 201.2805674017571
+Episode took: 12.826375484466553
+Starting episode 412, current epsilon = 0.01
+Episode ended, reward: 158.35789499828547
+Episode took: 10.651608228683472
+Starting episode 413, current epsilon = 0.01
+Episode ended, reward: 60.289673332569436
+Episode took: 16.286693572998047
+Starting episode 414, current epsilon = 0.01
+Episode ended, reward: 206.86505339134135
+Episode took: 13.010065793991089
+Starting episode 415, current epsilon = 0.01
+Episode ended, reward: 171.31688094674897
+Episode took: 13.119787454605103
+Starting episode 416, current epsilon = 0.01
+Episode ended, reward: 249.44931296796656
+Episode took: 4.225975036621094
+Starting episode 417, current epsilon = 0.01
+Episode ended, reward: 230.6866605939073
+Episode took: 3.8536789417266846
+Starting episode 418, current epsilon = 0.01
+Episode ended, reward: 225.79690933198214
+Episode took: 4.45435094833374
+Starting episode 419, current epsilon = 0.01
+Episode ended, reward: 200.63268586312915
+Episode took: 7.380383491516113
+Starting episode 420, current epsilon = 0.01
+Episode ended, reward: 194.55155503868156
+Episode took: 4.904408931732178
+Starting episode 421, current epsilon = 0.01
+Episode ended, reward: 175.69029457093166
+Episode took: 7.615477561950684
+Starting episode 422, current epsilon = 0.01
+Episode ended, reward: 164.3258909215853
+Episode took: 6.672250986099243
+Starting episode 423, current epsilon = 0.01
+Episode ended, reward: 264.18820053717513
+Episode took: 4.728734254837036
+Starting episode 424, current epsilon = 0.01
+Episode ended, reward: 173.90438344776425
+Episode took: 9.847102403640747
+Starting episode 425, current epsilon = 0.01
+Episode ended, reward: 221.57849639867885
+Episode took: 3.2239151000976562
+Starting episode 426, current epsilon = 0.01
+Episode ended, reward: 220.14207660723892
+Episode took: 8.57366418838501
+Starting episode 427, current epsilon = 0.01
+Episode ended, reward: 282.8547179317945
+Episode took: 5.4902613162994385
+Starting episode 428, current epsilon = 0.01
+Episode ended, reward: 218.4590562674238
+Episode took: 6.230976819992065
+Starting episode 429, current epsilon = 0.01
+Episode ended, reward: 241.38441546109914
+Episode took: 5.599181175231934
+Starting episode 430, current epsilon = 0.01
+Episode ended, reward: 270.45710384666626
+Episode took: 3.611481189727783
+Starting episode 431, current epsilon = 0.01
+Episode ended, reward: 251.94305840221097
+Episode took: 3.7438786029815674
+Starting episode 432, current epsilon = 0.01
+Episode ended, reward: 257.48596083269524
+Episode took: 3.6757149696350098
+Starting episode 433, current epsilon = 0.01
+Episode ended, reward: 240.33275317231934
+Episode took: 6.574113130569458
+Starting episode 434, current epsilon = 0.01
+Episode ended, reward: 249.04502428912485
+Episode took: 3.011381149291992
+Starting episode 435, current epsilon = 0.01
+Episode ended, reward: 218.2449828816881
+Episode took: 5.845097541809082
+Starting episode 436, current epsilon = 0.01
+Episode ended, reward: 235.82537981491504
+Episode took: 4.682511568069458
+Starting episode 437, current epsilon = 0.01
+Episode ended, reward: 274.2920231008732
+Episode took: 2.9324443340301514
+Starting episode 438, current epsilon = 0.01
+Episode ended, reward: 279.34393101817915
+Episode took: 4.75155782699585
+Starting episode 439, current epsilon = 0.01
+Episode ended, reward: 255.8050338548394
+Episode took: 3.9854848384857178
+Starting episode 440, current epsilon = 0.01
+Episode ended, reward: 251.5031126815373
+Episode took: 5.803892135620117
+Starting episode 441, current epsilon = 0.01
+Episode ended, reward: 231.1176056143023
+Episode took: 3.137856960296631
+Starting episode 442, current epsilon = 0.01
+Episode ended, reward: 215.043782358349
+Episode took: 3.5758914947509766
+Starting episode 443, current epsilon = 0.01
+Episode ended, reward: 278.93609447894585
+Episode took: 6.655366659164429
+Starting episode 444, current epsilon = 0.01
+Episode ended, reward: 240.8805120288891
+Episode took: 5.245972394943237
+Starting episode 445, current epsilon = 0.01
+Episode ended, reward: 242.84421975143374
+Episode took: 4.037644147872925
+Starting episode 446, current epsilon = 0.01
+Episode ended, reward: 295.2100149995719
+Episode took: 2.9462099075317383
+Starting episode 447, current epsilon = 0.01
+Episode ended, reward: 294.7701606042284
+Episode took: 4.136479139328003
+Starting episode 448, current epsilon = 0.01
+Episode ended, reward: 266.5078365878502
+Episode took: 2.639911413192749
+Starting episode 449, current epsilon = 0.01
+Episode ended, reward: 269.56020051686585
+Episode took: 3.8988869190216064
+Starting episode 450, current epsilon = 0.01
+Episode ended, reward: 254.14397653569605
+Episode took: 3.1695194244384766
+Starting episode 451, current epsilon = 0.01
+Episode ended, reward: 241.59408144946502
+Episode took: 3.5103952884674072
+Starting episode 452, current epsilon = 0.01
+Episode ended, reward: 295.38108441634535
+Episode took: 3.077529191970825
+Starting episode 453, current epsilon = 0.01
+Episode ended, reward: 30.364206165748527
+Episode took: 1.0709681510925293
+Starting episode 454, current epsilon = 0.01
+Episode ended, reward: 50.372671503811404
+Episode took: 1.2640039920806885
+Starting episode 455, current epsilon = 0.01
+Episode ended, reward: 248.78156143722458
+Episode took: 3.223756790161133
+Starting episode 456, current epsilon = 0.01
+Episode ended, reward: 52.2607595059838
+Episode took: 1.6714320182800293
+Starting episode 457, current epsilon = 0.01
+Episode ended, reward: 245.0243496045285
+Episode took: 8.567780017852783
+Starting episode 458, current epsilon = 0.01
+Episode ended, reward: 249.77280149278644
+Episode took: 3.132552146911621
+Starting episode 459, current epsilon = 0.01
+Episode ended, reward: 32.28141768889853
+Episode took: 2.1093406677246094
+Starting episode 460, current epsilon = 0.01
+Episode ended, reward: 283.5500193072371
+Episode took: 4.698824167251587
+Starting episode 461, current epsilon = 0.01
+Episode ended, reward: 268.1964749127064
+Episode took: 3.816066265106201
+Starting episode 462, current epsilon = 0.01
+Episode ended, reward: 258.6986815166756
+Episode took: 5.362429857254028
+Starting episode 463, current epsilon = 0.01
+Episode ended, reward: 241.36058970242271
+Episode took: 3.8571717739105225
+Starting episode 464, current epsilon = 0.01
+Episode ended, reward: 15.751621716966739
+Episode took: 2.183061361312866
+Starting episode 465, current epsilon = 0.01
+Episode ended, reward: 255.83926833103624
+Episode took: 3.9558029174804688
+Starting episode 466, current epsilon = 0.01
+Episode ended, reward: 251.8328004994719
+Episode took: 3.580259323120117
+Starting episode 467, current epsilon = 0.01
+Episode ended, reward: 292.0465043503165
+Episode took: 6.234018564224243
+Starting episode 468, current epsilon = 0.01
+Episode ended, reward: 265.4766627899582
+Episode took: 4.446030378341675
+Starting episode 469, current epsilon = 0.01
+Episode ended, reward: 281.93579052136363
+Episode took: 4.161738872528076
+Starting episode 470, current epsilon = 0.01
+Episode ended, reward: 255.06408103925833
+Episode took: 3.5784168243408203
+Starting episode 471, current epsilon = 0.01
+Episode ended, reward: 254.0067738709791
+Episode took: 3.370879888534546
+Starting episode 472, current epsilon = 0.01
+Episode ended, reward: 229.75858339777156
+Episode took: 3.983407735824585
+Starting episode 473, current epsilon = 0.01
+Episode ended, reward: 267.55699100524976
+Episode took: 4.132734537124634
+Starting episode 474, current epsilon = 0.01
+Episode ended, reward: -39.61585444304656
+Episode took: 2.53933048248291
+Starting episode 475, current epsilon = 0.01
+Episode ended, reward: 235.04065391891967
+Episode took: 6.346451282501221
+Starting episode 476, current epsilon = 0.01
+Episode ended, reward: 178.0279889177533
+Episode took: 9.28918170928955
+Starting episode 477, current epsilon = 0.01
+Episode ended, reward: 275.93258817734863
+Episode took: 4.166661262512207
+Starting episode 478, current epsilon = 0.01
+Episode ended, reward: 206.16815755382527
+Episode took: 4.182962656021118
+Starting episode 479, current epsilon = 0.01
+Episode ended, reward: 287.1446156073738
+Episode took: 2.887711763381958
+Starting episode 480, current epsilon = 0.01
+Episode ended, reward: 244.54896286249095
+Episode took: 3.186599016189575
+Starting episode 481, current epsilon = 0.01
+Episode ended, reward: 276.0940843846262
+Episode took: 4.0308568477630615
+Starting episode 482, current epsilon = 0.01
+Episode ended, reward: 259.5934845801917
+Episode took: 4.074785470962524
+Starting episode 483, current epsilon = 0.01
+Episode ended, reward: 251.10963368890378
+Episode took: 4.377365827560425
+Starting episode 484, current epsilon = 0.01
+Episode ended, reward: 250.60782366568836
+Episode took: 3.668379068374634
+Starting episode 485, current epsilon = 0.01
+Episode ended, reward: 272.2963508567135
+Episode took: 3.2811315059661865
+Starting episode 486, current epsilon = 0.01
+Episode ended, reward: 246.50701343157039
+Episode took: 3.9026806354522705
+Starting episode 487, current epsilon = 0.01
+Episode ended, reward: 224.06462104356876
+Episode took: 3.586221694946289
+Starting episode 488, current epsilon = 0.01
+Episode ended, reward: -58.655632211271524
+Episode took: 3.4708385467529297
+Starting episode 489, current epsilon = 0.01
+Episode ended, reward: 255.8394713428463
+Episode took: 8.240780353546143
+Starting episode 490, current epsilon = 0.01
+Episode ended, reward: 38.270419819649646
+Episode took: 2.9159841537475586
+Starting episode 491, current epsilon = 0.01
+Episode ended, reward: 258.99793564596945
+Episode took: 3.66410493850708
+Starting episode 492, current epsilon = 0.01
+Episode ended, reward: 284.1023093585609
+Episode took: 3.906733274459839
+Starting episode 493, current epsilon = 0.01
+Episode ended, reward: 273.1886946433091
+Episode took: 6.892169237136841
+Starting episode 494, current epsilon = 0.01
+Episode ended, reward: 51.71725427950429
+Episode took: 2.3419079780578613
+Starting episode 495, current epsilon = 0.01
+Episode ended, reward: 299.5097529511562
+Episode took: 6.005748271942139
+Starting episode 496, current epsilon = 0.01
+Episode ended, reward: 11.608580433716739
+Episode took: 1.4539875984191895
+Starting episode 497, current epsilon = 0.01
+Episode ended, reward: 283.91048778938625
+Episode took: 5.158801794052124
+Starting episode 498, current epsilon = 0.01
+Episode ended, reward: 285.03672539720674
+Episode took: 3.165889263153076
+Starting episode 499, current epsilon = 0.01
+Episode ended, reward: 281.18844985376404
+Episode took: 4.261709928512573
+Starting episode 500, current epsilon = 0.01
+Episode ended, reward: 288.87606529334863
+Episode took: 4.217202186584473
+Starting episode 501, current epsilon = 0.01
+Episode ended, reward: 255.72903889953545
+Episode took: 3.045999050140381
+Starting episode 502, current epsilon = 0.01
+Episode ended, reward: -286.4065821932256
+Episode took: 8.655341863632202
+Starting episode 503, current epsilon = 0.01
+Episode ended, reward: 35.87963885210553
+Episode took: 3.7053239345550537
+Starting episode 504, current epsilon = 0.01
+Episode ended, reward: 247.29428991554212
+Episode took: 2.946753740310669
+Starting episode 505, current epsilon = 0.01
+Episode ended, reward: 247.61414916196364
+Episode took: 3.3807337284088135
+Starting episode 506, current epsilon = 0.01
+Episode ended, reward: 275.1201764916006
+Episode took: 4.288755655288696
+Starting episode 507, current epsilon = 0.01
+Episode ended, reward: 44.95649088809293
+Episode took: 2.6017134189605713
+Starting episode 508, current epsilon = 0.01
+Episode ended, reward: 270.12805122378313
+Episode took: 5.663069248199463
+Starting episode 509, current epsilon = 0.01
+Episode ended, reward: 237.06558806575902
+Episode took: 5.242975234985352
+Starting episode 510, current epsilon = 0.01
+Episode ended, reward: 248.47209579020907
+Episode took: 3.939171314239502
+Starting episode 511, current epsilon = 0.01
+Episode ended, reward: 275.0332122109967
+Episode took: 3.119935989379883
+Starting episode 512, current epsilon = 0.01
+Episode ended, reward: 245.39575748898116
+Episode took: 3.4167895317077637
+Starting episode 513, current epsilon = 0.01
+Episode ended, reward: 264.5548765909534
+Episode took: 3.536097288131714
+Starting episode 514, current epsilon = 0.01
+Episode ended, reward: 210.57761438766528
+Episode took: 7.072006702423096
+Starting episode 515, current epsilon = 0.01
+Episode ended, reward: 252.4723000096993
+Episode took: 2.795219898223877
+Starting episode 516, current epsilon = 0.01
+Episode ended, reward: 250.72353770213908
+Episode took: 3.0332210063934326
+Starting episode 517, current epsilon = 0.01
+Episode ended, reward: 243.93349781589495
+Episode took: 3.964435577392578
+Starting episode 518, current epsilon = 0.01
+Episode ended, reward: 274.1420116346838
+Episode took: 2.909489393234253
+Starting episode 519, current epsilon = 0.01
+Episode ended, reward: 239.61670655828087
+Episode took: 4.61223840713501
+Starting episode 520, current epsilon = 0.01
+Episode ended, reward: 245.56908435733203
+Episode took: 2.9366116523742676
+Starting episode 521, current epsilon = 0.01
+Episode ended, reward: 7.593181142651133
+Episode took: 3.329838752746582
+Starting episode 522, current epsilon = 0.01
+Episode ended, reward: 293.6126449954521
+Episode took: 3.022726535797119
+Starting episode 523, current epsilon = 0.01
+Episode ended, reward: 237.85459973264756
+Episode took: 10.766209125518799
+Starting episode 524, current epsilon = 0.01
+Episode ended, reward: 215.23659797378963
+Episode took: 6.276440858840942
+Starting episode 525, current epsilon = 0.01
+Episode ended, reward: 211.16539086247263
+Episode took: 4.278273582458496
+Starting episode 526, current epsilon = 0.01
+Episode ended, reward: 282.23826585755023
+Episode took: 3.0102572441101074
+Starting episode 527, current epsilon = 0.01
+Episode ended, reward: 259.0901894779189
+Episode took: 5.626765727996826
+Starting episode 528, current epsilon = 0.01
+Episode ended, reward: 298.2369375224163
+Episode took: 3.9248850345611572
+Starting episode 529, current epsilon = 0.01
+Episode ended, reward: 258.6432993950019
+Episode took: 5.944021463394165
+Starting episode 530, current epsilon = 0.01
+Episode ended, reward: -233.4452894159301
+Episode took: 3.328425407409668
+Starting episode 531, current epsilon = 0.01
+Episode ended, reward: -175.8157003577907
+Episode took: 2.436631441116333
+Starting episode 532, current epsilon = 0.01
+Episode ended, reward: -199.51890906463223
+Episode took: 5.666515350341797
+Starting episode 533, current epsilon = 0.01
+Episode ended, reward: 256.830718099681
+Episode took: 4.613898038864136
+Starting episode 534, current epsilon = 0.01
+Episode ended, reward: -91.58801342507462
+Episode took: 3.0883901119232178
+Starting episode 535, current epsilon = 0.01
+Episode ended, reward: -193.70085400355424
+Episode took: 3.8590407371520996
+Starting episode 536, current epsilon = 0.01
+Episode ended, reward: -8.861902912515854
+Episode took: 17.395938396453857
+Starting episode 537, current epsilon = 0.01
+Episode ended, reward: -164.13261641491343
+Episode took: 2.8934412002563477
+Starting episode 538, current epsilon = 0.01
+Episode ended, reward: 166.1500351843898
+Episode took: 9.103994369506836
+Starting episode 539, current epsilon = 0.01
+Episode ended, reward: -4.821846403406117
+Episode took: 16.93798518180847
+Starting episode 540, current epsilon = 0.01
+Episode ended, reward: 259.92241416341204
+Episode took: 5.989010810852051
+Starting episode 541, current epsilon = 0.01
+Episode ended, reward: 190.07493852872187
+Episode took: 6.4697792530059814
+Starting episode 542, current epsilon = 0.01
+Episode ended, reward: 261.64885155309616
+Episode took: 3.4264843463897705
+Starting episode 543, current epsilon = 0.01
+Episode ended, reward: 228.38114078042574
+Episode took: 3.6683380603790283
+Starting episode 544, current epsilon = 0.01
+Episode ended, reward: 271.1570923815753
+Episode took: 3.2642922401428223
+Starting episode 545, current epsilon = 0.01
+Episode ended, reward: 260.60314008291016
+Episode took: 4.283425569534302
+Starting episode 546, current epsilon = 0.01
+Episode ended, reward: 246.89338668327326
+Episode took: 4.067141532897949
+Starting episode 547, current epsilon = 0.01
+Episode ended, reward: 114.34618914193989
+Episode took: 8.809714794158936
+Starting episode 548, current epsilon = 0.01
+Episode ended, reward: -254.59491568605898
+Episode took: 2.0843591690063477
+Starting episode 549, current epsilon = 0.01
+Episode ended, reward: 258.98314943553885
+Episode took: 2.872722625732422
+Starting episode 550, current epsilon = 0.01
+Episode ended, reward: 293.490418193861
+Episode took: 2.929633855819702
+Starting episode 551, current epsilon = 0.01
+Episode ended, reward: 264.091810576925
+Episode took: 5.158599853515625
+Starting episode 552, current epsilon = 0.01
+Episode ended, reward: 265.8178598288365
+Episode took: 4.074429750442505
+Starting episode 553, current epsilon = 0.01
+Episode ended, reward: 204.63062638805883
+Episode took: 4.751350402832031
+Starting episode 554, current epsilon = 0.01
+Episode ended, reward: 263.08748168527836
+Episode took: 3.2933685779571533
+Starting episode 555, current epsilon = 0.01
+Episode ended, reward: 287.58803072245325
+Episode took: 3.64560604095459
+Starting episode 556, current epsilon = 0.01
+Episode ended, reward: 245.8909386069863
+Episode took: 8.172016859054565
+Starting episode 557, current epsilon = 0.01
+Episode ended, reward: 276.8664538588787
+Episode took: 6.1163763999938965
+Starting episode 558, current epsilon = 0.01
+Episode ended, reward: -43.63013556094104
+Episode took: 1.8260226249694824
+Starting episode 559, current epsilon = 0.01
+Episode ended, reward: 197.1491441606436
+Episode took: 5.9822752475738525
+Starting episode 560, current epsilon = 0.01
+Episode ended, reward: 238.32531190780395
+Episode took: 3.4051365852355957
+Starting episode 561, current epsilon = 0.01
+Episode ended, reward: 248.6949133864514
+Episode took: 2.7497856616973877
+Starting episode 562, current epsilon = 0.01
+Episode ended, reward: 277.64136653920764
+Episode took: 3.9724063873291016
+Starting episode 563, current epsilon = 0.01
+Episode ended, reward: 180.17384482487344
+Episode took: 5.581166982650757
+Starting episode 564, current epsilon = 0.01
+Episode ended, reward: 258.49905171603
+Episode took: 4.12389612197876
+Starting episode 565, current epsilon = 0.01
+Episode ended, reward: 231.46717941400482
+Episode took: 5.474898099899292
+Starting episode 566, current epsilon = 0.01
+Episode ended, reward: 248.48342033173367
+Episode took: 4.215381860733032
+Starting episode 567, current epsilon = 0.01
+Episode ended, reward: 244.68341912115122
+Episode took: 2.758509397506714
+Starting episode 568, current epsilon = 0.01
+Episode ended, reward: 244.44737956161913
+Episode took: 3.6493260860443115
+Starting episode 569, current epsilon = 0.01
+Episode ended, reward: 241.4654240380382
+Episode took: 5.180639266967773
+Starting episode 570, current epsilon = 0.01
+Episode ended, reward: 253.9572235381431
+Episode took: 3.00435209274292
+Starting episode 571, current epsilon = 0.01
+Episode ended, reward: 264.20763413266695
+Episode took: 5.066140413284302
+Starting episode 572, current epsilon = 0.01
+Episode ended, reward: 191.76006011497086
+Episode took: 5.666322946548462
+Starting episode 573, current epsilon = 0.01
+Episode ended, reward: 247.9210805598945
+Episode took: 6.299556016921997
+Starting episode 574, current epsilon = 0.01
+Episode ended, reward: 257.96986836487883
+Episode took: 3.5581486225128174
+Starting episode 575, current epsilon = 0.01
+Episode ended, reward: -13.873169413667682
+Episode took: 2.446918249130249
+Starting episode 576, current epsilon = 0.01
+Episode ended, reward: 249.90534348838543
+Episode took: 9.57206916809082
+Starting episode 577, current epsilon = 0.01
+Episode ended, reward: 260.2970273646448
+Episode took: 5.5159337520599365
+Starting episode 578, current epsilon = 0.01
+Episode ended, reward: 219.01863317457992
+Episode took: 3.472313165664673
+Starting episode 579, current epsilon = 0.01
+Episode ended, reward: 241.93118527856518
+Episode took: 5.778811931610107
+Starting episode 580, current epsilon = 0.01
+Episode ended, reward: 256.09144847616096
+Episode took: 5.1439783573150635
+Starting episode 581, current epsilon = 0.01
+Episode ended, reward: 194.73191602054698
+Episode took: 5.780046463012695
+Starting episode 582, current epsilon = 0.01
+Episode ended, reward: 256.8160888448725
+Episode took: 3.624072313308716
+Starting episode 583, current epsilon = 0.01
+Episode ended, reward: 265.65966103556934
+Episode took: 6.669466018676758
+Starting episode 584, current epsilon = 0.01
+Episode ended, reward: 285.96016849184446
+Episode took: 3.5176331996917725
+Starting episode 585, current epsilon = 0.01
+Episode ended, reward: 255.741979744847
+Episode took: 3.4580540657043457
+Starting episode 586, current epsilon = 0.01
+Episode ended, reward: 275.11104469047524
+Episode took: 2.9912350177764893
+Starting episode 587, current epsilon = 0.01
+Episode ended, reward: 236.68047956535327
+Episode took: 4.8047873973846436
+Starting episode 588, current epsilon = 0.01
+Episode ended, reward: 268.3966512964184
+Episode took: 4.700793027877808
+Starting episode 589, current epsilon = 0.01
+Episode ended, reward: 257.1614968404503
+Episode took: 5.845704555511475
+Starting episode 590, current epsilon = 0.01
+Episode ended, reward: 257.21714116634655
+Episode took: 3.9618542194366455
+Starting episode 591, current epsilon = 0.01
+Episode ended, reward: 259.63597018014843
+Episode took: 4.408903360366821
+Starting episode 592, current epsilon = 0.01
+Episode ended, reward: 245.66977582129095
+Episode took: 3.686436414718628
+Starting episode 593, current epsilon = 0.01
+Episode ended, reward: 262.03615101382707
+Episode took: 5.613401412963867
+Starting episode 594, current epsilon = 0.01
+Episode ended, reward: 269.6680205685101
+Episode took: 4.157397508621216
+Starting episode 595, current epsilon = 0.01
+Episode ended, reward: 292.82909212078437
+Episode took: 5.530771732330322
+Starting episode 596, current epsilon = 0.01
+Episode ended, reward: 249.50789734258663
+Episode took: 3.570038318634033
+Starting episode 597, current epsilon = 0.01
+Episode ended, reward: 268.1381483275128
+Episode took: 3.903954267501831
+Starting episode 598, current epsilon = 0.01
+Episode ended, reward: 247.94654533240103
+Episode took: 4.548772573471069
+Starting episode 599, current epsilon = 0.01
+Episode ended, reward: 263.4130685021419
+Episode took: 5.94312047958374
+Starting episode 600, current epsilon = 0.01
+Episode ended, reward: -77.06938426256225
+Episode took: 2.0045218467712402
+Starting episode 601, current epsilon = 0.01
+Episode ended, reward: 290.09715260768246
+Episode took: 5.653839349746704
+Starting episode 602, current epsilon = 0.01
+Episode ended, reward: 275.80387439362244
+Episode took: 3.4467415809631348
+Starting episode 603, current epsilon = 0.01
+Episode ended, reward: 243.63646952833238
+Episode took: 4.520984172821045
+Starting episode 604, current epsilon = 0.01
+Episode ended, reward: 241.36100436531288
+Episode took: 5.272235870361328
+Starting episode 605, current epsilon = 0.01
+Episode ended, reward: 243.33856767754617
+Episode took: 4.940328121185303
+Starting episode 606, current epsilon = 0.01
+Episode ended, reward: 277.17689207174396
+Episode took: 3.272799491882324
+Starting episode 607, current epsilon = 0.01
+Episode ended, reward: -122.5497636185255
+Episode took: 1.6362788677215576
+Starting episode 608, current epsilon = 0.01
+Episode ended, reward: 257.8914327921243
+Episode took: 2.8235981464385986
+Starting episode 609, current epsilon = 0.01
+Episode ended, reward: 245.44359128539543
+Episode took: 2.9056713581085205
+Starting episode 610, current epsilon = 0.01
+Episode ended, reward: 235.71636416353297
+Episode took: 3.68381404876709
+Starting episode 611, current epsilon = 0.01
+Episode ended, reward: 284.99049594338976
+Episode took: 5.781373977661133
+Starting episode 612, current epsilon = 0.01
+Episode ended, reward: 156.56722993813565
+Episode took: 8.374949932098389
+Starting episode 613, current epsilon = 0.01
+Episode ended, reward: 283.89592218440265
+Episode took: 6.22126579284668
+Starting episode 614, current epsilon = 0.01
+Episode ended, reward: 248.02847368903693
+Episode took: 5.6461687088012695
+Starting episode 615, current epsilon = 0.01
+Episode ended, reward: 283.20928141767706
+Episode took: 6.098863840103149
+Starting episode 616, current epsilon = 0.01
+Episode ended, reward: 305.40186306205715
+Episode took: 3.5488836765289307
+Starting episode 617, current epsilon = 0.01
+Episode ended, reward: 270.5840166699037
+Episode took: 9.64866828918457
+Starting episode 618, current epsilon = 0.01
+Episode ended, reward: 266.8435183127783
+Episode took: 4.030995845794678
+Starting episode 619, current epsilon = 0.01
+Episode ended, reward: 276.6748390298029
+Episode took: 4.551225900650024
+Starting episode 620, current epsilon = 0.01
+Episode ended, reward: 235.28480077670721
+Episode took: 3.7706258296966553
+Starting episode 621, current epsilon = 0.01
+Episode ended, reward: 259.00474884273865
+Episode took: 4.865088224411011
+Starting episode 622, current epsilon = 0.01
+Episode ended, reward: 251.43668690309613
+Episode took: 4.019023895263672
+Starting episode 623, current epsilon = 0.01
+Episode ended, reward: 267.1762922469786
+Episode took: 4.8930535316467285
+Starting episode 624, current epsilon = 0.01
+Episode ended, reward: 242.4944714054979
+Episode took: 3.4627139568328857
+Starting episode 625, current epsilon = 0.01
+Episode ended, reward: 241.54850590195173
+Episode took: 3.6563408374786377
+Starting episode 626, current epsilon = 0.01
+Episode ended, reward: 254.55861107622084
+Episode took: 9.733367919921875
+Starting episode 627, current epsilon = 0.01
+Episode ended, reward: 96.6942909777104
+Episode took: 15.870362281799316
+Starting episode 628, current epsilon = 0.01
+Episode ended, reward: 269.77448224398665
+Episode took: 7.6299731731414795
+Starting episode 629, current epsilon = 0.01
+Episode ended, reward: 10.765262695526431
+Episode took: 3.6258418560028076
+Starting episode 630, current epsilon = 0.01
+Episode ended, reward: 294.98678318690077
+Episode took: 5.521283149719238
+Starting episode 631, current epsilon = 0.01
+Episode ended, reward: 239.11207057722203
+Episode took: 3.9502015113830566
+Starting episode 632, current epsilon = 0.01
+Episode ended, reward: 228.04908873254675
+Episode took: 3.4536609649658203
+Starting episode 633, current epsilon = 0.01
+Episode ended, reward: -140.10755869892137
+Episode took: 5.415364027023315
+Starting episode 634, current epsilon = 0.01
+Episode ended, reward: 215.5236157230901
+Episode took: 4.643940448760986
+Starting episode 635, current epsilon = 0.01
+Episode ended, reward: 247.55004887714574
+Episode took: 4.600489616394043
+Starting episode 636, current epsilon = 0.01
+Episode ended, reward: 277.23112901356416
+Episode took: 6.844361066818237
+Starting episode 637, current epsilon = 0.01
+Episode ended, reward: 245.85500420359014
+Episode took: 4.374443292617798
+Starting episode 638, current epsilon = 0.01
+Episode ended, reward: 277.9698988531294
+Episode took: 4.925971984863281
+Starting episode 639, current epsilon = 0.01
+Episode ended, reward: 268.9890658517185
+Episode took: 3.8892345428466797
+Starting episode 640, current epsilon = 0.01
+Episode ended, reward: 229.07048662213288
+Episode took: 3.316121816635132
+Starting episode 641, current epsilon = 0.01
+Episode ended, reward: 213.6525389981248
+Episode took: 3.3606784343719482
+Starting episode 642, current epsilon = 0.01
+Episode ended, reward: -22.667787280515128
+Episode took: 1.5271906852722168
+Starting episode 643, current epsilon = 0.01
+Episode ended, reward: 194.27486085278542
+Episode took: 5.637407541275024
+Starting episode 644, current epsilon = 0.01
+Episode ended, reward: 264.37400894661937
+Episode took: 5.708577871322632
+Starting episode 645, current epsilon = 0.01
+Episode ended, reward: 260.1543861480269
+Episode took: 4.583563566207886
+Starting episode 646, current epsilon = 0.01
+Episode ended, reward: 252.87683282375454
+Episode took: 3.7180886268615723
+Starting episode 647, current epsilon = 0.01
+Episode ended, reward: 265.116055361303
+Episode took: 10.095045804977417
+Starting episode 648, current epsilon = 0.01
+Episode ended, reward: 191.33210703041914
+Episode took: 6.688088417053223
+Starting episode 649, current epsilon = 0.01
+Episode ended, reward: -126.45525406707489
+Episode took: 4.854013919830322
+Starting episode 650, current epsilon = 0.01
+Episode ended, reward: -150.40179850485373
+Episode took: 3.71779203414917
+Starting episode 651, current epsilon = 0.01
+Episode ended, reward: 254.43232199029546
+Episode took: 4.699815988540649
+Starting episode 652, current epsilon = 0.01
+Episode ended, reward: 273.7199329689089
+Episode took: 4.764357566833496
+Starting episode 653, current epsilon = 0.01
+Episode ended, reward: 261.8212091175701
+Episode took: 5.0913732051849365
+Starting episode 654, current epsilon = 0.01
+Episode ended, reward: 246.98654023467242
+Episode took: 4.554138898849487
+Starting episode 655, current epsilon = 0.01
+Episode ended, reward: 275.3462587059275
+Episode took: 3.9236488342285156
+Starting episode 656, current epsilon = 0.01
+Episode ended, reward: 246.70436572476603
+Episode took: 4.872454643249512
+Starting episode 657, current epsilon = 0.01
+Episode ended, reward: 245.6132887446917
+Episode took: 7.905506610870361
+Starting episode 658, current epsilon = 0.01
+Episode ended, reward: 249.22807942264998
+Episode took: 9.90487027168274
+Starting episode 659, current epsilon = 0.01
+Episode ended, reward: 254.2905307560755
+Episode took: 6.607640504837036
+Starting episode 660, current epsilon = 0.01
+Episode ended, reward: 256.2671826336252
+Episode took: 8.82858943939209
+Starting episode 661, current epsilon = 0.01
+Episode ended, reward: -21.494020545350708
+Episode took: 5.969507455825806
+Starting episode 662, current epsilon = 0.01
+Episode ended, reward: 261.41382871249516
+Episode took: 3.8801522254943848
+Starting episode 663, current epsilon = 0.01
+Episode ended, reward: 291.62535935465894
+Episode took: 5.323480606079102
+Starting episode 664, current epsilon = 0.01
+Episode ended, reward: 228.47976313081963
+Episode took: 18.343820571899414
+Starting episode 665, current epsilon = 0.01
+Episode ended, reward: 237.58055793503203
+Episode took: 5.118888854980469
+Starting episode 666, current epsilon = 0.01
+Episode ended, reward: 292.5563762830581
+Episode took: 4.688090085983276
+Starting episode 667, current epsilon = 0.01
+Episode ended, reward: 273.5468337619527
+Episode took: 4.403550148010254
+Starting episode 668, current epsilon = 0.01
+Episode ended, reward: -68.36933815362136
+Episode took: 5.9154908657073975
+Starting episode 669, current epsilon = 0.01
+Episode ended, reward: -202.66580058593092
+Episode took: 2.5269572734832764
+Starting episode 670, current epsilon = 0.01
+Episode ended, reward: 232.84387228683812
+Episode took: 4.005009889602661
+Starting episode 671, current epsilon = 0.01
+Episode ended, reward: 104.90330571966275
+Episode took: 24.610271215438843
+Starting episode 672, current epsilon = 0.01
+Episode ended, reward: 296.3027704860598
+Episode took: 6.6960227489471436
+Starting episode 673, current epsilon = 0.01
+Episode ended, reward: 275.6474020822824
+Episode took: 3.4092419147491455
+Starting episode 674, current epsilon = 0.01
+Episode ended, reward: 260.28317257769197
+Episode took: 4.500165224075317
+Starting episode 675, current epsilon = 0.01
+Episode ended, reward: 203.95310771668017
+Episode took: 3.0985827445983887
+Starting episode 676, current epsilon = 0.01
+Episode ended, reward: 230.29779363473787
+Episode took: 11.10282850265503
+Starting episode 677, current epsilon = 0.01
+Episode ended, reward: 200.55072940393126
+Episode took: 4.324187278747559
+Starting episode 678, current epsilon = 0.01
+Episode ended, reward: 250.33178755174242
+Episode took: 6.443178415298462
+Starting episode 679, current epsilon = 0.01
+Episode ended, reward: 195.17722491257672
+Episode took: 10.312487363815308
+Starting episode 680, current epsilon = 0.01
+Episode ended, reward: 264.87052017621824
+Episode took: 4.65398383140564
+Starting episode 681, current epsilon = 0.01
+Episode ended, reward: 225.85720320342736
+Episode took: 3.9695775508880615
+Starting episode 682, current epsilon = 0.01
+Episode ended, reward: 234.40830218741544
+Episode took: 5.8779706954956055
+Starting episode 683, current epsilon = 0.01
+Episode ended, reward: 265.9572394245621
+Episode took: 4.293856620788574
+Starting episode 684, current epsilon = 0.01
+Episode ended, reward: -21.393749947966185
+Episode took: 2.1074111461639404
+Starting episode 685, current epsilon = 0.01
+Episode ended, reward: 20.300576865532875
+Episode took: 3.5252833366394043
+Starting episode 686, current epsilon = 0.01
+Episode ended, reward: 266.53246714535163
+Episode took: 5.258853435516357
+Starting episode 687, current epsilon = 0.01
+Episode ended, reward: 258.1030984479055
+Episode took: 4.432727813720703
+Starting episode 688, current epsilon = 0.01
+Episode ended, reward: 262.2448290320549
+Episode took: 5.808400392532349
+Starting episode 689, current epsilon = 0.01
+Episode ended, reward: -52.979012986081244
+Episode took: 2.1364991664886475
+Starting episode 690, current epsilon = 0.01
+Episode ended, reward: -239.4527232329839
+Episode took: 2.9958062171936035
+Starting episode 691, current epsilon = 0.01
+Episode ended, reward: 266.1719063079869
+Episode took: 5.487845420837402
+Starting episode 692, current epsilon = 0.01
+Episode ended, reward: 281.3442120329694
+Episode took: 5.955739259719849
+Starting episode 693, current epsilon = 0.01
+Episode ended, reward: -23.841951865762155
+Episode took: 3.3567264080047607
+Starting episode 694, current epsilon = 0.01
+Episode ended, reward: 278.8424677247084
+Episode took: 5.620890140533447
+Starting episode 695, current epsilon = 0.01
+Episode ended, reward: 272.37696217108737
+Episode took: 5.808521270751953
+Starting episode 696, current epsilon = 0.01
+Episode ended, reward: 275.1461624939203
+Episode took: 4.870591878890991
+Starting episode 697, current epsilon = 0.01
+Episode ended, reward: 202.22569294554322
+Episode took: 13.244712591171265
+Starting episode 698, current epsilon = 0.01
+Episode ended, reward: -189.1085334003377
+Episode took: 3.4197559356689453
+Starting episode 699, current epsilon = 0.01
+Episode ended, reward: 240.17841085274836
+Episode took: 4.675086736679077
+Starting episode 700, current epsilon = 0.01
+Episode ended, reward: 238.71475629902636
+Episode took: 4.399308919906616
+Starting episode 701, current epsilon = 0.01
+Episode ended, reward: -38.84986273134183
+Episode took: 2.304231882095337
+Starting episode 702, current epsilon = 0.01
+Episode ended, reward: 259.2982044316168
+Episode took: 5.928102970123291
+Starting episode 703, current epsilon = 0.01
+Episode ended, reward: 224.94023557758084
+Episode took: 4.828836679458618
+Starting episode 704, current epsilon = 0.01
+Episode ended, reward: 255.11731982794248
+Episode took: 4.6674182415008545
+Starting episode 705, current epsilon = 0.01
+Episode ended, reward: 213.51832830284974
+Episode took: 4.227370023727417
+Starting episode 706, current epsilon = 0.01
+Episode ended, reward: 257.2236493018329
+Episode took: 4.668550968170166
+Starting episode 707, current epsilon = 0.01
+Episode ended, reward: 255.16614125016739
+Episode took: 4.44755744934082
+Starting episode 708, current epsilon = 0.01
+Episode ended, reward: 251.9401305087093
+Episode took: 4.248281002044678
+Starting episode 709, current epsilon = 0.01
+Episode ended, reward: 279.05270500527115
+Episode took: 3.619875431060791
+Starting episode 710, current epsilon = 0.01
+Episode ended, reward: 270.5101549176129
+Episode took: 4.281651258468628
+Starting episode 711, current epsilon = 0.01
+Episode ended, reward: 247.07529344880297
+Episode took: 4.836945533752441
+Starting episode 712, current epsilon = 0.01
+Episode ended, reward: 261.7040819618759
+Episode took: 4.974017858505249
+Starting episode 713, current epsilon = 0.01
+Episode ended, reward: 280.1097683570573
+Episode took: 4.602675437927246
+Starting episode 714, current epsilon = 0.01
+Episode ended, reward: 251.0888241773607
+Episode took: 4.352775812149048
+Starting episode 715, current epsilon = 0.01
+Episode ended, reward: 284.0933632378277
+Episode took: 4.8990395069122314
+Starting episode 716, current epsilon = 0.01
+Episode ended, reward: 274.20707486827746
+Episode took: 5.097216606140137
+Starting episode 717, current epsilon = 0.01
+Episode ended, reward: 250.43039608160012
+Episode took: 5.1652936935424805
+Starting episode 718, current epsilon = 0.01
+Episode ended, reward: 296.2969124553523
+Episode took: 4.03558874130249
+Starting episode 719, current epsilon = 0.01
+Episode ended, reward: 264.7572621131885
+Episode took: 4.369741678237915
+Starting episode 720, current epsilon = 0.01
+Episode ended, reward: 288.64646395570946
+Episode took: 4.066088676452637
+Starting episode 721, current epsilon = 0.01
+Episode ended, reward: 65.44803867523751
+Episode took: 2.2203752994537354
+Starting episode 722, current epsilon = 0.01
+Episode ended, reward: 233.95861793086218
+Episode took: 4.521343946456909
+Starting episode 723, current epsilon = 0.01
+Episode ended, reward: 270.22482256431624
+Episode took: 4.290414094924927
+Starting episode 724, current epsilon = 0.01
+Episode ended, reward: 256.07141606276366
+Episode took: 5.228716611862183
+Starting episode 725, current epsilon = 0.01
+Episode ended, reward: 294.6720130023147
+Episode took: 4.735140800476074
+Starting episode 726, current epsilon = 0.01
+Episode ended, reward: 243.03454405865676
+Episode took: 4.351570129394531
+Starting episode 727, current epsilon = 0.01
+Episode ended, reward: 282.3016453185755
+Episode took: 4.2217371463775635
+Starting episode 728, current epsilon = 0.01
+Episode ended, reward: 254.7012669048697
+Episode took: 4.141888618469238
+Starting episode 729, current epsilon = 0.01
+Episode ended, reward: 256.8457437043462
+Episode took: 3.78924822807312
+Starting episode 730, current epsilon = 0.01
+Episode ended, reward: 293.16446700003485
+Episode took: 5.5138914585113525
+Starting episode 731, current epsilon = 0.01
+Episode ended, reward: 270.8533989439194
+Episode took: 5.073544263839722
+Starting episode 732, current epsilon = 0.01
+Episode ended, reward: 272.06714796472215
+Episode took: 3.720233917236328
+Starting episode 733, current epsilon = 0.01
+Episode ended, reward: 256.6972489056022
+Episode took: 4.525374412536621
+Starting episode 734, current epsilon = 0.01
+Episode ended, reward: -122.80498986655465
+Episode took: 1.4390966892242432
+Starting episode 735, current epsilon = 0.01
+Episode ended, reward: 259.95144237585583
+Episode took: 3.200032949447632
+Starting episode 736, current epsilon = 0.01
+Episode ended, reward: -132.3016691854857
+Episode took: 1.6033854484558105
+Starting episode 737, current epsilon = 0.01
+Episode ended, reward: 271.09625276519535
+Episode took: 5.465671539306641
+Starting episode 738, current epsilon = 0.01
+Episode ended, reward: 294.0702604580222
+Episode took: 5.873492479324341
+Starting episode 739, current epsilon = 0.01
+Episode ended, reward: 297.3351793008025
+Episode took: 5.3193745613098145
+Starting episode 740, current epsilon = 0.01
+Episode ended, reward: 286.3935023574437
+Episode took: 4.629128932952881
+Starting episode 741, current epsilon = 0.01
+Episode ended, reward: 220.49609917128015
+Episode took: 4.153378248214722
+Starting episode 742, current epsilon = 0.01
+Episode ended, reward: 234.64689288832022
+Episode took: 5.159075736999512
+Starting episode 743, current epsilon = 0.01
+Episode ended, reward: 134.10388469449856
+Episode took: 21.421234846115112
+Starting episode 744, current epsilon = 0.01
+Episode ended, reward: 273.2966403170502
+Episode took: 4.886891841888428
+Starting episode 745, current epsilon = 0.01
+Episode ended, reward: 283.1752128689891
+Episode took: 4.972323656082153
+Starting episode 746, current epsilon = 0.01
+Episode ended, reward: 258.0891899261694
+Episode took: 4.428305387496948
+Starting episode 747, current epsilon = 0.01
+Episode ended, reward: 309.18534714429984
+Episode took: 4.551478147506714
+Starting episode 748, current epsilon = 0.01
+Episode ended, reward: 266.4523622363347
+Episode took: 4.350945711135864
+Starting episode 749, current epsilon = 0.01
+Episode ended, reward: -12.36706894447805
+Episode took: 3.3018128871917725
+Starting episode 750, current epsilon = 0.01
+Episode ended, reward: 255.99882052123374
+Episode took: 5.982499599456787
+Starting episode 751, current epsilon = 0.01
+Episode ended, reward: 236.17679016770649
+Episode took: 5.132063150405884
+Starting episode 752, current epsilon = 0.01
+Episode ended, reward: 246.58781878566188
+Episode took: 7.3539719581604
+Starting episode 753, current epsilon = 0.01
+Episode ended, reward: 231.51505995083468
+Episode took: 7.394569635391235
+Starting episode 754, current epsilon = 0.01
+Episode ended, reward: 296.43625160676237
+Episode took: 7.183189868927002
+Starting episode 755, current epsilon = 0.01
+Episode ended, reward: 220.45452578285222
+Episode took: 7.075602293014526
+Starting episode 756, current epsilon = 0.01
+Episode ended, reward: 243.8808932643791
+Episode took: 4.455168724060059
+Starting episode 757, current epsilon = 0.01
+Episode ended, reward: 270.65642012777903
+Episode took: 6.887598037719727
+Starting episode 758, current epsilon = 0.01
+Episode ended, reward: 253.15773417376425
+Episode took: 7.6129114627838135
+Starting episode 759, current epsilon = 0.01
+Episode ended, reward: 261.2397078200498
+Episode took: 10.150060653686523
+Starting episode 760, current epsilon = 0.01
+Episode ended, reward: 262.132196325951
+Episode took: 7.130403518676758
+Starting episode 761, current epsilon = 0.01
+Episode ended, reward: 220.2340234113558
+Episode took: 9.050138473510742
+Starting episode 762, current epsilon = 0.01
+Episode ended, reward: 43.577336679941936
+Episode took: 25.223462104797363
+Starting episode 763, current epsilon = 0.01
+Episode ended, reward: 243.71518803508746
+Episode took: 6.455173969268799
+Starting episode 764, current epsilon = 0.01
+Episode ended, reward: 258.1382303124027
+Episode took: 5.320498704910278
+Starting episode 765, current epsilon = 0.01
+Episode ended, reward: -143.4683287532491
+Episode took: 2.7979159355163574
+Starting episode 766, current epsilon = 0.01
+Episode ended, reward: 237.36910781671347
+Episode took: 10.791725873947144
+Starting episode 767, current epsilon = 0.01
+Episode ended, reward: -143.80525415921213
+Episode took: 2.488114356994629
+Starting episode 768, current epsilon = 0.01
+Episode ended, reward: -57.98134905270618
+Episode took: 1.897265911102295
+Starting episode 769, current epsilon = 0.01
+Episode ended, reward: 164.11659349392238
+Episode took: 10.3616201877594
+Starting episode 770, current epsilon = 0.01
+Episode ended, reward: 244.3860396768723
+Episode took: 3.9765186309814453
+Starting episode 771, current epsilon = 0.01
+Episode ended, reward: 227.92707767925552
+Episode took: 10.49909496307373
+Starting episode 772, current epsilon = 0.01
+Episode ended, reward: 263.3323102800802
+Episode took: 4.968598365783691
+Starting episode 773, current epsilon = 0.01
+Episode ended, reward: 275.8020013720769
+Episode took: 4.166927337646484
+Starting episode 774, current epsilon = 0.01
+Episode ended, reward: 252.20616221434395
+Episode took: 5.780278444290161
+Starting episode 775, current epsilon = 0.01
+Episode ended, reward: 225.98991994978206
+Episode took: 10.054669857025146
+Starting episode 776, current epsilon = 0.01
+Episode ended, reward: -488.95541592583544
+Episode took: 4.682132005691528
+Starting episode 777, current epsilon = 0.01
+Episode ended, reward: 276.8978262589486
+Episode took: 7.25914454460144
+Starting episode 778, current epsilon = 0.01
+Episode ended, reward: 209.16725789787722
+Episode took: 8.472566604614258
+Starting episode 779, current epsilon = 0.01
+Episode ended, reward: 240.97610230615652
+Episode took: 6.840197324752808
+Starting episode 780, current epsilon = 0.01
+Episode ended, reward: 236.49267895550395
+Episode took: 8.085505962371826
+Starting episode 781, current epsilon = 0.01
+Episode ended, reward: 276.70620884970356
+Episode took: 7.350940704345703
+Starting episode 782, current epsilon = 0.01
+Episode ended, reward: 274.3050541978896
+Episode took: 11.899656534194946
+Starting episode 783, current epsilon = 0.01
+Episode ended, reward: 273.70377370451155
+Episode took: 4.460124731063843
+Starting episode 784, current epsilon = 0.01
+Episode ended, reward: 265.2347487403112
+Episode took: 4.23336386680603
+Starting episode 785, current epsilon = 0.01
+Episode ended, reward: 283.44284515192965
+Episode took: 6.06544303894043
+Starting episode 786, current epsilon = 0.01
+Episode ended, reward: -266.57933139056723
+Episode took: 4.347766160964966
+Starting episode 787, current epsilon = 0.01
+Episode ended, reward: 235.80910218742463
+Episode took: 8.24245285987854
+Starting episode 788, current epsilon = 0.01
+Episode ended, reward: -186.632366029357
+Episode took: 3.487945079803467
+Starting episode 789, current epsilon = 0.01
+Episode ended, reward: 307.06965511144097
+Episode took: 6.8231236934661865
+Starting episode 790, current epsilon = 0.01
+Episode ended, reward: 287.2853301882733
+Episode took: 4.169642210006714
+Starting episode 791, current epsilon = 0.01
+Episode ended, reward: 245.29215493236222
+Episode took: 5.072938442230225
+Starting episode 792, current epsilon = 0.01
+Episode ended, reward: 220.27584884741262
+Episode took: 5.281208515167236
+Starting episode 793, current epsilon = 0.01
+Episode ended, reward: 244.02959594270817
+Episode took: 5.8242738246917725
+Starting episode 794, current epsilon = 0.01
+Episode ended, reward: 217.87920116619716
+Episode took: 4.973731756210327
+Starting episode 795, current epsilon = 0.01
+Episode ended, reward: 269.802601374465
+Episode took: 4.643415927886963
+Starting episode 796, current epsilon = 0.01
+Episode ended, reward: -3.9858895878335687
+Episode took: 4.816212892532349
+Starting episode 797, current epsilon = 0.01
+Episode ended, reward: 226.21612065591103
+Episode took: 4.7536821365356445
+Starting episode 798, current epsilon = 0.01
+Episode ended, reward: 201.79388240873038
+Episode took: 7.583545923233032
+Starting episode 799, current epsilon = 0.01
+Episode ended, reward: 223.69408484634306
+Episode took: 6.2778403759002686
+Starting episode 800, current epsilon = 0.01
+Episode ended, reward: 285.3385948536424
+Episode took: 7.8070619106292725
+Starting episode 801, current epsilon = 0.01
+Episode ended, reward: -86.6802137039315
+Episode took: 1.4452471733093262
+Starting episode 802, current epsilon = 0.01
+Episode ended, reward: 243.77751599809622
+Episode took: 5.048021078109741
+Starting episode 803, current epsilon = 0.01
+Episode ended, reward: 245.29137164391955
+Episode took: 4.293727397918701
+Starting episode 804, current epsilon = 0.01
+Episode ended, reward: 260.0472759516842
+Episode took: 5.78734564781189
+Starting episode 805, current epsilon = 0.01
+Episode ended, reward: 232.450014808896
+Episode took: 3.8565969467163086
+Starting episode 806, current epsilon = 0.01
+Episode ended, reward: 275.677887100544
+Episode took: 5.736109733581543
+Starting episode 807, current epsilon = 0.01
+Episode ended, reward: 293.7065713475564
+Episode took: 5.79223370552063
+Starting episode 808, current epsilon = 0.01
+Episode ended, reward: 277.78642789136734
+Episode took: 4.218764066696167
+Starting episode 809, current epsilon = 0.01
+Episode ended, reward: 273.68090161954945
+Episode took: 5.519342660903931
+Starting episode 810, current epsilon = 0.01
+Episode ended, reward: 274.81354627969165
+Episode took: 5.160668849945068
+Starting episode 811, current epsilon = 0.01
+Episode ended, reward: 285.41132213050673
+Episode took: 5.475223779678345
+Starting episode 812, current epsilon = 0.01
+Episode ended, reward: 277.70607716877106
+Episode took: 6.122455835342407
+Starting episode 813, current epsilon = 0.01
+Episode ended, reward: 287.3771089641547
+Episode took: 6.245697021484375
+Starting episode 814, current epsilon = 0.01
+Episode ended, reward: 238.50521271067717
+Episode took: 4.61053466796875
+Starting episode 815, current epsilon = 0.01
+Episode ended, reward: 233.7766479006198
+Episode took: 4.8195130825042725
+Starting episode 816, current epsilon = 0.01
+Episode ended, reward: 266.30361693874625
+Episode took: 15.883549451828003
+Starting episode 817, current epsilon = 0.01
+Episode ended, reward: 260.6752009138079
+Episode took: 5.356837272644043
+Starting episode 818, current epsilon = 0.01
+Episode ended, reward: 246.87510281589164
+Episode took: 4.133290767669678
+Starting episode 819, current epsilon = 0.01
+Episode ended, reward: 251.12844739426143
+Episode took: 4.32814359664917
+Starting episode 820, current epsilon = 0.01
+Episode ended, reward: 245.0815862004391
+Episode took: 11.214284181594849
+Starting episode 821, current epsilon = 0.01
+Episode ended, reward: 271.93513018927445
+Episode took: 3.2863967418670654
+Starting episode 822, current epsilon = 0.01
+Episode ended, reward: 258.31525602524835
+Episode took: 4.640308380126953
+Starting episode 823, current epsilon = 0.01
+Episode ended, reward: 255.69948160871647
+Episode took: 4.324314594268799
+Starting episode 824, current epsilon = 0.01
+Episode ended, reward: 242.5529864322433
+Episode took: 4.496144771575928
+Starting episode 825, current epsilon = 0.01
+Episode ended, reward: 298.3378456986966
+Episode took: 5.493724584579468
+Starting episode 826, current epsilon = 0.01
+Episode ended, reward: 272.8028211686894
+Episode took: 20.197728395462036
+Starting episode 827, current epsilon = 0.01
+Episode ended, reward: 258.4072020618595
+Episode took: 6.638732194900513
+Starting episode 828, current epsilon = 0.01
+Episode ended, reward: 247.8216682617533
+Episode took: 6.306103229522705
+Starting episode 829, current epsilon = 0.01
+Episode ended, reward: 305.6452714323509
+Episode took: 6.526966571807861
+Starting episode 830, current epsilon = 0.01
+Episode ended, reward: 268.3820792337478
+Episode took: 5.022100448608398
+Starting episode 831, current epsilon = 0.01
+Episode ended, reward: 259.88064565922025
+Episode took: 5.243983507156372
+Starting episode 832, current epsilon = 0.01
+Episode ended, reward: 261.93362926614304
+Episode took: 6.5670812129974365
+Starting episode 833, current epsilon = 0.01
+Episode ended, reward: 265.1087077531517
+Episode took: 6.1306798458099365
+Starting episode 834, current epsilon = 0.01
+Episode ended, reward: 307.36469815125383
+Episode took: 4.6194939613342285
+Starting episode 835, current epsilon = 0.01
+Episode ended, reward: 225.27794921849494
+Episode took: 5.227043390274048
+Starting episode 836, current epsilon = 0.01
+Episode ended, reward: 273.43679528430584
+Episode took: 7.314448595046997
+Starting episode 837, current epsilon = 0.01
+Episode ended, reward: 299.26040908156676
+Episode took: 4.730670928955078
+Starting episode 838, current epsilon = 0.01
+Episode ended, reward: 196.7877278793033
+Episode took: 6.708293199539185
+Starting episode 839, current epsilon = 0.01
+Episode ended, reward: 298.1120182601039
+Episode took: 5.882458448410034
+Starting episode 840, current epsilon = 0.01
+Episode ended, reward: 305.4339235043797
+Episode took: 4.9196624755859375
+Starting episode 841, current epsilon = 0.01
+Episode ended, reward: 237.25796673387495
+Episode took: 7.5092809200286865
+Starting episode 842, current epsilon = 0.01
+Episode ended, reward: 239.40783746818855
+Episode took: 8.028336763381958
+Starting episode 843, current epsilon = 0.01
+Episode ended, reward: 287.4498588148043
+Episode took: 4.670427560806274
+Starting episode 844, current epsilon = 0.01
+Episode ended, reward: 231.46890997575593
+Episode took: 7.456773281097412
+Starting episode 845, current epsilon = 0.01
+Episode ended, reward: 283.38695779788924
+Episode took: 5.145341873168945
+Starting episode 846, current epsilon = 0.01
+Episode ended, reward: 186.62532975796262
+Episode took: 10.115145683288574
+Starting episode 847, current epsilon = 0.01
+Episode ended, reward: 294.0826749001375
+Episode took: 5.865576505661011
+Starting episode 848, current epsilon = 0.01
+Episode ended, reward: 284.2808000061865
+Episode took: 3.551003932952881
+Starting episode 849, current epsilon = 0.01
+Episode ended, reward: 218.0061230919797
+Episode took: 6.230809450149536
+Starting episode 850, current epsilon = 0.01
+Episode ended, reward: -60.74011049575981
+Episode took: 23.45322012901306
+Starting episode 851, current epsilon = 0.01
+Episode ended, reward: 263.54256903555915
+Episode took: 4.910449981689453
+Starting episode 852, current epsilon = 0.01
+Episode ended, reward: 200.2650729936987
+Episode took: 16.597487926483154
+Starting episode 853, current epsilon = 0.01
+Episode ended, reward: 290.39682708956514
+Episode took: 4.352819442749023
+Starting episode 854, current epsilon = 0.01
+Episode ended, reward: 252.73227815228927
+Episode took: 9.430503845214844
+Starting episode 855, current epsilon = 0.01
+Episode ended, reward: 295.6841124925543
+Episode took: 4.2052693367004395
+Starting episode 856, current epsilon = 0.01
+Episode ended, reward: 283.83738999148557
+Episode took: 4.088383913040161
+Starting episode 857, current epsilon = 0.01
+Episode ended, reward: 262.0237823300422
+Episode took: 3.8747851848602295
+Starting episode 858, current epsilon = 0.01
+Episode ended, reward: 249.43230495469362
+Episode took: 4.65467381477356
+Starting episode 859, current epsilon = 0.01
+Episode ended, reward: 294.14075264252176
+Episode took: 5.253485918045044
+Starting episode 860, current epsilon = 0.01
+Episode ended, reward: 234.88673936002948
+Episode took: 4.6758034229278564
+Starting episode 861, current epsilon = 0.01
+Episode ended, reward: 257.70095702788564
+Episode took: 4.496524095535278
+Starting episode 862, current epsilon = 0.01
+Episode ended, reward: 277.6402030045057
+Episode took: 5.0113606452941895
+Starting episode 863, current epsilon = 0.01
+Episode ended, reward: 228.8481002272826
+Episode took: 6.087219715118408
+Starting episode 864, current epsilon = 0.01
+Episode ended, reward: 280.8472899326631
+Episode took: 4.594889163970947
+Starting episode 865, current epsilon = 0.01
+Episode ended, reward: 229.833293263191
+Episode took: 3.643535614013672
+Starting episode 866, current epsilon = 0.01
+Episode ended, reward: 295.35712647798664
+Episode took: 3.406604766845703
+Starting episode 867, current epsilon = 0.01
+Episode ended, reward: 265.96796769084415
+Episode took: 5.283802270889282
+Starting episode 868, current epsilon = 0.01
+Episode ended, reward: 248.01594413801806
+Episode took: 3.817058563232422
+Starting episode 869, current epsilon = 0.01
+Episode ended, reward: 277.5037807940878
+Episode took: 3.6869239807128906
+Starting episode 870, current epsilon = 0.01
+Episode ended, reward: 266.79405702499474
+Episode took: 4.490525722503662
+Starting episode 871, current epsilon = 0.01
+Episode ended, reward: 291.96551521147506
+Episode took: 4.542900323867798
+Starting episode 872, current epsilon = 0.01
+Episode ended, reward: 226.81010354910973
+Episode took: 4.702612400054932
+Starting episode 873, current epsilon = 0.01
+Episode ended, reward: 282.5118306938694
+Episode took: 4.666772127151489
+Starting episode 874, current epsilon = 0.01
+Episode ended, reward: 268.56623495068914
+Episode took: 4.729207992553711
+Starting episode 875, current epsilon = 0.01
+Episode ended, reward: 307.86055020583115
+Episode took: 4.854625225067139
+Starting episode 876, current epsilon = 0.01
+Episode ended, reward: 278.7589416008616
+Episode took: 3.8690216541290283
+Starting episode 877, current epsilon = 0.01
+Episode ended, reward: 274.5852772549698
+Episode took: 4.241695880889893
+Starting episode 878, current epsilon = 0.01
+Episode ended, reward: 289.27525623229354
+Episode took: 5.23281455039978
+Starting episode 879, current epsilon = 0.01
+Episode ended, reward: 256.756485903318
+Episode took: 4.8634538650512695
+Starting episode 880, current epsilon = 0.01
+Episode ended, reward: 287.9210142633391
+Episode took: 3.991403102874756
+Starting episode 881, current epsilon = 0.01
+Episode ended, reward: 248.39795038223843
+Episode took: 5.253300189971924
+Starting episode 882, current epsilon = 0.01
+Episode ended, reward: 284.4347285288227
+Episode took: 5.275108337402344
+Starting episode 883, current epsilon = 0.01
+Episode ended, reward: 274.5955716719227
+Episode took: 4.841816663742065
+Starting episode 884, current epsilon = 0.01
+Episode ended, reward: 286.32885137583463
+Episode took: 6.148564577102661
+Starting episode 885, current epsilon = 0.01
+Episode ended, reward: 288.5426190139999
+Episode took: 5.074828386306763
+Starting episode 886, current epsilon = 0.01
+Episode ended, reward: 269.6958152364341
+Episode took: 5.27660608291626
+Starting episode 887, current epsilon = 0.01
+Episode ended, reward: 274.39396826468123
+Episode took: 4.917301416397095
+Starting episode 888, current epsilon = 0.01
+Episode ended, reward: 248.53560717832133
+Episode took: 13.449400663375854
+Starting episode 889, current epsilon = 0.01
+Episode ended, reward: 253.8823942850323
+Episode took: 4.180847883224487
+Starting episode 890, current epsilon = 0.01
+Episode ended, reward: 277.36396403014743
+Episode took: 5.528653383255005
+Starting episode 891, current epsilon = 0.01
+Episode ended, reward: 246.9051020319436
+Episode took: 5.139272451400757
+Starting episode 892, current epsilon = 0.01
+Episode ended, reward: 249.9957000979271
+Episode took: 4.013100624084473
+Starting episode 893, current epsilon = 0.01
+Episode ended, reward: 269.2732577989806
+Episode took: 4.501215696334839
+Starting episode 894, current epsilon = 0.01
+Episode ended, reward: 303.1247514730724
+Episode took: 3.791102170944214
+Starting episode 895, current epsilon = 0.01
+Episode ended, reward: 272.0132946181414
+Episode took: 4.094935178756714
+Starting episode 896, current epsilon = 0.01
+Episode ended, reward: 258.6960639123927
+Episode took: 4.6570281982421875
+Starting episode 897, current epsilon = 0.01
+Episode ended, reward: 254.67146610366584
+Episode took: 5.098516464233398
+Starting episode 898, current epsilon = 0.01
+Episode ended, reward: 282.3105675673986
+Episode took: 8.10898470878601
+Starting episode 899, current epsilon = 0.01
+Episode ended, reward: 261.8685467186787
+Episode took: 4.61707067489624
+Starting episode 900, current epsilon = 0.01
+Episode ended, reward: 242.98484160021545
+Episode took: 3.9443047046661377
+Starting episode 901, current epsilon = 0.01
+Episode ended, reward: 255.50769760593508
+Episode took: 3.9766154289245605
+Starting episode 902, current epsilon = 0.01
+Episode ended, reward: 265.84082637606593
+Episode took: 4.593997478485107
+Starting episode 903, current epsilon = 0.01
+Episode ended, reward: 240.12122402172378
+Episode took: 5.230116367340088
+Starting episode 904, current epsilon = 0.01
+Episode ended, reward: 277.031930990084
+Episode took: 3.2034003734588623
+Starting episode 905, current epsilon = 0.01
+Episode ended, reward: 291.479656436556
+Episode took: 4.974184274673462
+Starting episode 906, current epsilon = 0.01
+Episode ended, reward: 262.8154771901021
+Episode took: 4.187722682952881
+Starting episode 907, current epsilon = 0.01
+Episode ended, reward: 271.5169136686384
+Episode took: 4.301229953765869
+Starting episode 908, current epsilon = 0.01
+Episode ended, reward: 299.3551824680436
+Episode took: 4.182350397109985
+Starting episode 909, current epsilon = 0.01
+Episode ended, reward: 276.6196210964114
+Episode took: 4.614582538604736
+Starting episode 910, current epsilon = 0.01
+Episode ended, reward: 290.1891092833127
+Episode took: 5.157330274581909
+Starting episode 911, current epsilon = 0.01
+Episode ended, reward: 265.29823659422823
+Episode took: 4.156454563140869
+Starting episode 912, current epsilon = 0.01
+Episode ended, reward: 277.9477758978113
+Episode took: 3.7883541584014893
+Starting episode 913, current epsilon = 0.01
+Episode ended, reward: 293.7843203174174
+Episode took: 9.81302785873413
+Starting episode 914, current epsilon = 0.01
+Episode ended, reward: 251.42446415460836
+Episode took: 4.285754203796387
+Starting episode 915, current epsilon = 0.01
+Episode ended, reward: 239.6870524674547
+Episode took: 4.60880708694458
+Starting episode 916, current epsilon = 0.01
+Episode ended, reward: 278.6133224307421
+Episode took: 4.014833211898804
+Starting episode 917, current epsilon = 0.01
+Episode ended, reward: 270.74575588900393
+Episode took: 4.1577019691467285
+Starting episode 918, current epsilon = 0.01
+Episode ended, reward: -56.95350470593473
+Episode took: 2.263906955718994
+Starting episode 919, current epsilon = 0.01
+Episode ended, reward: 274.3548836278942
+Episode took: 9.339107990264893
+Starting episode 920, current epsilon = 0.01
+Episode ended, reward: 303.5192234716683
+Episode took: 3.788442850112915
+Starting episode 921, current epsilon = 0.01
+Episode ended, reward: 242.07705192374078
+Episode took: 4.734488487243652
+Starting episode 922, current epsilon = 0.01
+Episode ended, reward: 254.29804265122314
+Episode took: 3.446807384490967
+Starting episode 923, current epsilon = 0.01
+Episode ended, reward: 236.88328814158479
+Episode took: 3.3419156074523926
+Starting episode 924, current epsilon = 0.01
+Episode ended, reward: 248.6561848268653
+Episode took: 6.031002998352051
+Starting episode 925, current epsilon = 0.01
+Episode ended, reward: 275.97693999475337
+Episode took: 5.90927529335022
+Starting episode 926, current epsilon = 0.01
+Episode ended, reward: 290.59110176852715
+Episode took: 5.30878472328186
+Starting episode 927, current epsilon = 0.01
+Episode ended, reward: 309.425653965954
+Episode took: 5.318708658218384
+Starting episode 928, current epsilon = 0.01
+Episode ended, reward: 242.8860741517308
+Episode took: 5.195812463760376
+Starting episode 929, current epsilon = 0.01
+Episode ended, reward: 279.3416676011123
+Episode took: 5.060411214828491
+Starting episode 930, current epsilon = 0.01
+Episode ended, reward: 236.23362153617268
+Episode took: 5.419075965881348
+Starting episode 931, current epsilon = 0.01
+Episode ended, reward: 282.09002981163593
+Episode took: 4.189878463745117
+Starting episode 932, current epsilon = 0.01
+Episode ended, reward: 256.5266579131629
+Episode took: 3.702098846435547
+Starting episode 933, current epsilon = 0.01
+Episode ended, reward: 247.57582984067247
+Episode took: 4.083552837371826
+Starting episode 934, current epsilon = 0.01
+Episode ended, reward: 242.31400273902068
+Episode took: 5.463790655136108
+Starting episode 935, current epsilon = 0.01
+Episode ended, reward: 209.24059283314688
+Episode took: 5.243114233016968
+Starting episode 936, current epsilon = 0.01
+Episode ended, reward: 254.0943077948829
+Episode took: 4.911154508590698
+Starting episode 937, current epsilon = 0.01
+Episode ended, reward: 210.33686719242291
+Episode took: 6.216557264328003
+Starting episode 938, current epsilon = 0.01
+Episode ended, reward: 292.6078354843547
+Episode took: 3.7843523025512695
+Starting episode 939, current epsilon = 0.01
+Episode ended, reward: 278.3481114714008
+Episode took: 8.715569734573364
+Starting episode 940, current epsilon = 0.01
+Episode ended, reward: 228.35256358633976
+Episode took: 3.499133348464966
+Starting episode 941, current epsilon = 0.01
+Episode ended, reward: 262.7546085791059
+Episode took: 4.043920993804932
+Starting episode 942, current epsilon = 0.01
+Episode ended, reward: 293.72060111857235
+Episode took: 3.4413533210754395
+Starting episode 943, current epsilon = 0.01
+Episode ended, reward: 259.62447081341696
+Episode took: 7.245726108551025
+Starting episode 944, current epsilon = 0.01
+Episode ended, reward: 251.81947844985845
+Episode took: 9.056352138519287
+Starting episode 945, current epsilon = 0.01
+Episode ended, reward: 255.37044097387638
+Episode took: 8.042044639587402
+Starting episode 946, current epsilon = 0.01
+Episode ended, reward: 282.6022762306186
+Episode took: 3.6563665866851807
+Starting episode 947, current epsilon = 0.01
+Episode ended, reward: -206.29535803029876
+Episode took: 2.2508676052093506
+Starting episode 948, current epsilon = 0.01
+Episode ended, reward: 262.2430442163004
+Episode took: 5.3100221157073975
+Starting episode 949, current epsilon = 0.01
+Episode ended, reward: 270.2272312949865
+Episode took: 4.063016653060913
+Starting episode 950, current epsilon = 0.01
+Episode ended, reward: 266.12660871274267
+Episode took: 5.89570164680481
+Starting episode 951, current epsilon = 0.01
+Episode ended, reward: 279.73528513724875
+Episode took: 3.557291030883789
+Starting episode 952, current epsilon = 0.01
+Episode ended, reward: 16.862508185914223
+Episode took: 2.2694430351257324
+Starting episode 953, current epsilon = 0.01
+Episode ended, reward: -57.553603930023
+Episode took: 2.1632394790649414
+Starting episode 954, current epsilon = 0.01
+Episode ended, reward: 261.6920458993428
+Episode took: 3.8730669021606445
+Starting episode 955, current epsilon = 0.01
+Episode ended, reward: 287.10561795924025
+Episode took: 4.389803647994995
+Starting episode 956, current epsilon = 0.01
+Episode ended, reward: -59.53426282042662
+Episode took: 2.0928854942321777
+Starting episode 957, current epsilon = 0.01
+Episode ended, reward: 283.7731315052022
+Episode took: 7.057394742965698
+Starting episode 958, current epsilon = 0.01
+Episode ended, reward: 249.90142948038743
+Episode took: 6.280562400817871
+Starting episode 959, current epsilon = 0.01
+Episode ended, reward: 292.5376818034822
+Episode took: 4.555491924285889
+Starting episode 960, current epsilon = 0.01
+Episode ended, reward: 263.68449108754714
+Episode took: 7.0290021896362305
+Starting episode 961, current epsilon = 0.01
+Episode ended, reward: 38.167206915634495
+Episode took: 3.569504499435425
+Starting episode 962, current epsilon = 0.01
+Episode ended, reward: 228.73267675550866
+Episode took: 5.955021619796753
+Starting episode 963, current epsilon = 0.01
+Episode ended, reward: 265.9697320105993
+Episode took: 3.071045398712158
+Starting episode 964, current epsilon = 0.01
+Episode ended, reward: 259.6447570649075
+Episode took: 3.743537425994873
+Starting episode 965, current epsilon = 0.01
+Episode ended, reward: 256.7502627426873
+Episode took: 4.914682626724243
+Starting episode 966, current epsilon = 0.01
+Episode ended, reward: 274.1272175342346
+Episode took: 3.424409866333008
+Starting episode 967, current epsilon = 0.01
+Episode ended, reward: 270.322381319772
+Episode took: 3.5802440643310547
+Starting episode 968, current epsilon = 0.01
+Episode ended, reward: 267.4255209067818
+Episode took: 4.361876010894775
+Starting episode 969, current epsilon = 0.01
+Episode ended, reward: 240.69181532536078
+Episode took: 6.101944208145142
+Starting episode 970, current epsilon = 0.01
+Episode ended, reward: 269.64696243798244
+Episode took: 3.92879581451416
+Starting episode 971, current epsilon = 0.01
+Episode ended, reward: -53.61976560517358
+Episode took: 1.7367126941680908
+Starting episode 972, current epsilon = 0.01
+Episode ended, reward: 242.57958587418992
+Episode took: 4.543119668960571
+Starting episode 973, current epsilon = 0.01
+Episode ended, reward: 240.84384964096736
+Episode took: 2.8868625164031982
+Starting episode 974, current epsilon = 0.01
+Episode ended, reward: 285.15143373237265
+Episode took: 2.7427825927734375
+Starting episode 975, current epsilon = 0.01
+Episode ended, reward: 260.7238683588562
+Episode took: 3.153414726257324
+Starting episode 976, current epsilon = 0.01
+Episode ended, reward: 253.69820053715824
+Episode took: 7.261974573135376
+Starting episode 977, current epsilon = 0.01
+Episode ended, reward: 265.3648159163375
+Episode took: 4.216119050979614
+Starting episode 978, current epsilon = 0.01
+Episode ended, reward: 262.2436579058357
+Episode took: 3.882751941680908
+Starting episode 979, current epsilon = 0.01
+Episode ended, reward: 271.21897402290335
+Episode took: 2.8149828910827637
+Starting episode 980, current epsilon = 0.01
+Episode ended, reward: 213.54502405906794
+Episode took: 2.9402072429656982
+Starting episode 981, current epsilon = 0.01
+Episode ended, reward: 289.02101829577265
+Episode took: 3.9096806049346924
+Starting episode 982, current epsilon = 0.01
+Episode ended, reward: 220.45801676741178
+Episode took: 4.495330095291138
+Starting episode 983, current epsilon = 0.01
+Episode ended, reward: 276.9875850945808
+Episode took: 4.1995978355407715
+Starting episode 984, current epsilon = 0.01
+Episode ended, reward: 259.88217015014163
+Episode took: 2.953045129776001
+Starting episode 985, current epsilon = 0.01
+Episode ended, reward: 291.68646979678516
+Episode took: 3.162226438522339
+Starting episode 986, current epsilon = 0.01
+Episode ended, reward: 281.679028387269
+Episode took: 2.5542280673980713
+Starting episode 987, current epsilon = 0.01
+Episode ended, reward: 258.13471686231793
+Episode took: 3.8062705993652344
+Starting episode 988, current epsilon = 0.01
+Episode ended, reward: 273.79455039470804
+Episode took: 3.537801742553711
+Starting episode 989, current epsilon = 0.01
+Episode ended, reward: 291.6593318135758
+Episode took: 3.984734058380127
+Starting episode 990, current epsilon = 0.01
+Episode ended, reward: 271.29515835402236
+Episode took: 3.847036361694336
+Starting episode 991, current epsilon = 0.01
+Episode ended, reward: 277.4064956576907
+Episode took: 3.368802547454834
+Starting episode 992, current epsilon = 0.01
+Episode ended, reward: 272.5601482482017
+Episode took: 2.9677300453186035
+Starting episode 993, current epsilon = 0.01
+Episode ended, reward: 289.00935236723177
+Episode took: 4.003665208816528
+Starting episode 994, current epsilon = 0.01
+Episode ended, reward: 284.9028706352632
+Episode took: 2.822054386138916
+Starting episode 995, current epsilon = 0.01
+Episode ended, reward: 288.42972140822445
+Episode took: 3.0889813899993896
+Starting episode 996, current epsilon = 0.01
+Episode ended, reward: 282.0344136556947
+Episode took: 3.128053665161133
+Starting episode 997, current epsilon = 0.01
+Episode ended, reward: 273.0106847280431
+Episode took: 2.8277313709259033
+Starting episode 998, current epsilon = 0.01
+Episode ended, reward: 276.3572680936554
+Episode took: 2.4465041160583496
+Starting episode 999, current epsilon = 0.01
+Episode ended, reward: 235.56956853613383
+Episode took: 2.685415506362915
+Starting episode 1000, current epsilon = 0.01
+Episode ended, reward: 247.94566708616568
+Episode took: 6.051321029663086
+Starting episode 1001, current epsilon = 0.01
+Episode ended, reward: 239.42587661780343
+Episode took: 3.4492366313934326
+Starting episode 1002, current epsilon = 0.01
+Episode ended, reward: 286.5291361238601
+Episode took: 3.333315372467041
+Starting episode 1003, current epsilon = 0.01
+Episode ended, reward: 299.82991370468494
+Episode took: 3.5027782917022705
+Starting episode 1004, current epsilon = 0.01
+Episode ended, reward: 293.04567152303184
+Episode took: 4.403249979019165
+Starting episode 1005, current epsilon = 0.01
+Episode ended, reward: 276.34998008868973
+Episode took: 3.724311113357544
+Starting episode 1006, current epsilon = 0.01
+Episode ended, reward: 259.3770987508413
+Episode took: 3.7426745891571045
+Starting episode 1007, current epsilon = 0.01
+Episode ended, reward: 267.0921090093782
+Episode took: 3.864960193634033
+Starting episode 1008, current epsilon = 0.01
+Episode ended, reward: 279.8745780709552
+Episode took: 3.4774796962738037
+Starting episode 1009, current epsilon = 0.01
+Episode ended, reward: 250.95890521310534
+Episode took: 3.906778335571289
+Starting episode 1010, current epsilon = 0.01
+Episode ended, reward: 242.32693299026937
+Episode took: 3.6201882362365723
+Starting episode 1011, current epsilon = 0.01
+Episode ended, reward: 278.00788936844435
+Episode took: 2.731201648712158
+Starting episode 1012, current epsilon = 0.01
+Episode ended, reward: 248.53381721788523
+Episode took: 3.818666696548462
+Starting episode 1013, current epsilon = 0.01
+Episode ended, reward: 291.98543162680903
+Episode took: 2.6685373783111572
+Starting episode 1014, current epsilon = 0.01
+Episode ended, reward: 278.3637426416935
+Episode took: 3.248518466949463
+Starting episode 1015, current epsilon = 0.01
+Episode ended, reward: 279.80659496351785
+Episode took: 5.776729106903076
+Starting episode 1016, current epsilon = 0.01
+Episode ended, reward: 258.98177297826135
+Episode took: 4.599954843521118
+Starting episode 1017, current epsilon = 0.01
+Episode ended, reward: 294.39448994981194
+Episode took: 3.439828634262085
+Starting episode 1018, current epsilon = 0.01
+Episode ended, reward: 7.254530440817234
+Episode took: 3.387561559677124
+Starting episode 1019, current epsilon = 0.01
+Episode ended, reward: 270.177788875254
+Episode took: 2.9318857192993164
+Starting episode 1020, current epsilon = 0.01
+Episode ended, reward: 263.7467460806437
+Episode took: 3.654601573944092
+Starting episode 1021, current epsilon = 0.01
+Episode ended, reward: 227.51812720437306
+Episode took: 4.534890651702881
+Starting episode 1022, current epsilon = 0.01
+Episode ended, reward: 260.94856030146445
+Episode took: 4.653198003768921
+Starting episode 1023, current epsilon = 0.01
+Episode ended, reward: 180.73022811846832
+Episode took: 5.6317057609558105
+Starting episode 1024, current epsilon = 0.01
+Episode ended, reward: 181.67239544294813
+Episode took: 3.528290033340454
+Starting episode 1025, current epsilon = 0.01
+Episode ended, reward: 257.25367433660494
+Episode took: 3.8238508701324463
+Starting episode 1026, current epsilon = 0.01
+Episode ended, reward: -271.4116485522775
+Episode took: 1.538015365600586
+Starting episode 1027, current epsilon = 0.01
+Episode ended, reward: 49.17526693626496
+Episode took: 1.840524435043335
+Starting episode 1028, current epsilon = 0.01
+Episode ended, reward: 292.02783209186646
+Episode took: 3.2644379138946533
+Starting episode 1029, current epsilon = 0.01
+Episode ended, reward: -29.630166035361967
+Episode took: 3.540339708328247
+Starting episode 1030, current epsilon = 0.01
+Episode ended, reward: -281.5914889638609
+Episode took: 3.0554895401000977
+Starting episode 1031, current epsilon = 0.01
+Episode ended, reward: 17.356494888116472
+Episode took: 1.892897605895996
+Starting episode 1032, current epsilon = 0.01
+Episode ended, reward: 292.94566558896463
+Episode took: 2.9306516647338867
+Starting episode 1033, current epsilon = 0.01
+Episode ended, reward: 271.85391852686996
+Episode took: 3.6909425258636475
+Starting episode 1034, current epsilon = 0.01
+Episode ended, reward: 270.4623703175013
+Episode took: 3.756438970565796
+Starting episode 1035, current epsilon = 0.01
+Episode ended, reward: 276.9620360516732
+Episode took: 4.044656276702881
+Starting episode 1036, current epsilon = 0.01
+Episode ended, reward: -45.81497353080299
+Episode took: 1.8285200595855713
+Starting episode 1037, current epsilon = 0.01
+Episode ended, reward: 227.2320541559979
+Episode took: 4.184935569763184
+Starting episode 1038, current epsilon = 0.01
+Episode ended, reward: 287.654726707038
+Episode took: 3.97563099861145
+Starting episode 1039, current epsilon = 0.01
+Episode ended, reward: 268.10289069224405
+Episode took: 4.1802849769592285
+Starting episode 1040, current epsilon = 0.01
+Episode ended, reward: 108.02044499167667
+Episode took: 16.779367446899414
+Starting episode 1041, current epsilon = 0.01
+Episode ended, reward: 285.870201476132
+Episode took: 2.692002058029175
+Starting episode 1042, current epsilon = 0.01
+Episode ended, reward: 263.31990363717966
+Episode took: 3.9083149433135986
+Starting episode 1043, current epsilon = 0.01
+Episode ended, reward: 230.65441733508158
+Episode took: 2.8406407833099365
+Starting episode 1044, current epsilon = 0.01
+Episode ended, reward: 235.01162904886147
+Episode took: 2.771757125854492
+Starting episode 1045, current epsilon = 0.01
+Episode ended, reward: 270.07384399831335
+Episode took: 4.20487642288208
+Starting episode 1046, current epsilon = 0.01
+Episode ended, reward: 249.29125311078542
+Episode took: 8.800777912139893
+Starting episode 1047, current epsilon = 0.01
+Episode ended, reward: 253.9606813371541
+Episode took: 2.9007341861724854
+Starting episode 1048, current epsilon = 0.01
+Episode ended, reward: 264.7084864088587
+Episode took: 3.6244306564331055
+Starting episode 1049, current epsilon = 0.01
+Episode ended, reward: 280.6276474858496
+Episode took: 3.0025148391723633
+Starting episode 1050, current epsilon = 0.01
+Episode ended, reward: 250.85959161817095
+Episode took: 3.319923162460327
+Starting episode 1051, current epsilon = 0.01
+Episode ended, reward: -1.7583534142571864
+Episode took: 1.698988437652588
+Starting episode 1052, current epsilon = 0.01
+Episode ended, reward: 276.14986717401905
+Episode took: 4.759066104888916
+Starting episode 1053, current epsilon = 0.01
+Episode ended, reward: 243.46699115338296
+Episode took: 2.810232162475586
+Starting episode 1054, current epsilon = 0.01
+Episode ended, reward: 269.74657961948617
+Episode took: 9.034022331237793
+Starting episode 1055, current epsilon = 0.01
+Episode ended, reward: -21.389856792206217
+Episode took: 1.5049691200256348
+Starting episode 1056, current epsilon = 0.01
+Episode ended, reward: 24.57036808721027
+Episode took: 1.6301183700561523
+Starting episode 1057, current epsilon = 0.01
+Episode ended, reward: 279.37322416690415
+Episode took: 4.440279483795166
+Starting episode 1058, current epsilon = 0.01
+Episode ended, reward: 251.79707739704688
+Episode took: 2.929729700088501
+Starting episode 1059, current epsilon = 0.01
+Episode ended, reward: 258.37285078348873
+Episode took: 3.3901615142822266
+Starting episode 1060, current epsilon = 0.01
+Episode ended, reward: 239.08315998999265
+Episode took: 2.5980224609375
+Starting episode 1061, current epsilon = 0.01
+Episode ended, reward: 301.97835742058464
+Episode took: 2.4161486625671387
+Starting episode 1062, current epsilon = 0.01
+Episode ended, reward: 246.63233321489597
+Episode took: 4.640429258346558
+Starting episode 1063, current epsilon = 0.01
+Episode ended, reward: 233.70683373924373
+Episode took: 3.63057017326355
+Starting episode 1064, current epsilon = 0.01
+Episode ended, reward: -194.400841840103
+Episode took: 1.3765347003936768
+Starting episode 1065, current epsilon = 0.01
+Episode ended, reward: 227.96612810834029
+Episode took: 6.411652326583862
+Starting episode 1066, current epsilon = 0.01
+Episode ended, reward: 263.11299426394646
+Episode took: 6.455310344696045
+Starting episode 1067, current epsilon = 0.01
+Episode ended, reward: 245.7933771702089
+Episode took: 3.475125551223755
+Starting episode 1068, current epsilon = 0.01
+Episode ended, reward: 280.95539208807054
+Episode took: 4.639903783798218
+Starting episode 1069, current epsilon = 0.01
+Episode ended, reward: 222.18273819051223
+Episode took: 3.9896414279937744
+Starting episode 1070, current epsilon = 0.01
+Episode ended, reward: 260.42673817779064
+Episode took: 6.57707953453064
+Starting episode 1071, current epsilon = 0.01
+Episode ended, reward: 5.5525957406910464
+Episode took: 1.5663809776306152
+Starting episode 1072, current epsilon = 0.01
+Episode ended, reward: -136.0103328488888
+Episode took: 1.3236970901489258
+Starting episode 1073, current epsilon = 0.01
+Episode ended, reward: 296.58830077016063
+Episode took: 6.116258144378662
+Starting episode 1074, current epsilon = 0.01
+Episode ended, reward: 261.92844366209977
+Episode took: 5.182880163192749
+Starting episode 1075, current epsilon = 0.01
+Episode ended, reward: 45.49643361017199
+Episode took: 17.060280799865723
+Starting episode 1076, current epsilon = 0.01
+Episode ended, reward: 274.1768159154792
+Episode took: 5.101733922958374
+Starting episode 1077, current epsilon = 0.01
+Episode ended, reward: 274.6850699850779
+Episode took: 3.192382574081421
+Starting episode 1078, current epsilon = 0.01
+Episode ended, reward: 282.1694457432093
+Episode took: 4.41963529586792
+Starting episode 1079, current epsilon = 0.01
+Episode ended, reward: 284.4149142014256
+Episode took: 3.369835376739502
+Starting episode 1080, current epsilon = 0.01
+Episode ended, reward: 284.58700299182476
+Episode took: 3.465245246887207
+Starting episode 1081, current epsilon = 0.01
+Episode ended, reward: 274.53666187111577
+Episode took: 2.9650192260742188
+Starting episode 1082, current epsilon = 0.01
+Episode ended, reward: 279.01743847093064
+Episode took: 3.442507266998291
+Starting episode 1083, current epsilon = 0.01
+Episode ended, reward: -127.56712516709985
+Episode took: 1.3185272216796875
+Starting episode 1084, current epsilon = 0.01
+Episode ended, reward: 269.357312795641
+Episode took: 2.5693747997283936
+Starting episode 1085, current epsilon = 0.01
+Episode ended, reward: 268.4741108373203
+Episode took: 3.9615721702575684
+Starting episode 1086, current epsilon = 0.01
+Episode ended, reward: 294.74585776319134
+Episode took: 2.8863394260406494
+Starting episode 1087, current epsilon = 0.01
+Episode ended, reward: 243.95462916075746
+Episode took: 4.741287708282471
+Starting episode 1088, current epsilon = 0.01
+Episode ended, reward: 253.8468730576376
+Episode took: 2.970889091491699
+Starting episode 1089, current epsilon = 0.01
+Episode ended, reward: 285.1203377958977
+Episode took: 3.076199531555176
+Starting episode 1090, current epsilon = 0.01
+Episode ended, reward: 254.95982151650009
+Episode took: 3.8938305377960205
+Starting episode 1091, current epsilon = 0.01
+Episode ended, reward: 253.73463349673565
+Episode took: 4.63015604019165
+Starting episode 1092, current epsilon = 0.01
+Episode ended, reward: 283.41673833648736
+Episode took: 3.3625857830047607
+Starting episode 1093, current epsilon = 0.01
+Episode ended, reward: 276.85236178660955
+Episode took: 3.0801005363464355
+Starting episode 1094, current epsilon = 0.01
+Episode ended, reward: 19.099097049740777
+Episode took: 1.7256393432617188
+Starting episode 1095, current epsilon = 0.01
+Episode ended, reward: 290.707814476562
+Episode took: 4.404382228851318
+Starting episode 1096, current epsilon = 0.01
+Episode ended, reward: 267.3340813867336
+Episode took: 3.1562368869781494
+Starting episode 1097, current epsilon = 0.01
+Episode ended, reward: 263.6947001815081
+Episode took: 4.027126789093018
+Starting episode 1098, current epsilon = 0.01
+Episode ended, reward: 261.90684636360743
+Episode took: 4.266415596008301
+Starting episode 1099, current epsilon = 0.01
+Episode ended, reward: 244.3382721492423
+Episode took: 3.4108355045318604
+Starting episode 1100, current epsilon = 0.01
+Episode ended, reward: 261.5263226402053
+Episode took: 3.52872896194458
+Starting episode 1101, current epsilon = 0.01
+Episode ended, reward: 226.9323924292862
+Episode took: 5.273852586746216
+Starting episode 1102, current epsilon = 0.01
+Episode ended, reward: 266.184416033486
+Episode took: 7.382872104644775
+Starting episode 1103, current epsilon = 0.01
+Episode ended, reward: 275.5264093468073
+Episode took: 2.840701103210449
+Starting episode 1104, current epsilon = 0.01
+Episode ended, reward: 266.7034957349531
+Episode took: 3.4150426387786865
+Starting episode 1105, current epsilon = 0.01
+Episode ended, reward: 251.1381671202342
+Episode took: 3.8560924530029297
+Starting episode 1106, current epsilon = 0.01
+Episode ended, reward: 256.41782127660395
+Episode took: 4.64037299156189
+Starting episode 1107, current epsilon = 0.01
+Episode ended, reward: 5.4307434834613275
+Episode took: 2.349181652069092
+Starting episode 1108, current epsilon = 0.01
+Episode ended, reward: 25.987915013589287
+Episode took: 2.404088020324707
+Starting episode 1109, current epsilon = 0.01
+Episode ended, reward: 272.97725000531466
+Episode took: 6.5029284954071045
+Starting episode 1110, current epsilon = 0.01
+Episode ended, reward: 278.61551419098316
+Episode took: 6.701183080673218
+Starting episode 1111, current epsilon = 0.01
+Episode ended, reward: 237.7328935183319
+Episode took: 4.063043832778931
+Starting episode 1112, current epsilon = 0.01
+Episode ended, reward: 232.7779043924789
+Episode took: 4.242674827575684
+Starting episode 1113, current epsilon = 0.01
+Episode ended, reward: 266.9672915989004
+Episode took: 5.392389297485352
+Starting episode 1114, current epsilon = 0.01
+Episode ended, reward: 272.0054999567196
+Episode took: 4.081425189971924
+Starting episode 1115, current epsilon = 0.01
+Episode ended, reward: 223.25851138252676
+Episode took: 4.024200677871704
+Starting episode 1116, current epsilon = 0.01
+Episode ended, reward: 243.12964875152915
+Episode took: 5.685309171676636
+Starting episode 1117, current epsilon = 0.01
+Episode ended, reward: 259.2289419596176
+Episode took: 3.6560351848602295
+Starting episode 1118, current epsilon = 0.01
+Episode ended, reward: 209.3942486402156
+Episode took: 7.002227783203125
+Starting episode 1119, current epsilon = 0.01
+Episode ended, reward: 259.27482686712915
+Episode took: 4.3186163902282715
+Starting episode 1120, current epsilon = 0.01
+Episode ended, reward: 238.361545355507
+Episode took: 4.4639997482299805
+Starting episode 1121, current epsilon = 0.01
+Episode ended, reward: 250.24767728563722
+Episode took: 4.34462571144104
+Starting episode 1122, current epsilon = 0.01
+Episode ended, reward: 279.43180066160573
+Episode took: 2.9393627643585205
+Starting episode 1123, current epsilon = 0.01
+Episode ended, reward: 212.68591572023536
+Episode took: 5.271756887435913
+Starting episode 1124, current epsilon = 0.01
+Episode ended, reward: 248.83205232390023
+Episode took: 4.400774240493774
+Starting episode 1125, current epsilon = 0.01
+Episode ended, reward: 250.98189828818192
+Episode took: 3.4824893474578857
+Starting episode 1126, current epsilon = 0.01
+Episode ended, reward: 260.39454847829086
+Episode took: 4.092735528945923
+Starting episode 1127, current epsilon = 0.01
+Episode ended, reward: 254.0195322539377
+Episode took: 2.9998626708984375
+Starting episode 1128, current epsilon = 0.01
+Episode ended, reward: 282.0009638231048
+Episode took: 3.9972970485687256
+Starting episode 1129, current epsilon = 0.01
+Episode ended, reward: 251.31188723744015
+Episode took: 3.5272884368896484
+Starting episode 1130, current epsilon = 0.01
+Episode ended, reward: 286.20074386146814
+Episode took: 2.8415517807006836
+Starting episode 1131, current epsilon = 0.01
+Episode ended, reward: 284.78686768909404
+Episode took: 4.282048225402832
+Starting episode 1132, current epsilon = 0.01
+Episode ended, reward: 6.3931296846866275
+Episode took: 2.601482391357422
+Starting episode 1133, current epsilon = 0.01
+Episode ended, reward: 284.6155836189115
+Episode took: 8.985984086990356
+Starting episode 1134, current epsilon = 0.01
+Episode ended, reward: 269.77917227671924
+Episode took: 4.4229536056518555
+Starting episode 1135, current epsilon = 0.01
+Episode ended, reward: 266.56414148462756
+Episode took: 2.7468669414520264
+Starting episode 1136, current epsilon = 0.01
+Episode ended, reward: 266.5156358165232
+Episode took: 3.4778504371643066
+Starting episode 1137, current epsilon = 0.01
+Episode ended, reward: 268.5982652373815
+Episode took: 3.557354211807251
+Starting episode 1138, current epsilon = 0.01
+Episode ended, reward: 272.5417631870448
+Episode took: 3.277440309524536
+Starting episode 1139, current epsilon = 0.01
+Episode ended, reward: 229.96279774523725
+Episode took: 4.375153541564941
+Starting episode 1140, current epsilon = 0.01
+Episode ended, reward: 244.80158456922405
+Episode took: 4.706444978713989
+Starting episode 1141, current epsilon = 0.01
+Episode ended, reward: -136.75431732182432
+Episode took: 2.6427905559539795
+Starting episode 1142, current epsilon = 0.01
+Episode ended, reward: -247.30261049357006
+Episode took: 2.161163806915283
+Starting episode 1143, current epsilon = 0.01
+Episode ended, reward: -273.9767846404365
+Episode took: 2.5553698539733887
+Starting episode 1144, current epsilon = 0.01
+Episode ended, reward: 278.8809619934993
+Episode took: 2.9037771224975586
+Starting episode 1145, current epsilon = 0.01
+Episode ended, reward: -525.6364332644621
+Episode took: 2.516183614730835
+Starting episode 1146, current epsilon = 0.01
+Episode ended, reward: 260.2239497761302
+Episode took: 3.6601738929748535
+Starting episode 1147, current epsilon = 0.01
+Episode ended, reward: 257.2081682356927
+Episode took: 3.781172513961792
+Starting episode 1148, current epsilon = 0.01
+Episode ended, reward: 223.3384207557075
+Episode took: 5.295160293579102
+Starting episode 1149, current epsilon = 0.01
+Episode ended, reward: 259.16215692566936
+Episode took: 4.362383842468262
+Starting episode 1150, current epsilon = 0.01
+Episode ended, reward: 243.08823801317956
+Episode took: 3.710230827331543
+Starting episode 1151, current epsilon = 0.01
+Episode ended, reward: -117.22657881923692
+Episode took: 3.050316333770752
+Starting episode 1152, current epsilon = 0.01
+Episode ended, reward: 234.98785047769258
+Episode took: 9.821214199066162
+Starting episode 1153, current epsilon = 0.01
+Episode ended, reward: 296.9110479284458
+Episode took: 2.9282121658325195
+Starting episode 1154, current epsilon = 0.01
+Episode ended, reward: 249.6612179368344
+Episode took: 5.730267286300659
+Starting episode 1155, current epsilon = 0.01
+Episode ended, reward: 279.06138355912174
+Episode took: 3.7553462982177734
+Starting episode 1156, current epsilon = 0.01
+Episode ended, reward: 229.5272530486231
+Episode took: 3.811591386795044
+Starting episode 1157, current epsilon = 0.01
+Episode ended, reward: 246.3605384208309
+Episode took: 3.633725166320801
+Starting episode 1158, current epsilon = 0.01
+Episode ended, reward: 267.07338881482656
+Episode took: 3.9145476818084717
+Starting episode 1159, current epsilon = 0.01
+Episode ended, reward: 219.92635283521315
+Episode took: 4.115957260131836
+Starting episode 1160, current epsilon = 0.01
+Episode ended, reward: 243.96127066273334
+Episode took: 3.9291763305664062
+Starting episode 1161, current epsilon = 0.01
+Episode ended, reward: 235.33483937983206
+Episode took: 3.7300829887390137
+Starting episode 1162, current epsilon = 0.01
+Episode ended, reward: 251.73275928046078
+Episode took: 4.157397270202637
+Starting episode 1163, current epsilon = 0.01
+Episode ended, reward: 309.01466852020246
+Episode took: 2.4624481201171875
+Starting episode 1164, current epsilon = 0.01
+Episode ended, reward: -132.41009044222255
+Episode took: 1.7304813861846924
+Starting episode 1165, current epsilon = 0.01
+Episode ended, reward: 235.3633210427056
+Episode took: 3.924727439880371
+Starting episode 1166, current epsilon = 0.01
+Episode ended, reward: 217.34129738763176
+Episode took: 3.6619791984558105
+Starting episode 1167, current epsilon = 0.01
+Episode ended, reward: 1.770110583711272
+Episode took: 1.6449463367462158
+Starting episode 1168, current epsilon = 0.01
+Episode ended, reward: 230.5635379154651
+Episode took: 3.2858471870422363
+Starting episode 1169, current epsilon = 0.01
+Episode ended, reward: 276.45966252730034
+Episode took: 3.1736714839935303
+Starting episode 1170, current epsilon = 0.01
+Episode ended, reward: 216.99311491516795
+Episode took: 5.073955774307251
+Starting episode 1171, current epsilon = 0.01
+Episode ended, reward: 260.19534619571664
+Episode took: 3.032475233078003
+Starting episode 1172, current epsilon = 0.01
+Episode ended, reward: 268.41851124061264
+Episode took: 5.867896556854248
+Starting episode 1173, current epsilon = 0.01
+Episode ended, reward: 278.48305998702074
+Episode took: 3.6822168827056885
+Starting episode 1174, current epsilon = 0.01
+Episode ended, reward: 277.28794435168265
+Episode took: 3.999758005142212
+Starting episode 1175, current epsilon = 0.01
+Episode ended, reward: 266.21103700710626
+Episode took: 3.287379741668701
+Starting episode 1176, current epsilon = 0.01
+Episode ended, reward: 281.6449628751101
+Episode took: 4.213589668273926
+Starting episode 1177, current epsilon = 0.01
+Episode ended, reward: -157.539793695833
+Episode took: 1.2909317016601562
+Starting episode 1178, current epsilon = 0.01
+Episode ended, reward: 240.1692730762297
+Episode took: 3.2027194499969482
+Starting episode 1179, current epsilon = 0.01
+Episode ended, reward: 238.53914420279082
+Episode took: 3.6344752311706543
+Starting episode 1180, current epsilon = 0.01
+Episode ended, reward: 241.96301831850366
+Episode took: 3.448359727859497
+Starting episode 1181, current epsilon = 0.01
+Episode ended, reward: 27.340618168060345
+Episode took: 2.6439144611358643
+Starting episode 1182, current epsilon = 0.01
+Episode ended, reward: 237.86086651282307
+Episode took: 3.7947561740875244
+Starting episode 1183, current epsilon = 0.01
+Episode ended, reward: 274.00761482417226
+Episode took: 3.755361318588257
+Starting episode 1184, current epsilon = 0.01
+Episode ended, reward: 276.5328784782531
+Episode took: 3.2660460472106934
+Starting episode 1185, current epsilon = 0.01
+Episode ended, reward: 274.79716169261155
+Episode took: 3.2935991287231445
+Starting episode 1186, current epsilon = 0.01
+Episode ended, reward: 240.26963877635418
+Episode took: 13.127968311309814
+Starting episode 1187, current epsilon = 0.01
+Episode ended, reward: 232.2996170049347
+Episode took: 3.8857295513153076
+Starting episode 1188, current epsilon = 0.01
+Episode ended, reward: 254.16316030338012
+Episode took: 4.310802936553955
+Starting episode 1189, current epsilon = 0.01
+Episode ended, reward: 248.5348612204799
+Episode took: 3.3157565593719482
+Starting episode 1190, current epsilon = 0.01
+Episode ended, reward: 256.2169325486192
+Episode took: 4.350486993789673
+Starting episode 1191, current epsilon = 0.01
+Episode ended, reward: 236.95599144585898
+Episode took: 3.7248942852020264
+Starting episode 1192, current epsilon = 0.01
+Episode ended, reward: 284.2634230082755
+Episode took: 3.1063687801361084
+Starting episode 1193, current epsilon = 0.01
+Episode ended, reward: 265.4889636254733
+Episode took: 5.743341445922852
+Starting episode 1194, current epsilon = 0.01
+Episode ended, reward: 248.78971613884823
+Episode took: 3.420773506164551
+Starting episode 1195, current epsilon = 0.01
+Episode ended, reward: 279.6564483430765
+Episode took: 4.428479433059692
+Starting episode 1196, current epsilon = 0.01
+Episode ended, reward: 282.2975545302885
+Episode took: 3.3505451679229736
+Starting episode 1197, current epsilon = 0.01
+Episode ended, reward: 244.13679317417208
+Episode took: 4.356152534484863
+Starting episode 1198, current epsilon = 0.01
+Episode ended, reward: 277.2686356756327
+Episode took: 3.6604371070861816
+Starting episode 1199, current epsilon = 0.01
+Episode ended, reward: 259.77213332644175
+Episode took: 5.187018394470215
+Starting episode 1200, current epsilon = 0.01
+Episode ended, reward: 265.0267527384304
+Episode took: 3.246272325515747
+Starting episode 1201, current epsilon = 0.01
+Episode ended, reward: 235.66425211468848
+Episode took: 7.641937494277954
+Starting episode 1202, current epsilon = 0.01
+Episode ended, reward: 289.5147077947389
+Episode took: 4.722882986068726
+Starting episode 1203, current epsilon = 0.01
+Episode ended, reward: 287.78083354952753
+Episode took: 3.9750654697418213
+Starting episode 1204, current epsilon = 0.01
+Episode ended, reward: 269.7943901438814
+Episode took: 3.778667688369751
+Starting episode 1205, current epsilon = 0.01
+Episode ended, reward: 249.56054451794762
+Episode took: 3.681262969970703
+Starting episode 1206, current epsilon = 0.01
+Episode ended, reward: 277.8032752373716
+Episode took: 3.2791588306427
+Starting episode 1207, current epsilon = 0.01
+Episode ended, reward: 275.33049561495676
+Episode took: 3.0062663555145264
+Starting episode 1208, current epsilon = 0.01
+Episode ended, reward: 239.984970120494
+Episode took: 2.8688406944274902
+Starting episode 1209, current epsilon = 0.01
+Episode ended, reward: 258.3076278388591
+Episode took: 3.043776035308838
+Starting episode 1210, current epsilon = 0.01
+Episode ended, reward: 259.7996105945127
+Episode took: 3.8521392345428467
+Starting episode 1211, current epsilon = 0.01
+Episode ended, reward: 258.52197450796905
+Episode took: 3.7380473613739014
+Starting episode 1212, current epsilon = 0.01
+Episode ended, reward: 251.10134413521675
+Episode took: 2.8875977993011475
+Starting episode 1213, current epsilon = 0.01
+Episode ended, reward: 274.0815351194127
+Episode took: 2.5840909481048584
+Starting episode 1214, current epsilon = 0.01
+Episode ended, reward: 285.8074748984503
+Episode took: 2.8844001293182373
+Starting episode 1215, current epsilon = 0.01
+Episode ended, reward: 257.42234224424436
+Episode took: 2.8889424800872803
+Starting episode 1216, current epsilon = 0.01
+Episode ended, reward: 290.9137076688626
+Episode took: 3.9339451789855957
+Starting episode 1217, current epsilon = 0.01
+Episode ended, reward: -233.1914266215072
+Episode took: 1.6160459518432617
+Starting episode 1218, current epsilon = 0.01
+Episode ended, reward: 249.65104682224094
+Episode took: 2.850069046020508
+Starting episode 1219, current epsilon = 0.01
+Episode ended, reward: 246.7165737418656
+Episode took: 2.914193630218506
+Starting episode 1220, current epsilon = 0.01
+Episode ended, reward: 274.19052100100294
+Episode took: 3.3509488105773926
+Starting episode 1221, current epsilon = 0.01
+Episode ended, reward: 247.21081221508902
+Episode took: 3.216782569885254
+Starting episode 1222, current epsilon = 0.01
+Episode ended, reward: 293.67238110908056
+Episode took: 2.8892362117767334
+Starting episode 1223, current epsilon = 0.01
+Episode ended, reward: 261.5615568810876
+Episode took: 3.9504473209381104
+Starting episode 1224, current epsilon = 0.01
+Episode ended, reward: 236.0385782893253
+Episode took: 4.257532596588135
+Starting episode 1225, current epsilon = 0.01
+Episode ended, reward: 249.05425132187383
+Episode took: 3.0113558769226074
+Starting episode 1226, current epsilon = 0.01
+Episode ended, reward: 275.84368798931615
+Episode took: 3.5473155975341797
+Starting episode 1227, current epsilon = 0.01
+Episode ended, reward: 257.58136227003337
+Episode took: 2.959489107131958
+Starting episode 1228, current epsilon = 0.01
+Episode ended, reward: 293.003198336522
+Episode took: 3.902928352355957
+Starting episode 1229, current epsilon = 0.01
+Episode ended, reward: 239.80729306462504
+Episode took: 3.1489734649658203
+Starting episode 1230, current epsilon = 0.01
+Episode ended, reward: 257.134472935943
+Episode took: 4.068307399749756
+Starting episode 1231, current epsilon = 0.01
+Episode ended, reward: 288.9436621146426
+Episode took: 3.422348976135254
+Starting episode 1232, current epsilon = 0.01
+Episode ended, reward: 259.44530081476853
+Episode took: 3.6055288314819336
+Starting episode 1233, current epsilon = 0.01
+Episode ended, reward: -10.443591557967352
+Episode took: 1.8015058040618896
+Starting episode 1234, current epsilon = 0.01
+Episode ended, reward: 262.56424128438687
+Episode took: 3.748821973800659
+Starting episode 1235, current epsilon = 0.01
+Episode ended, reward: 203.71572839496986
+Episode took: 5.68905234336853
+Starting episode 1236, current epsilon = 0.01
+Episode ended, reward: 240.42601376481065
+Episode took: 3.7203094959259033
+Starting episode 1237, current epsilon = 0.01
+Episode ended, reward: 272.57046524372475
+Episode took: 3.759779691696167
+Starting episode 1238, current epsilon = 0.01
+Episode ended, reward: 238.32838846561003
+Episode took: 3.5610241889953613
+Starting episode 1239, current epsilon = 0.01
+Episode ended, reward: 256.97586463402547
+Episode took: 4.00510573387146
+Starting episode 1240, current epsilon = 0.01
+Episode ended, reward: 246.06622789880493
+Episode took: 4.422368049621582
+Starting episode 1241, current epsilon = 0.01
+Episode ended, reward: 284.54389467917457
+Episode took: 4.172613620758057
+Starting episode 1242, current epsilon = 0.01
+Episode ended, reward: 278.87308515411706
+Episode took: 4.370586156845093
+Starting episode 1243, current epsilon = 0.01
+Episode ended, reward: 249.0636828588646
+Episode took: 3.63751482963562
+Starting episode 1244, current epsilon = 0.01
+Episode ended, reward: 278.1709442046382
+Episode took: 3.842541217803955
+Starting episode 1245, current epsilon = 0.01
+Episode ended, reward: 253.64865361974609
+Episode took: 3.6458818912506104
+Starting episode 1246, current epsilon = 0.01
+Episode ended, reward: 264.78010465797286
+Episode took: 5.06403923034668
+Starting episode 1247, current epsilon = 0.01
+Episode ended, reward: 253.00502349674616
+Episode took: 3.1350913047790527
+Starting episode 1248, current epsilon = 0.01
+Episode ended, reward: 244.65199961334037
+Episode took: 3.9814600944519043
+Starting episode 1249, current epsilon = 0.01
+Episode ended, reward: 272.6756670372664
+Episode took: 3.0593101978302
+Starting episode 1250, current epsilon = 0.01
+Episode ended, reward: 276.5853548954838
+Episode took: 3.7834582328796387
+Starting episode 1251, current epsilon = 0.01
+Episode ended, reward: 273.1349006976776
+Episode took: 3.49979829788208
+Starting episode 1252, current epsilon = 0.01
+Episode ended, reward: 286.92441232443605
+Episode took: 3.4653310775756836
+Starting episode 1253, current epsilon = 0.01
+Episode ended, reward: 262.66465765059763
+Episode took: 12.978972434997559
+Starting episode 1254, current epsilon = 0.01
+Episode ended, reward: 269.8050880867812
+Episode took: 3.8943705558776855
+Starting episode 1255, current epsilon = 0.01
+Episode ended, reward: 235.86465434342205
+Episode took: 2.8691556453704834
+Starting episode 1256, current epsilon = 0.01
+Episode ended, reward: 285.82442565670493
+Episode took: 3.4688892364501953
+Starting episode 1257, current epsilon = 0.01
+Episode ended, reward: 270.24800886591044
+Episode took: 3.368809461593628
+Starting episode 1258, current epsilon = 0.01
+Episode ended, reward: 277.27055390417684
+Episode took: 4.900387763977051
+Starting episode 1259, current epsilon = 0.01
+Episode ended, reward: 260.58106092727996
+Episode took: 3.377269983291626
+Starting episode 1260, current epsilon = 0.01
+Episode ended, reward: 264.3450748375219
+Episode took: 3.390895128250122
+Starting episode 1261, current epsilon = 0.01
+Episode ended, reward: 241.31235627731147
+Episode took: 5.160191774368286
+Starting episode 1262, current epsilon = 0.01
+Episode ended, reward: 255.89768297023133
+Episode took: 5.463836193084717
+Starting episode 1263, current epsilon = 0.01
+Episode ended, reward: 259.30963376529485
+Episode took: 6.733450651168823
+Starting episode 1264, current epsilon = 0.01
+Episode ended, reward: 306.9429274377477
+Episode took: 4.174805641174316
+Starting episode 1265, current epsilon = 0.01
+Episode ended, reward: 303.3948785787628
+Episode took: 4.777085065841675
+Starting episode 1266, current epsilon = 0.01
+Episode ended, reward: 254.2269455409297
+Episode took: 3.9263455867767334
+Starting episode 1267, current epsilon = 0.01
+Episode ended, reward: 276.3028999694375
+Episode took: 3.6428329944610596
+Starting episode 1268, current epsilon = 0.01
+Episode ended, reward: 208.0190809390429
+Episode took: 4.014783143997192
+Starting episode 1269, current epsilon = 0.01
+Episode ended, reward: 296.65806171661416
+Episode took: 2.8193395137786865
+Starting episode 1270, current epsilon = 0.01
+Episode ended, reward: 18.957277309739226
+Episode took: 2.461564779281616
+Starting episode 1271, current epsilon = 0.01
+Episode ended, reward: 275.5372583930308
+Episode took: 2.9377782344818115
+Starting episode 1272, current epsilon = 0.01
+Episode ended, reward: 237.96089119411172
+Episode took: 3.5953822135925293
+Starting episode 1273, current epsilon = 0.01
+Episode ended, reward: 294.063344704769
+Episode took: 4.801778793334961
+Starting episode 1274, current epsilon = 0.01
+Episode ended, reward: 270.8465530880677
+Episode took: 3.850512981414795
+Starting episode 1275, current epsilon = 0.01
+Episode ended, reward: 273.9591811369952
+Episode took: 4.065752744674683
+Starting episode 1276, current epsilon = 0.01
+Episode ended, reward: 235.7332536277629
+Episode took: 3.840515375137329
+Starting episode 1277, current epsilon = 0.01
+Episode ended, reward: 221.0248693770806
+Episode took: 6.999160289764404
+Starting episode 1278, current epsilon = 0.01
+Episode ended, reward: 262.62179182584885
+Episode took: 3.7336463928222656
+Starting episode 1279, current epsilon = 0.01
+Episode ended, reward: 251.5738447074933
+Episode took: 4.640189170837402
+Starting episode 1280, current epsilon = 0.01
+Episode ended, reward: 296.54757370904093
+Episode took: 3.8914806842803955
+Starting episode 1281, current epsilon = 0.01
+Episode ended, reward: 272.2855366253031
+Episode took: 5.889782428741455
+Starting episode 1282, current epsilon = 0.01
+Episode ended, reward: 269.2930864464008
+Episode took: 4.1219322681427
+Starting episode 1283, current epsilon = 0.01
+Episode ended, reward: 275.6961749796275
+Episode took: 3.3949015140533447
+Starting episode 1284, current epsilon = 0.01
+Episode ended, reward: 283.9334157602136
+Episode took: 4.993471622467041
+Starting episode 1285, current epsilon = 0.01
+Episode ended, reward: 278.7082380027124
+Episode took: 3.9356141090393066
+Starting episode 1286, current epsilon = 0.01
+Episode ended, reward: 190.396067551003
+Episode took: 9.660739421844482
+Starting episode 1287, current epsilon = 0.01
+Episode ended, reward: 262.943469790488
+Episode took: 3.488532781600952
+Starting episode 1288, current epsilon = 0.01
+Episode ended, reward: 262.7485495091287
+Episode took: 3.8478915691375732
+Starting episode 1289, current epsilon = 0.01
+Episode ended, reward: 272.9388818576873
+Episode took: 4.447750568389893
+Starting episode 1290, current epsilon = 0.01
+Episode ended, reward: 282.6822835129176
+Episode took: 3.790008544921875
+Starting episode 1291, current epsilon = 0.01
+Episode ended, reward: 263.92361915648905
+Episode took: 3.1307859420776367
+Starting episode 1292, current epsilon = 0.01
+Episode ended, reward: 266.303104859774
+Episode took: 4.847447395324707
+Starting episode 1293, current epsilon = 0.01
+Episode ended, reward: 268.71688383088826
+Episode took: 3.323455572128296
+Starting episode 1294, current epsilon = 0.01
+Episode ended, reward: 270.2550289285176
+Episode took: 3.7144174575805664
+Starting episode 1295, current epsilon = 0.01
+Episode ended, reward: 279.95907268341085
+Episode took: 2.783156156539917
+Starting episode 1296, current epsilon = 0.01
+Episode ended, reward: 253.59493028967776
+Episode took: 3.005361795425415
+Starting episode 1297, current epsilon = 0.01
+Episode ended, reward: 257.78014560154134
+Episode took: 4.606818914413452
+Starting episode 1298, current epsilon = 0.01
+Episode ended, reward: -71.67170381145372
+Episode took: 3.3507931232452393
+Starting episode 1299, current epsilon = 0.01
+Episode ended, reward: 296.75748067271064
+Episode took: 3.5792746543884277
+Starting episode 1300, current epsilon = 0.01
+Episode ended, reward: 257.61865730159656
+Episode took: 2.2699015140533447
+Starting episode 1301, current epsilon = 0.01
+Episode ended, reward: 279.8168038686171
+Episode took: 3.230806827545166
+Starting episode 1302, current epsilon = 0.01
+Episode ended, reward: 262.68877034578037
+Episode took: 3.0564446449279785
+Starting episode 1303, current epsilon = 0.01
+Episode ended, reward: 284.89064941457764
+Episode took: 3.7739269733428955
+Starting episode 1304, current epsilon = 0.01
+Episode ended, reward: 271.4086085432832
+Episode took: 3.195431709289551
+Starting episode 1305, current epsilon = 0.01
+Episode ended, reward: 273.794953953245
+Episode took: 3.0956313610076904
+Starting episode 1306, current epsilon = 0.01
+Episode ended, reward: 285.72064858642335
+Episode took: 4.792042970657349
+Starting episode 1307, current epsilon = 0.01
+Episode ended, reward: 242.54284878897752
+Episode took: 2.5921623706817627
+Starting episode 1308, current epsilon = 0.01
+Episode ended, reward: 247.16643331446252
+Episode took: 2.4148905277252197
+Starting episode 1309, current epsilon = 0.01
+Episode ended, reward: 265.8687397529411
+Episode took: 2.4397947788238525
+Starting episode 1310, current epsilon = 0.01
+Episode ended, reward: -25.39835727000768
+Episode took: 2.369673252105713
+Starting episode 1311, current epsilon = 0.01
+Episode ended, reward: 254.4551049735919
+Episode took: 2.9588699340820312
+Starting episode 1312, current epsilon = 0.01
+Episode ended, reward: 272.93567457548045
+Episode took: 3.2156708240509033
+Starting episode 1313, current epsilon = 0.01
+Episode ended, reward: 250.91915131910883
+Episode took: 4.020659923553467
+Starting episode 1314, current epsilon = 0.01
+Episode ended, reward: 298.5596973080934
+Episode took: 3.8317220211029053
+Starting episode 1315, current epsilon = 0.01
+Episode ended, reward: 276.507088435328
+Episode took: 3.068361282348633
+Starting episode 1316, current epsilon = 0.01
+Episode ended, reward: 238.63499182838598
+Episode took: 2.7172086238861084
+Starting episode 1317, current epsilon = 0.01
+Episode ended, reward: 260.93763527131046
+Episode took: 2.9050023555755615
+Starting episode 1318, current epsilon = 0.01
+Episode ended, reward: 246.2389661582081
+Episode took: 3.8871583938598633
+Starting episode 1319, current epsilon = 0.01
+Episode ended, reward: 288.58899533426495
+Episode took: 5.163024187088013
+Starting episode 1320, current epsilon = 0.01
+Episode ended, reward: 289.25323103297535
+Episode took: 4.204619884490967
+Starting episode 1321, current epsilon = 0.01
+Episode ended, reward: 274.6093136099191
+Episode took: 4.956081867218018
+Starting episode 1322, current epsilon = 0.01
+Episode ended, reward: 294.09392544267206
+Episode took: 5.0537378787994385
+Starting episode 1323, current epsilon = 0.01
+Episode ended, reward: 255.07233402643678
+Episode took: 2.689934015274048
+Starting episode 1324, current epsilon = 0.01
+Episode ended, reward: 221.52035228044815
+Episode took: 3.6742959022521973
+Starting episode 1325, current epsilon = 0.01
+Episode ended, reward: 260.0305767032036
+Episode took: 3.66751766204834
+Starting episode 1326, current epsilon = 0.01
+Episode ended, reward: 285.76792552899957
+Episode took: 4.273751497268677
+Starting episode 1327, current epsilon = 0.01
+Episode ended, reward: 275.861068372943
+Episode took: 4.174139499664307
+Starting episode 1328, current epsilon = 0.01
+Episode ended, reward: 237.1678792521298
+Episode took: 4.25066351890564
+Starting episode 1329, current epsilon = 0.01
+Episode ended, reward: 266.1910697468737
+Episode took: 4.28538703918457
+Starting episode 1330, current epsilon = 0.01
+Episode ended, reward: 230.9430754997836
+Episode took: 2.9482712745666504
+Starting episode 1331, current epsilon = 0.01
+Episode ended, reward: 286.8134049145329
+Episode took: 2.856046438217163
+Starting episode 1332, current epsilon = 0.01
+Episode ended, reward: 243.4856592757966
+Episode took: 2.8813953399658203
+Starting episode 1333, current epsilon = 0.01
+Episode ended, reward: 262.17085608041265
+Episode took: 4.662760972976685
+Starting episode 1334, current epsilon = 0.01
+Episode ended, reward: 254.30155043208418
+Episode took: 2.5049612522125244
+Starting episode 1335, current epsilon = 0.01
+Episode ended, reward: 288.9043558237162
+Episode took: 4.5742247104644775
+Starting episode 1336, current epsilon = 0.01
+Episode ended, reward: 236.30289160063484
+Episode took: 8.516580820083618
+Starting episode 1337, current epsilon = 0.01
+Episode ended, reward: 265.1191859533137
+Episode took: 5.675260066986084
+Starting episode 1338, current epsilon = 0.01
+Episode ended, reward: 294.43697589116357
+Episode took: 3.892956495285034
+Starting episode 1339, current epsilon = 0.01
+Episode ended, reward: 253.10856627484276
+Episode took: 4.639643669128418
+Starting episode 1340, current epsilon = 0.01
+Episode ended, reward: 256.8974384012023
+Episode took: 3.5192699432373047
+Starting episode 1341, current epsilon = 0.01
+Episode ended, reward: 284.9844653460225
+Episode took: 2.6965487003326416
+Starting episode 1342, current epsilon = 0.01
+Episode ended, reward: 282.45025099541226
+Episode took: 4.809136152267456
+Starting episode 1343, current epsilon = 0.01
+Episode ended, reward: 298.73364503574214
+Episode took: 4.015382528305054
+Starting episode 1344, current epsilon = 0.01
+Episode ended, reward: 226.02330407242093
+Episode took: 9.462265253067017
+Starting episode 1345, current epsilon = 0.01
+Episode ended, reward: 139.19568954424236
+Episode took: 15.645119190216064
+Starting episode 1346, current epsilon = 0.01
+Episode ended, reward: 268.1142800007409
+Episode took: 4.264774560928345
+Starting episode 1347, current epsilon = 0.01
+Episode ended, reward: 299.36469334086144
+Episode took: 2.989009380340576
+Starting episode 1348, current epsilon = 0.01
+Episode ended, reward: 272.8523912460299
+Episode took: 3.1311066150665283
+Starting episode 1349, current epsilon = 0.01
+Episode ended, reward: 275.4324534654819
+Episode took: 7.425605297088623
+Starting episode 1350, current epsilon = 0.01
+Episode ended, reward: 251.59082898653978
+Episode took: 2.9306228160858154
+Starting episode 1351, current epsilon = 0.01
+Episode ended, reward: 277.6207769082396
+Episode took: 2.961353063583374
+Starting episode 1352, current epsilon = 0.01
+Episode ended, reward: 266.90844768020077
+Episode took: 3.5365700721740723
+Starting episode 1353, current epsilon = 0.01
+Episode ended, reward: 216.6665572089766
+Episode took: 5.760356426239014
+Starting episode 1354, current epsilon = 0.01
+Episode ended, reward: 8.946851875360508
+Episode took: 7.111713886260986
+Starting episode 1355, current epsilon = 0.01
+Episode ended, reward: 280.97272042500504
+Episode took: 5.434892416000366
+Starting episode 1356, current epsilon = 0.01
+Episode ended, reward: 304.95048394893325
+Episode took: 4.431213617324829
+Starting episode 1357, current epsilon = 0.01
+Episode ended, reward: 242.04114769168922
+Episode took: 3.217947244644165
+Starting episode 1358, current epsilon = 0.01
+Episode ended, reward: 255.1187230270142
+Episode took: 4.087632417678833
+Starting episode 1359, current epsilon = 0.01
+Episode ended, reward: 275.76296920250275
+Episode took: 5.474234580993652
+Starting episode 1360, current epsilon = 0.01
+Episode ended, reward: 271.12737367744637
+Episode took: 3.7117857933044434
+Starting episode 1361, current epsilon = 0.01
+Episode ended, reward: -129.85427752330722
+Episode took: 2.1786692142486572
+Starting episode 1362, current epsilon = 0.01
+Episode ended, reward: 251.61064382192134
+Episode took: 3.7131426334381104
+Starting episode 1363, current epsilon = 0.01
+Episode ended, reward: 316.95587339058443
+Episode took: 4.441074371337891
+Starting episode 1364, current epsilon = 0.01
+Episode ended, reward: 258.1703489994477
+Episode took: 4.275774002075195
+Starting episode 1365, current epsilon = 0.01
+Episode ended, reward: 248.54086154629542
+Episode took: 2.668534755706787
+Starting episode 1366, current epsilon = 0.01
+Episode ended, reward: 264.0619620676003
+Episode took: 4.9055256843566895
+Starting episode 1367, current epsilon = 0.01
+Episode ended, reward: 284.6492792265308
+Episode took: 4.141077995300293
+Starting episode 1368, current epsilon = 0.01
+Episode ended, reward: 248.62727750718688
+Episode took: 7.191043853759766
+Starting episode 1369, current epsilon = 0.01
+Episode ended, reward: 248.4581272017861
+Episode took: 3.4780733585357666
+Starting episode 1370, current epsilon = 0.01
+Episode ended, reward: 283.30551584888775
+Episode took: 2.72607684135437
+Starting episode 1371, current epsilon = 0.01
+Episode ended, reward: 276.572103644973
+Episode took: 2.478400468826294
+Starting episode 1372, current epsilon = 0.01
+Episode ended, reward: 292.56567812597876
+Episode took: 2.6281485557556152
+Starting episode 1373, current epsilon = 0.01
+Episode ended, reward: 297.47850425877664
+Episode took: 3.3486480712890625
+Starting episode 1374, current epsilon = 0.01
+Episode ended, reward: 257.4541399084369
+Episode took: 4.8828394412994385
+Starting episode 1375, current epsilon = 0.01
+Episode ended, reward: 249.90350817087435
+Episode took: 3.1249771118164062
+Starting episode 1376, current epsilon = 0.01
+Episode ended, reward: 253.6039959129555
+Episode took: 2.470273494720459
+Starting episode 1377, current epsilon = 0.01
+Episode ended, reward: 45.36540405878
+Episode took: 1.862426996231079
+Starting episode 1378, current epsilon = 0.01
+Episode ended, reward: 269.9202086906507
+Episode took: 3.4426040649414062
+Starting episode 1379, current epsilon = 0.01
+Episode ended, reward: 284.2713915753967
+Episode took: 2.416665554046631
+Starting episode 1380, current epsilon = 0.01
+Episode ended, reward: 282.4712240976538
+Episode took: 6.903716564178467
+Starting episode 1381, current epsilon = 0.01
+Episode ended, reward: 279.3362670620419
+Episode took: 2.9890568256378174
+Starting episode 1382, current epsilon = 0.01
+Episode ended, reward: 297.6269136402475
+Episode took: 3.706127166748047
+Starting episode 1383, current epsilon = 0.01
+Episode ended, reward: 302.37294344049985
+Episode took: 2.4773998260498047
+Starting episode 1384, current epsilon = 0.01
+Episode ended, reward: 272.835215674593
+Episode took: 3.5658679008483887
+Starting episode 1385, current epsilon = 0.01
+Episode ended, reward: 259.8816254059776
+Episode took: 3.4953346252441406
+Starting episode 1386, current epsilon = 0.01
+Episode ended, reward: 275.4767377924096
+Episode took: 3.884911298751831
+Starting episode 1387, current epsilon = 0.01
+Episode ended, reward: 256.5687415001003
+Episode took: 3.01702880859375
+Starting episode 1388, current epsilon = 0.01
+Episode ended, reward: 298.34066946006135
+Episode took: 3.316089153289795
+Starting episode 1389, current epsilon = 0.01
+Episode ended, reward: 238.71707214416296
+Episode took: 2.701347589492798
+Starting episode 1390, current epsilon = 0.01
+Episode ended, reward: 293.87880232505574
+Episode took: 3.9962522983551025
+Starting episode 1391, current epsilon = 0.01
+Episode ended, reward: 262.77964905429957
+Episode took: 3.3620855808258057
+Starting episode 1392, current epsilon = 0.01
+Episode ended, reward: 301.2464977649022
+Episode took: 3.165248155593872
+Starting episode 1393, current epsilon = 0.01
+Episode ended, reward: 291.4673162019001
+Episode took: 3.239708662033081
+Starting episode 1394, current epsilon = 0.01
+Episode ended, reward: 292.97387949370875
+Episode took: 3.04272723197937
+Starting episode 1395, current epsilon = 0.01
+Episode ended, reward: 280.31035769827076
+Episode took: 2.864617109298706
+Starting episode 1396, current epsilon = 0.01
+Episode ended, reward: 266.7546260165558
+Episode took: 2.541011333465576
+Starting episode 1397, current epsilon = 0.01
+Episode ended, reward: 279.8125159510936
+Episode took: 2.631375551223755
+Starting episode 1398, current epsilon = 0.01
+Episode ended, reward: 296.52412667579404
+Episode took: 3.1690211296081543
+Starting episode 1399, current epsilon = 0.01
+Episode ended, reward: 47.924274303810904
+Episode took: 2.817242383956909
+Starting episode 1400, current epsilon = 0.01
+Episode ended, reward: 274.5121649075277
+Episode took: 3.4076662063598633
+Starting episode 1401, current epsilon = 0.01
+Episode ended, reward: 291.8729805554555
+Episode took: 2.912832260131836
+Starting episode 1402, current epsilon = 0.01
+Episode ended, reward: 60.446123821280565
+Episode took: 2.6466240882873535
+Starting episode 1403, current epsilon = 0.01
+Episode ended, reward: 287.20382754643987
+Episode took: 3.446704387664795
+Starting episode 1404, current epsilon = 0.01
+Episode ended, reward: 285.27695956398816
+Episode took: 4.0959389209747314
+Starting episode 1405, current epsilon = 0.01
+Episode ended, reward: 290.609733189307
+Episode took: 3.4606359004974365
+Starting episode 1406, current epsilon = 0.01
+Episode ended, reward: 290.5613421782013
+Episode took: 3.1750338077545166
+Starting episode 1407, current epsilon = 0.01
+Episode ended, reward: 235.86389251178133
+Episode took: 2.743483304977417
+Starting episode 1408, current epsilon = 0.01
+Episode ended, reward: 280.5944668608335
+Episode took: 2.6538708209991455
+Starting episode 1409, current epsilon = 0.01
+Episode ended, reward: 275.30531988147845
+Episode took: 2.725001811981201
+Starting episode 1410, current epsilon = 0.01
+Episode ended, reward: 298.04303822303336
+Episode took: 3.069054365158081
+Starting episode 1411, current epsilon = 0.01
+Episode ended, reward: 251.1565969702996
+Episode took: 3.2004711627960205
+Starting episode 1412, current epsilon = 0.01
+Episode ended, reward: 297.942214190652
+Episode took: 3.8024351596832275
+Starting episode 1413, current epsilon = 0.01
+Episode ended, reward: 291.81022796714376
+Episode took: 2.950246810913086
+Starting episode 1414, current epsilon = 0.01
+Episode ended, reward: 289.0780801862755
+Episode took: 3.456273317337036
+Starting episode 1415, current epsilon = 0.01
+Episode ended, reward: 254.40501490101693
+Episode took: 2.591522455215454
+Starting episode 1416, current epsilon = 0.01
+Episode ended, reward: 261.6350574499363
+Episode took: 2.633840560913086
+Starting episode 1417, current epsilon = 0.01
+Episode ended, reward: 237.19832418072886
+Episode took: 7.140803813934326
+Starting episode 1418, current epsilon = 0.01
+Episode ended, reward: 235.78825905594422
+Episode took: 8.637391567230225
+Starting episode 1419, current epsilon = 0.01
+Episode ended, reward: 244.47876852985135
+Episode took: 3.4236364364624023
+Starting episode 1420, current epsilon = 0.01
+Episode ended, reward: 290.5294365548923
+Episode took: 3.943582773208618
+Starting episode 1421, current epsilon = 0.01
+Episode ended, reward: 259.62185715527005
+Episode took: 2.7690553665161133
+Starting episode 1422, current epsilon = 0.01
+Episode ended, reward: 279.56390492336857
+Episode took: 3.058798313140869
+Starting episode 1423, current epsilon = 0.01
+Episode ended, reward: 232.93361728906157
+Episode took: 3.724938154220581
+Starting episode 1424, current epsilon = 0.01
+Episode ended, reward: 281.59737228648197
+Episode took: 3.1742188930511475
+Starting episode 1425, current epsilon = 0.01
+Episode ended, reward: 281.03111535798894
+Episode took: 3.5575790405273438
+Starting episode 1426, current epsilon = 0.01
+Episode ended, reward: 252.46806247295407
+Episode took: 2.6934049129486084
+Starting episode 1427, current epsilon = 0.01
+Episode ended, reward: 277.6871627528998
+Episode took: 3.3169357776641846
+Starting episode 1428, current epsilon = 0.01
+Episode ended, reward: 289.1678410971751
+Episode took: 3.857450008392334
+Starting episode 1429, current epsilon = 0.01
+Episode ended, reward: 268.94781712082266
+Episode took: 2.9373788833618164
+Starting episode 1430, current epsilon = 0.01
+Episode ended, reward: 246.82372722495342
+Episode took: 2.411541223526001
+Starting episode 1431, current epsilon = 0.01
+Episode ended, reward: 243.8145409441601
+Episode took: 2.5021936893463135
+Starting episode 1432, current epsilon = 0.01
+Episode ended, reward: 281.5375898822335
+Episode took: 6.082798957824707
+Starting episode 1433, current epsilon = 0.01
+Episode ended, reward: 275.430801639026
+Episode took: 2.329637289047241
+Starting episode 1434, current epsilon = 0.01
+Episode ended, reward: 274.82549789269507
+Episode took: 2.968611717224121
+Starting episode 1435, current epsilon = 0.01
+Episode ended, reward: 285.89330681740614
+Episode took: 3.2013185024261475
+Starting episode 1436, current epsilon = 0.01
+Episode ended, reward: 261.2116046967594
+Episode took: 3.30937123298645
+Starting episode 1437, current epsilon = 0.01
+Episode ended, reward: 304.7139210887521
+Episode took: 4.392752647399902
+Starting episode 1438, current epsilon = 0.01
+Episode ended, reward: 247.07638314897852
+Episode took: 2.4872686862945557
+Starting episode 1439, current epsilon = 0.01
+Episode ended, reward: 57.723582079615255
+Episode took: 2.3112685680389404
+Starting episode 1440, current epsilon = 0.01
+Episode ended, reward: 274.32900234905276
+Episode took: 2.7725276947021484
+Starting episode 1441, current epsilon = 0.01
+Episode ended, reward: 274.7725296161557
+Episode took: 4.476602077484131
+Starting episode 1442, current epsilon = 0.01
+Episode ended, reward: 269.21398495766647
+Episode took: 3.087883472442627
+Starting episode 1443, current epsilon = 0.01
+Episode ended, reward: 280.17456638957395
+Episode took: 3.081986904144287
+Starting episode 1444, current epsilon = 0.01
+Episode ended, reward: 271.8181940795406
+Episode took: 2.6947226524353027
+Starting episode 1445, current epsilon = 0.01
+Episode ended, reward: 247.79167395248902
+Episode took: 2.6008288860321045
+Starting episode 1446, current epsilon = 0.01
+Episode ended, reward: 292.14158673080226
+Episode took: 2.9669301509857178
+Starting episode 1447, current epsilon = 0.01
+Episode ended, reward: 282.86803071531654
+Episode took: 2.346874713897705
+Starting episode 1448, current epsilon = 0.01
+Episode ended, reward: 287.0660849279337
+Episode took: 3.459665298461914
+Starting episode 1449, current epsilon = 0.01
+Episode ended, reward: 253.7219566019473
+Episode took: 4.196554899215698
+Starting episode 1450, current epsilon = 0.01
+Episode ended, reward: 253.8061356739604
+Episode took: 2.594114303588867
+Starting episode 1451, current epsilon = 0.01
+Episode ended, reward: 277.4084234973895
+Episode took: 2.8462185859680176
+Starting episode 1452, current epsilon = 0.01
+Episode ended, reward: 293.1755308645701
+Episode took: 3.578005075454712
+Starting episode 1453, current epsilon = 0.01
+Episode ended, reward: 263.69003916620323
+Episode took: 3.1326406002044678
+Starting episode 1454, current epsilon = 0.01
+Episode ended, reward: 306.30715404207825
+Episode took: 3.5611941814422607
+Starting episode 1455, current epsilon = 0.01
+Episode ended, reward: 281.81932836206147
+Episode took: 2.7809996604919434
+Starting episode 1456, current epsilon = 0.01
+Episode ended, reward: 297.86166163841614
+Episode took: 3.7967255115509033
+Starting episode 1457, current epsilon = 0.01
+Episode ended, reward: 269.4986541775778
+Episode took: 2.7833023071289062
+Starting episode 1458, current epsilon = 0.01
+Episode ended, reward: 232.16172321986417
+Episode took: 4.744955778121948
+Starting episode 1459, current epsilon = 0.01
+Episode ended, reward: 274.13085883733356
+Episode took: 2.9671807289123535
+Starting episode 1460, current epsilon = 0.01
+Episode ended, reward: 239.23296124660402
+Episode took: 2.2645583152770996
+Starting episode 1461, current epsilon = 0.01
+Episode ended, reward: 237.13693414539478
+Episode took: 2.357606887817383
+Starting episode 1462, current epsilon = 0.01
+Episode ended, reward: 281.24695516253087
+Episode took: 3.598947763442993
+Starting episode 1463, current epsilon = 0.01
+Episode ended, reward: 295.51324608685087
+Episode took: 3.5754683017730713
+Starting episode 1464, current epsilon = 0.01
+Episode ended, reward: 281.55121625557217
+Episode took: 3.5030338764190674
+Starting episode 1465, current epsilon = 0.01
+Episode ended, reward: 289.94715953146715
+Episode took: 3.5124125480651855
+Starting episode 1466, current epsilon = 0.01
+Episode ended, reward: 272.5502380584419
+Episode took: 2.7837626934051514
+Starting episode 1467, current epsilon = 0.01
+Episode ended, reward: 276.59201970852826
+Episode took: 4.088147878646851
+Starting episode 1468, current epsilon = 0.01
+Episode ended, reward: 270.642025538329
+Episode took: 3.092526435852051
+Starting episode 1469, current epsilon = 0.01
+Episode ended, reward: 283.09708106597026
+Episode took: 2.6644692420959473
+Starting episode 1470, current epsilon = 0.01
+Episode ended, reward: 279.40956550606745
+Episode took: 3.656208038330078
+Starting episode 1471, current epsilon = 0.01
+Episode ended, reward: 290.7899565267327
+Episode took: 3.6096067428588867
+Starting episode 1472, current epsilon = 0.01
+Episode ended, reward: 283.25438513078416
+Episode took: 3.115389585494995
+Starting episode 1473, current epsilon = 0.01
+Episode ended, reward: 287.15201223303467
+Episode took: 3.399630546569824
+Starting episode 1474, current epsilon = 0.01
+Episode ended, reward: 284.8057686763894
+Episode took: 4.04118537902832
+Starting episode 1475, current epsilon = 0.01
+Episode ended, reward: 270.26658898963376
+Episode took: 3.508655309677124
+Starting episode 1476, current epsilon = 0.01
+Episode ended, reward: 297.3743002115842
+Episode took: 4.986185073852539
+Starting episode 1477, current epsilon = 0.01
+Episode ended, reward: 299.5339491279108
+Episode took: 3.4384944438934326
+Starting episode 1478, current epsilon = 0.01
+Episode ended, reward: 269.09147350055116
+Episode took: 4.4632768630981445
+Starting episode 1479, current epsilon = 0.01
+Episode ended, reward: 294.6103822475833
+Episode took: 3.387584686279297
+Starting episode 1480, current epsilon = 0.01
+Episode ended, reward: -338.57624794827836
+Episode took: 1.5164775848388672
+Starting episode 1481, current epsilon = 0.01
+Episode ended, reward: -414.3984484930911
+Episode took: 2.629338264465332
+Starting episode 1482, current epsilon = 0.01
+Episode ended, reward: 296.83209792838574
+Episode took: 3.8913004398345947
+Starting episode 1483, current epsilon = 0.01
+Episode ended, reward: 52.80186925477267
+Episode took: 2.0152134895324707
+Starting episode 1484, current epsilon = 0.01
+Episode ended, reward: 259.6668843735233
+Episode took: 3.362278461456299
+Starting episode 1485, current epsilon = 0.01
+Episode ended, reward: 197.55439678236831
+Episode took: 11.13361144065857
+Starting episode 1486, current epsilon = 0.01
+Episode ended, reward: 40.328822121590235
+Episode took: 2.6580755710601807
+Starting episode 1487, current epsilon = 0.01
+Episode ended, reward: 238.66597117752107
+Episode took: 3.4038214683532715
+Starting episode 1488, current epsilon = 0.01
+Episode ended, reward: 264.9107577415092
+Episode took: 3.960700511932373
+Starting episode 1489, current epsilon = 0.01
+Episode ended, reward: 266.27273650632696
+Episode took: 2.724154472351074
+Starting episode 1490, current epsilon = 0.01
+Episode ended, reward: 268.71660953799926
+Episode took: 4.113816499710083
+Starting episode 1491, current epsilon = 0.01
+Episode ended, reward: 307.1179929596136
+Episode took: 3.9341671466827393
+Starting episode 1492, current epsilon = 0.01
+Episode ended, reward: 253.1819284956526
+Episode took: 2.8938121795654297
+Starting episode 1493, current epsilon = 0.01
+Episode ended, reward: 288.5214373357791
+Episode took: 4.892516374588013
+Starting episode 1494, current epsilon = 0.01
+Episode ended, reward: 266.914657465352
+Episode took: 2.392552137374878
+Starting episode 1495, current epsilon = 0.01
+Episode ended, reward: 270.81132260985487
+Episode took: 4.44259238243103
+Starting episode 1496, current epsilon = 0.01
+Episode ended, reward: 298.3158200629467
+Episode took: 3.492213487625122
+Starting episode 1497, current epsilon = 0.01
+Episode ended, reward: 269.6361452845512
+Episode took: 3.77852463722229
+Starting episode 1498, current epsilon = 0.01
+Episode ended, reward: 261.4182709816449
+Episode took: 4.907880067825317
+Starting episode 1499, current epsilon = 0.01
+Episode ended, reward: 262.2190391931963
+Episode took: 2.7753570079803467
+Session took: 2.1199734803703096
